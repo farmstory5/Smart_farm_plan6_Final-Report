@@ -1,0 +1,9 @@
+[Info  - 오후 11:17:44] (5421) Pylance language server 2023.4.10 (pyright d7616109) starting
+[Info  - 오후 11:17:44] (5421) Server root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 오후 11:17:44] (5421) Starting service instance "Adafruit_Python_DHT"
+[Info  - 오후 11:17:44] (5421) Auto-indent enabled
+[Info  - 오후 11:17:44] (5421) Setting pythonPath for service "Adafruit_Python_DHT": "/home/pi/miniconda3/bin/python"
+[Warn  - 오후 11:17:44] (5421) stubPath /home/pi/Adafruit_Python_DHT/typings is not a valid directory.
+[Info  - 오후 11:17:45] (5421) Found 18 source files
+[Info  - 오후 11:17:46] (5421) Background analysis(1) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 오후 11:17:46] (5421) Background analysis(1) started

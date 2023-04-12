@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "python.defaultInterpreterPath": "/home/pi/miniconda3/bin/python"
+}

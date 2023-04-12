@@ -1,0 +1,4 @@
+2023-04-11 17:45:22.100 [warning] Webgl could not be loaded. Falling back to the canvas renderer type. {}
+2023-04-11 17:45:22.115 [warning] Webgl could not be loaded. Falling back to the canvas renderer type. {}
+2023-04-11 17:45:22.126 [warning] Webgl could not be loaded. Falling back to the canvas renderer type. {}
+2023-04-11 17:45:23.089 [info] [perf] Render performance baseline is 983ms

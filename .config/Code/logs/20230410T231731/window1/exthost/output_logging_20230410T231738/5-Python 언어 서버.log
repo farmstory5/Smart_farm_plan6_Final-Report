@@ -1,0 +1,19 @@
+[Info  - 오후 11:17:53] (5433) Pylance language server 2023.4.10 (pyright d7616109) starting
+[Info  - 오후 11:17:53] (5433) Server root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 오후 11:17:53] (5433) Starting service instance "Adafruit_Python_DHT"
+[Info  - 오후 11:17:53] (5433) Auto-indent enabled
+[Info  - 오후 11:17:54] (5433) Setting pythonPath for service "Adafruit_Python_DHT": "/home/pi/miniconda3/bin/python"
+[Warn  - 오후 11:17:54] (5433) stubPath /home/pi/Adafruit_Python_DHT/typings is not a valid directory.
+[Info  - 오후 11:17:54] (5433) Assuming Python version 3.4
+[Info  - 오후 11:17:54] (5433) Found 18 source files
+[Info  - 오후 11:17:55] (5433) Background analysis(1) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 오후 11:17:55] (5433) Background analysis(1) started
+[Info  - 오후 11:18:43] (5433) Found 19 source files
+[Info  - 오후 11:18:46] (5433) [FG] Long operation: parsing: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist/typeshed-fallback/stdlib/builtins.pyi (2060ms)
+[Info  - 오후 11:18:50] (5433) [BG(1)] Long operation: analyzing: /home/pi/Adafruit_Python_DHT/Adafruit_DHT/dht11.py (2142ms)
+[Info  - 오후 11:18:50] (5433) Indexer background runner(2) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist (index)
+[Info  - 오후 11:18:50] (5433) Indexing(2) started
+[Info  - 오후 11:18:51] (5433) [IDX(2)] Long operation: scan packages /home/pi/Adafruit_Python_DHT (3508ms)
+[Info  - 오후 11:18:51] (5433) scanned(2) 16 files over 1 exec env
+[Info  - 오후 11:18:52] (5433) indexed(2) 4 files over 1 exec env
+[Info  - 오후 11:18:52] (5433) Indexing finished(2).

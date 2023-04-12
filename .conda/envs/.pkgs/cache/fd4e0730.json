@@ -1,0 +1,11 @@
+{
+  "_etag": "W/\"f14495bd361333a6a5920dd77c29747d\"",
+  "_mod": "Mon, 29 Jul 2019 16:31:07 GMT",
+  "_url": "https://repo.continuum.io/pkgs/pro/linux-armv7l/",
+  "info": {
+    "arch": "armv7l",
+    "platform": "linux",
+    "subdir": "linux-armv7l"
+  },
+  "packages": {}
+}

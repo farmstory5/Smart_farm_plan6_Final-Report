@@ -1,0 +1,2 @@
+2023-04-11 18:04:36.619 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/usr/local/lib/python3.7/dist-packages/Adafruit_DHT/Test.py","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-04-11 18:04:53.874 [info] [perf] Render performance baseline is 759ms

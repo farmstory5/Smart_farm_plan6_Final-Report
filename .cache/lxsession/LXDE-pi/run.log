@@ -1,0 +1,205 @@
+** Message: 19:17:43.190: environement.vala:58: Exporting primary_variable
+** Message: 19:17:43.191: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 19:17:43.191: environement.vala:150: confir_dirs is null, export : /etc/xdg
+** Message: 19:17:43.191: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 19:17:43.191: environement.vala:218: custom_data :
+** Message: 19:17:43.191: environement.vala:219: data_dirs :/usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 19:17:43.191: environement.vala:220: data_dirs not null, export : /usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 19:17:43.191: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 19:17:43.191: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 19:17:43.192: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 19:17:43.192: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 19:17:43.192: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 19:17:43.192: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+
+** (lxsession:651): WARNING **: 19:17:43.194: utils.vala:70: 그런 파일이나 디렉터리가 없습니다
+** Message: 19:17:43.194: settings.vala:540: 키 파일에 있는 “GTK” 그룹의 “iGtk/ColorScheme” 키가 없습니다
+** Message: 19:17:43.194: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “windows_manager/command” 키가 없습니다
+** Message: 19:17:43.194: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “panel/command” 키가 없습니다
+** Message: 19:17:43.194: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “dock/command” 키가 없습니다
+** Message: 19:17:43.194: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “file_manager/command” 키가 없습니다
+** Message: 19:17:43.194: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “desktop_manager/command” 키가 없습니다
+** Message: 19:17:43.194: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “launcher_manager/autostart” 키가 없습니다
+** Message: 19:17:43.194: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “composite_manager/command” 키가 없습니다
+** Message: 19:17:43.194: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “im1/command” 키가 없습니다
+** Message: 19:17:43.194: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “im2/command” 키가 없습니다
+** Message: 19:17:43.194: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “widget1/command” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “notification/command” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “keybindings/command” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “im_manager/command” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “screensaver/command” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “power_manager/command” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “audio_manager/command” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “workspace_manager/command” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “screenshot_manager/command” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “message_manager/command” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “upgrade_manager/command” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “updates_manager/command” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “updates_manager/timeout” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “crash_manager/command” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “crash_manager/dev_mode” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “crash_manager/timeout” 키가 없습니다
+** Message: 19:17:43.195: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “upstart_user_session” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “proxy_manager/http” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “a11y/command” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “xrandr/command” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “network_gui/command” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “webbrowser/command” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “email/command” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “pdf_reader/command” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “video_player/command” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “audio_player/command” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “images_display/command” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “text_editor/command” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “archive/command” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “charmap/command” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “calculator/command” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “spreadsheet/command” 키가 없습니다
+** Message: 19:17:43.196: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “bittorent/command” 키가 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “document/command” 키가 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “webcam/command” 키가 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “burn/command” 키가 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “notes/command” 키가 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “disk_utility/command” 키가 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 있는 “Session” 그룹의 “tasks/command” 키가 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 “Keymap” 그룹이 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 있는 “State” 그룹의 “laptop_mode” 키가 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 있는 “Dbus” 그룹의 “gnome” 키가 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “type” 키가 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “ubuntu_menuproxy” 키가 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “toolkit_integration” 키가 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “gtk/overlay_scrollbar_disable” 키가 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “qt/force_theme” 키가 없습니다
+** Message: 19:17:43.197: settings.vala:540: 키 파일에 있는 “Environment” 그룹의 “qt/platform” 키가 없습니다
+** Message: 19:17:43.198: settings.vala:462: Monitoring: /etc/xdg/lxsession/LXDE-pi/desktop.conf
+** Message: 19:17:43.198: settings.vala:470: Desktop file is not in config home, monitoring creation of it
+** Message: 19:17:43.198: settings.vala:485: Monitoring home path: /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: 19:17:43.198: environement.vala:79: Exporting variable
+** Message: 19:17:43.198: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 19:17:43.198: environement.vala:177: custom_config :
+** Message: 19:17:43.198: environement.vala:178: config_dirs :/etc/xdg
+** Message: 19:17:43.198: environement.vala:179: confir_dirs not null, export : /etc/xdg
+** Message: 19:17:43.198: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 19:17:43.198: environement.vala:218: custom_data :
+** Message: 19:17:43.198: environement.vala:219: data_dirs :/usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 19:17:43.199: environement.vala:220: data_dirs not null, export : /usr/share/fkms:/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: 19:17:43.199: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 19:17:43.199: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 19:17:43.199: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+
+** (lxsession:651): WARNING **: 19:17:43.199: utils.vala:70: 그런 파일이나 디렉터리가 없습니다
+** Message: 19:17:43.199: environement.vala:254: No entry in [Environment_variable]. 키 파일에 “Environment_variable” 그룹이 없습니다
+** Message: 19:17:43.204: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 19:17:43.204: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: 19:17:43.204: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: 19:17:43.204: options.vala:164: Activate xsettings_manager build-in
+** Message: 19:17:43.204: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 19:17:43.204: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE-pi/desktop.conf
+
+** (lxsession:651): WARNING **: 19:17:43.205: utils.vala:70: 그런 파일이나 디렉터리가 없습니다
+xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
+xprop:  no such property "_NET_DESKTOP_NAMES"
+** Message: 19:17:43.238: app.vala:721: polkit separate
+** Message: 19:17:43.239: app.vala:721: polkit separate
+** Message: 19:17:43.246: app.vala:76: Launching lxpolkit 
+** Message: 19:17:43.247: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: 19:17:43.247: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 19:17:43.247: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 19:17:43.247: autostart.vala:42: Autostart path : /etc/xdg/lxsession/LXDE-pi/autostart
+** Message: 19:17:43.259: app.vala:76: Launching lxpanel 
+** Message: 19:17:43.275: app.vala:76: Launching pcmanfm 
+
+** (lxsession:651): WARNING **: 19:17:43.290: app.vala:86: 하위 프로세스 “xscreensaver”을(를) 실행하기 실패 (그런 파일이나 디렉터리가 없습니다)
+
+** (lxsession:651): WARNING **: 19:17:43.290: app.vala:87: Error when launching xscreensaver
+** Message: 19:17:43.298: options.vala:107: Create build-in Clipboard
+** Message: 19:17:43.300: main.vala:441: Check keymap_mode (null)
+** Message: 19:17:43.306: app.vala:76: Launching /usr/bin/ssh-agent 
+SSH_AUTH_SOCK=/tmp/ssh-IalatWZUMDJF/agent.876; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=880; export SSH_AGENT_PID;
+echo Agent pid 880;
+** Message: 19:17:43.513: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+Obt-Message: Failed to open an Input Method
+** Message: 19:17:43.612: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: 19:17:43.649: x-terminal-emulator has very limited support, consider choose another terminal
+grep: /home/pi/.config/lxpanel/LXDE-pi/panels/*: 그런 파일이나 디렉터리가 없습니다
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: 19:17:44.898: Connecting ...
+** Message: 19:17:44.899: Status changed to down
+Unit pt-device-manager.service could not be found.
+
+** (lxpanel:871): WARNING **: 19:17:45.258: Battery 0 not found
+** Message: 19:17:45.900: Status changed to opened
+** Message: 19:17:45.901: Connected to dhcpcd-8.1.2
+** Message: 19:17:45.902: Status changed to connecting
+** Message: 19:17:45.902: eth0: Link is down
+** Message: 19:17:45.902: wlan0: Associated with U+Net1410
+** Message: 19:17:45.903: wlan0: WPA status connected
+** Message: 19:17:45.903: wlan0: Received scan results
+** Message: 19:17:48.527: wlan0: Configured 192.168.219.103/24
+** Message: 19:17:48.527: Status changed to connected
+** Message: 16:58:15.954: wlan0: Received scan results
+Obt-Message: Failed to open an Input Method
+** Message: 16:59:15.953: wlan0: Received scan results
+** Message: 17:00:15.960: wlan0: Received scan results
+** Message: 17:01:15.972: wlan0: Received scan results
+** Message: 17:02:15.982: wlan0: Received scan results
+** Message: 17:03:15.870: wlan0: Received scan results
+** Message: 17:04:15.883: wlan0: Received scan results
+** Message: 17:05:15.890: wlan0: Received scan results
+** Message: 17:06:15.897: wlan0: Received scan results
+** Message: 17:07:15.901: wlan0: Received scan results
+** Message: 17:08:15.907: wlan0: Received scan results
+** Message: 17:09:15.991: wlan0: Received scan results
+** Message: 17:10:15.922: wlan0: Received scan results
+** Message: 17:11:15.928: wlan0: Received scan results
+** Message: 17:12:15.933: wlan0: Received scan results
+** Message: 17:13:15.946: wlan0: Received scan results
+** Message: 17:14:15.952: wlan0: Received scan results
+** Message: 17:15:15.957: wlan0: Received scan results
+** Message: 17:16:15.964: wlan0: Received scan results
+** Message: 17:17:15.971: wlan0: Received scan results
+** Message: 17:18:15.874: wlan0: Received scan results
+** Message: 17:19:15.881: wlan0: Received scan results
+** Message: 17:20:15.891: wlan0: Received scan results
+** Message: 17:21:15.895: wlan0: Received scan results
+** Message: 17:22:15.902: wlan0: Received scan results
+** Message: 17:23:16.007: wlan0: Received scan results
+** Message: 17:24:15.991: wlan0: Received scan results
+** Message: 17:25:15.926: wlan0: Received scan results
+** Message: 17:26:15.934: wlan0: Received scan results
+** Message: 17:27:15.936: wlan0: Received scan results
+** Message: 17:28:15.950: wlan0: Received scan results
+** Message: 17:29:15.950: wlan0: Received scan results
+** Message: 17:30:15.958: wlan0: Received scan results
+** Message: 17:31:15.966: wlan0: Received scan results
+** Message: 17:32:15.969: wlan0: Received scan results
+** Message: 17:33:15.981: wlan0: Received scan results
+** Message: 17:34:15.985: wlan0: Received scan results
+** Message: 17:35:15.892: wlan0: Received scan results
+** Message: 17:36:15.898: wlan0: Received scan results
+** Message: 17:37:15.905: wlan0: Received scan results
+** Message: 17:38:15.912: wlan0: Received scan results
+** Message: 17:39:15.920: wlan0: Received scan results
+** Message: 17:40:15.925: wlan0: Received scan results
+** Message: 17:41:15.934: wlan0: Received scan results
+** Message: 17:42:15.947: wlan0: Received scan results
+** Message: 17:43:15.949: wlan0: Received scan results
+** Message: 17:44:16.047: wlan0: Received scan results
+** Message: 17:45:15.962: wlan0: Received scan results
+** Message: 17:46:15.965: wlan0: Received scan results
+** Message: 17:47:15.976: wlan0: Received scan results
+** Message: 17:48:16.059: wlan0: Received scan results
+** Message: 17:49:16.102: wlan0: Received scan results
+** Message: 17:50:15.990: wlan0: Received scan results
+** Message: 17:51:16.008: wlan0: Received scan results
+** Message: 17:52:15.998: wlan0: Received scan results
+** Message: 17:53:16.019: wlan0: Received scan results
+** Message: 17:54:16.072: wlan0: Received scan results
+** Message: 17:55:16.002: wlan0: Received scan results
+** Message: 17:56:15.934: wlan0: Received scan results
+** Message: 17:57:15.942: wlan0: Received scan results
+** Message: 17:58:16.024: wlan0: Received scan results
+** Message: 17:59:16.039: wlan0: Received scan results
+** Message: 18:00:16.040: wlan0: Received scan results
+** Message: 18:01:16.054: wlan0: Received scan results

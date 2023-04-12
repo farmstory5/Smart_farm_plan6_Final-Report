@@ -1,0 +1,94 @@
+[Info  - 오후 5:45:25] (1530) Pylance language server 2023.4.10 (pyright d7616109) starting
+[Info  - 오후 5:45:25] (1530) Server root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 오후 5:45:25] (1530) Starting service instance "vsc_workspace"
+[Info  - 오후 5:45:25] (1530) Auto-indent enabled
+[Info  - 오후 5:45:26] (1530) Setting pythonPath for service "vsc_workspace": "/bin/python3"
+[Warn  - 오후 5:45:26] (1530) stubPath /home/pi/Desktop/vsc_workspace/typings is not a valid directory.
+[Info  - 오후 5:45:26] (1530) Assuming Python version 3.7
+[Info  - 오후 5:45:27] (1530) Found 8 source files
+[Info  - 오후 5:45:27] (1530) Setting pythonPath for service "vsc_workspace": "/bin/python3"
+[Warn  - 오후 5:45:27] (1530) stubPath /home/pi/Desktop/vsc_workspace/typings is not a valid directory.
+[Info  - 오후 5:45:28] (1530) Assuming Python version 3.7
+[Info  - 오후 5:45:28] (1530) Found 8 source files
+[Info  - 오후 5:45:31] (1530) Background analysis(1) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 오후 5:45:31] (1530) Background analysis(1) started
+[Info  - 오후 5:45:32] (1530) Indexer background runner(2) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist (index)
+[Info  - 오후 5:45:32] (1530) Indexing(2) started
+[Info  - 오후 5:45:34] (1530) [BG(1)] Long operation: getSemanticTokens full at /home/pi/Desktop/vsc_workspace/DHT11.py (2367ms)
+[Info  - 오후 5:45:35] (1530) [IDX(2)] Long operation: scan packages /home/pi/Desktop/vsc_workspace (3444ms)
+[Info  - 오후 5:45:35] (1530) scanned(2) 97 files over 1 exec env
+[Info  - 오후 5:45:41] (1530) [IDX(2)] Long operation: index execution environment /home/pi/Desktop/vsc_workspace (5066ms)
+[Info  - 오후 5:45:41] (1530) [IDX(2)] Long operation: index packages /home/pi/Desktop/vsc_workspace (5203ms)
+[Info  - 오후 5:45:41] (1530) indexed(2) 39 files over 1 exec env
+[Info  - 오후 5:45:41] (1530) Indexing finished(2).
+[Info  - 오후 5:47:07] (1530) Indexer background runner(3) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist (refresh)
+[Info  - 오후 5:47:07] (1530) Indexing(3) started
+[Info  - 오후 5:47:09] (1530) scanned(3) 97 files over 1 exec env
+[Info  - 오후 5:47:12] (1530) [IDX(3)] Long operation: index execution environment /home/pi/Desktop/vsc_workspace (2819ms)
+[Info  - 오후 5:47:12] (1530) [IDX(3)] Long operation: index packages /home/pi/Desktop/vsc_workspace (2844ms)
+[Info  - 오후 5:47:12] (1530) indexed(3) 39 files over 1 exec env
+[Info  - 오후 5:47:12] (1530) Indexing finished(3).
+[Info  - 오후 5:50:10] (1530) Indexer background runner(4) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist (refresh)
+[Info  - 오후 5:50:10] (1530) Indexing(4) started
+[Info  - 오후 5:50:12] (1530) scanned(4) 97 files over 1 exec env
+[Info  - 오후 5:50:15] (1530) [IDX(4)] Long operation: index execution environment /home/pi/Desktop/vsc_workspace (2811ms)
+[Info  - 오후 5:50:15] (1530) [IDX(4)] Long operation: index packages /home/pi/Desktop/vsc_workspace (2838ms)
+[Info  - 오후 5:50:15] (1530) indexed(4) 39 files over 1 exec env
+[Info  - 오후 5:50:15] (1530) Indexing finished(4).
+[Info  - 오후 5:51:27] (1530) Indexer background runner(5) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist (refresh)
+[Info  - 오후 5:51:27] (1530) Indexing(5) started
+[Info  - 오후 5:51:28] (1530) scanned(5) 97 files over 1 exec env
+[Info  - 오후 5:51:31] (1530) [IDX(5)] Long operation: index execution environment /home/pi/Desktop/vsc_workspace (3033ms)
+[Info  - 오후 5:51:31] (1530) [IDX(5)] Long operation: index packages /home/pi/Desktop/vsc_workspace (3065ms)
+[Info  - 오후 5:51:31] (1530) indexed(5) 39 files over 1 exec env
+[Info  - 오후 5:51:31] (1530) Indexing finished(5).
+[Info  - 오후 5:54:09] (1530) Indexer background runner(6) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist (refresh)
+[Info  - 오후 5:54:09] (1530) Indexing(6) started
+[Info  - 오후 5:54:10] (1530) scanned(6) 97 files over 1 exec env
+[Info  - 오후 5:54:13] (1530) [IDX(6)] Long operation: index execution environment /home/pi/Desktop/vsc_workspace (2848ms)
+[Info  - 오후 5:54:13] (1530) [IDX(6)] Long operation: index packages /home/pi/Desktop/vsc_workspace (2877ms)
+[Info  - 오후 5:54:13] (1530) indexed(6) 39 files over 1 exec env
+[Info  - 오후 5:54:13] (1530) Indexing finished(6).
+[Info  - 오후 5:56:30] (1530) Indexer background runner(7) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist (refresh)
+[Info  - 오후 5:56:30] (1530) Indexing(7) started
+[Info  - 오후 5:56:31] (1530) scanned(7) 97 files over 1 exec env
+[Info  - 오후 5:56:34] (1530) [IDX(7)] Long operation: index execution environment /home/pi/Desktop/vsc_workspace (2913ms)
+[Info  - 오후 5:56:34] (1530) [IDX(7)] Long operation: index packages /home/pi/Desktop/vsc_workspace (2945ms)
+[Info  - 오후 5:56:34] (1530) indexed(7) 39 files over 1 exec env
+[Info  - 오후 5:56:34] (1530) Indexing finished(7).
+[Info  - 오후 5:57:13] (1530) Indexer background runner(8) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist (refresh)
+[Info  - 오후 5:57:13] (1530) Indexing(8) started
+[Info  - 오후 5:57:14] (1530) scanned(8) 97 files over 1 exec env
+[Info  - 오후 5:57:17] (1530) [IDX(8)] Long operation: index execution environment /home/pi/Desktop/vsc_workspace (2919ms)
+[Info  - 오후 5:57:17] (1530) [IDX(8)] Long operation: index packages /home/pi/Desktop/vsc_workspace (2947ms)
+[Info  - 오후 5:57:17] (1530) indexed(8) 39 files over 1 exec env
+[Info  - 오후 5:57:17] (1530) Indexing finished(8).
+[Info  - 오후 5:57:25] (1530) Indexer background runner(9) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist (refresh)
+[Info  - 오후 5:57:25] (1530) Indexing(9) started
+[Info  - 오후 5:57:26] (1530) scanned(9) 97 files over 1 exec env
+[Info  - 오후 5:57:30] (1530) [IDX(9)] Long operation: index execution environment /home/pi/Desktop/vsc_workspace (2884ms)
+[Info  - 오후 5:57:30] (1530) [IDX(9)] Long operation: index packages /home/pi/Desktop/vsc_workspace (2920ms)
+[Info  - 오후 5:57:30] (1530) indexed(9) 39 files over 1 exec env
+[Info  - 오후 5:57:30] (1530) Indexing finished(9).
+[Info  - 오후 5:57:40] (1530) Indexer background runner(10) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist (refresh)
+[Info  - 오후 5:57:40] (1530) Indexing(10) started
+[Info  - 오후 5:57:42] (1530) scanned(10) 97 files over 1 exec env
+[Info  - 오후 5:57:45] (1530) [IDX(10)] Long operation: index execution environment /home/pi/Desktop/vsc_workspace (2889ms)
+[Info  - 오후 5:57:45] (1530) [IDX(10)] Long operation: index packages /home/pi/Desktop/vsc_workspace (2920ms)
+[Info  - 오후 5:57:45] (1530) indexed(10) 39 files over 1 exec env
+[Info  - 오후 5:57:45] (1530) Indexing finished(10).
+[Info  - 오후 5:58:03] (1530) Indexer background runner(11) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist (refresh)
+[Info  - 오후 5:58:03] (1530) Indexing(11) started
+[Info  - 오후 5:58:04] (1530) scanned(11) 97 files over 1 exec env
+[Info  - 오후 5:58:08] (1530) [IDX(11)] Long operation: index execution environment /home/pi/Desktop/vsc_workspace (4118ms)
+[Info  - 오후 5:58:08] (1530) [IDX(11)] Long operation: index packages /home/pi/Desktop/vsc_workspace (4148ms)
+[Info  - 오후 5:58:08] (1530) indexed(11) 39 files over 1 exec env
+[Info  - 오후 5:58:08] (1530) Indexing finished(11).
+[Info  - 오후 5:58:18] (1530) Indexer background runner(12) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist (refresh)
+[Info  - 오후 5:58:18] (1530) Indexing(12) started
+[Info  - 오후 5:58:20] (1530) scanned(12) 97 files over 1 exec env
+[Info  - 오후 5:58:23] (1530) [IDX(12)] Long operation: index execution environment /home/pi/Desktop/vsc_workspace (2843ms)
+[Info  - 오후 5:58:23] (1530) [IDX(12)] Long operation: index packages /home/pi/Desktop/vsc_workspace (2869ms)
+[Info  - 오후 5:58:23] (1530) indexed(12) 39 files over 1 exec env
+[Info  - 오후 5:58:23] (1530) Indexing finished(12).
+[Info  - 오후 5:59:23] (1530) Found 1 source file

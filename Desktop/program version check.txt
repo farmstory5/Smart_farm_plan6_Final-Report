@@ -1,0 +1,17 @@
+sudo apt-get update
+sudo apt-get upgrade
+
+#환경 확인
+uname -m
+armv7l =32bit processor
+ARMv8 =64bit processor
+
+#for 32bit
+wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-armv7l.sh
+
+#for 64bit
+wget https://repo.anaconda.com/miniconda/Miniconda3-py38_4.10.3-Linux-aarch64.sh
+
+
+ sudo md5sum Miniconda3-latest-Linux-armv7l.sh
+ sudo /bin/bash Miniconda3-latest-Linux-armv7l.sh

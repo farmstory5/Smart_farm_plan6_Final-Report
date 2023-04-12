@@ -1,0 +1,20 @@
+[Info  - 오후 7:11:41] (1384) Pylance language server 2023.4.10 (pyright d7616109) starting
+[Info  - 오후 7:11:41] (1384) Server root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 오후 7:11:41] (1384) Starting service instance "vsc_workspace"
+[Info  - 오후 7:11:41] (1384) Auto-indent enabled
+[Info  - 오후 7:11:42] (1384) Setting pythonPath for service "vsc_workspace": "/bin/python3"
+[Warn  - 오후 7:11:42] (1384) stubPath /home/pi/Desktop/vsc_workspace/typings is not a valid directory.
+[Info  - 오후 7:11:42] (1384) Assuming Python version 3.7
+[Info  - 오후 7:11:43] (1384) Found 1 source file
+[Info  - 오후 7:11:45] (1384) Background analysis(1) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 오후 7:11:45] (1384) Background analysis(1) started
+[Info  - 오후 7:11:47] (1384) Indexer background runner(2) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist (index)
+[Info  - 오후 7:11:47] (1384) Indexing(2) started
+[Info  - 오후 7:11:52] (1384) [BG(1)] Long operation: checking: /home/pi/Desktop/vsc_workspace/DHT11.py (3568ms)
+[Info  - 오후 7:11:52] (1384) [BG(1)] Long operation: analyzing: /home/pi/Desktop/vsc_workspace/DHT11.py (6424ms)
+[Info  - 오후 7:11:53] (1384) [IDX(2)] Long operation: scan packages /home/pi/Desktop/vsc_workspace (5999ms)
+[Info  - 오후 7:11:53] (1384) scanned(2) 97 files over 1 exec env
+[Info  - 오후 7:11:57] (1384) [IDX(2)] Long operation: index execution environment /home/pi/Desktop/vsc_workspace (3834ms)
+[Info  - 오후 7:11:57] (1384) [IDX(2)] Long operation: index packages /home/pi/Desktop/vsc_workspace (3880ms)
+[Info  - 오후 7:11:57] (1384) indexed(2) 39 files over 1 exec env
+[Info  - 오후 7:11:57] (1384) Indexing finished(2).

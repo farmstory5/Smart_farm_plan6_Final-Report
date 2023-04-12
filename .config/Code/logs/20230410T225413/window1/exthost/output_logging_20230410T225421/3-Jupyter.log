@@ -1,0 +1,33 @@
+Visual Studio Code (1.76.0, undefined, desktop)
+Jupyter Extension Version: 2023.2.1200692131.
+Python Extension Version: 2023.4.1.
+Workspace folder /home/pi/Desktop/vsc_workspace
+사용자가 실험 그룹 'jupyterEnhancedDataViewer'에 속함
+사용자가 실험 그룹 'jupyterTestcf'에 속함
+info 22:54:28.760: LSP Notebooks experiment is enabled
+warn 22:54:32.818: Failed to get activated env vars with python /usr/bin/python3 in 3018ms
+info 22:54:32.910: Process Execution: > /usr/bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_SITE);print("USER_BASE_VALUE");"
+> /usr/bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_SITE);print("USER_BASE_VALUE");"
+info 22:54:33.449: Process Execution: > /usr/bin/python3 -m pip list
+> /usr/bin/python3 -m pip list
+warn 22:54:44.359: Failed to get activated env vars with python /bin/python3 in 2170ms
+info 22:54:44.503: Process Execution: > /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_SITE);print("USER_BASE_VALUE");"
+> /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_SITE);print("USER_BASE_VALUE");"
+info 22:54:44.887: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+error 22:55:12.344: Failed to get activated conda env variables from Python for /home/pi/miniconda3/bin/python
+                 in 2565ms
+error 22:55:12.348: Unable to determine site packages path for python /home/pi/miniconda3/bin/python (Conda)
+info 22:55:12.453: Process Execution: > ~/miniconda3/bin/python -m pip list
+> ~/miniconda3/bin/python -m pip list
+info 22:55:12.742: Process Execution: > ~/miniconda3/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+> ~/miniconda3/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+error 22:55:12.866: interpreterPackages getPackageInformation, Class name = Zd, completed in 3089ms, has a falsy return value, Arg 1: {"interpreter":{"id":"/home/pi/miniconda3/bin/python","sysPrefix":"/home/pi/miniconda3","envPath":{"$mid":1,"fsPath":"/home/pi/miniconda3","path":"/home/pi/miniconda3","scheme":"file"},"displayPath":{"$mid":1,"fsPath":"/home/pi/miniconda3","path":"/home/pi/miniconda3","scheme":"file"},"envName":"base","uri":{"$mid":1,"fsPath":"/home/pi/miniconda3/bin/python","external":"file:///home/pi/miniconda3/bin/python","path":"/home/pi/miniconda3/bin/python","scheme":"file"},"displayName":"base","envType":"Conda","version":{"major":3,"minor":4,"patch":3,"raw":"3.4.3 |Continuum Analytics, Inc.| (default, Aug 21 2015, 00:53:08) \n[GCC 4.6.3]"}}} [Sl [Error]: Module 'pip' not installed.
+	at Cl.execModule (/home/pi/.vscode/extensions/ms-toolsai.jupyter-2023.2.1200692131/out/extension.node.js:2:1783549)
+	at async Zd.getPackageInformation (/home/pi/.vscode/extensions/ms-toolsai.jupyter-2023.2.1200692131/out/extension.node.js:17:40189)] {
+  category: 'notinstalled',
+  moduleName: 'pip'
+}
+info 23:15:42.149: Shutting down notebooks for ab70f864-d018-475b-bcd0-424e27ffd215
+info 23:15:42.149: Disposing HostJupyterExecution faf411f8-d621-4112-a426-19efb58c010d
+info 23:15:42.150: Disposing HostJupyterExecution faf411f8-d621-4112-a426-19efb58c010d

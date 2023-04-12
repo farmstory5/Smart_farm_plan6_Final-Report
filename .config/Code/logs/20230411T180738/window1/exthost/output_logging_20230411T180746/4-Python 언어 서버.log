@@ -1,0 +1,38 @@
+[Info  - 오후 6:08:06] (2524) Pylance language server 2023.4.10 (pyright d7616109) starting
+[Info  - 오후 6:08:06] (2524) Server root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 오후 6:08:06] (2524) Auto-indent enabled
+[Info  - 오후 6:08:06] (2524) virtual workspace: 
+[Info  - 오후 6:08:06] (2524) Starting service instance "<default>"
+[Info  - 오후 6:08:06] (2524) Setting pythonPath for service "<default>": "/home/pi/miniconda3/bin/python"
+[Warn  - 오후 6:08:06] (2524) stubPath typings is not a valid directory.
+[Info  - 오후 6:08:06] (2524) Assuming Python version 3.4
+[Info  - 오후 6:08:07] (2524) No source files found.
+[Info  - 오후 6:08:07] (2524) Setting pythonPath for service "<default>": "/home/pi/miniconda3/bin/python"
+[Warn  - 오후 6:08:07] (2524) stubPath typings is not a valid directory.
+[Info  - 오후 6:08:07] (2524) Assuming Python version 3.4
+[Info  - 오후 6:08:07] (2524) No source files found.
+[Info  - 오후 6:10:11] (2524) Setting pythonPath for service "<default>": "/bin/python3"
+[Warn  - 오후 6:10:11] (2524) stubPath typings is not a valid directory.
+[Info  - 오후 6:10:11] (2524) Assuming Python version 3.7
+[Info  - 오후 6:10:12] (2524) No source files found.
+[Info  - 오후 6:10:15] (2524) [FG] Long operation: analyzing: /home/pi/Desktop/vsc_workspace/DHT11.py (3184ms)
+[Info  - 오후 6:10:15] (2524) Setting pythonPath for service "<default>": "/bin/python3"
+[Warn  - 오후 6:10:15] (2524) stubPath typings is not a valid directory.
+[Info  - 오후 6:10:15] (2524) Assuming Python version 3.7
+[Info  - 오후 6:10:16] (2524) No source files found.
+[Info  - 오후 6:17:14] (2524) Setting pythonPath for service "<default>": "/home/pi/miniconda3/bin/python"
+[Warn  - 오후 6:17:14] (2524) stubPath typings is not a valid directory.
+[Info  - 오후 6:17:14] (2524) Assuming Python version 3.4
+[Info  - 오후 6:17:15] (2524) No source files found.
+[Info  - 오후 6:17:16] (2524) Setting pythonPath for service "<default>": "/home/pi/miniconda3/bin/python"
+[Warn  - 오후 6:17:16] (2524) stubPath typings is not a valid directory.
+[Info  - 오후 6:17:16] (2524) Assuming Python version 3.4
+[Info  - 오후 6:17:16] (2524) No source files found.
+[Info  - 오후 6:17:24] (2524) Setting pythonPath for service "<default>": "/bin/python3"
+[Warn  - 오후 6:17:24] (2524) stubPath typings is not a valid directory.
+[Info  - 오후 6:17:24] (2524) Assuming Python version 3.7
+[Info  - 오후 6:17:24] (2524) No source files found.
+[Info  - 오후 6:17:26] (2524) Setting pythonPath for service "<default>": "/bin/python3"
+[Warn  - 오후 6:17:26] (2524) stubPath typings is not a valid directory.
+[Info  - 오후 6:17:26] (2524) Assuming Python version 3.7
+[Info  - 오후 6:17:26] (2524) No source files found.

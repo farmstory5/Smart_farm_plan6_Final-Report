@@ -1,0 +1,2847 @@
+{
+  "_etag": "W/\"a56ab36893701ae8d9bfed4b48840103\"",
+  "_mod": "Mon, 29 Jul 2019 16:26:39 GMT",
+  "_url": "https://repo.continuum.io/pkgs/free/linux-armv7l/",
+  "info": {
+    "arch": "armv7l",
+    "platform": "linux",
+    "subdir": "linux-armv7l"
+  },
+  "packages": {
+    "alabaster-0.7.3-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "295f08ef856b8bec2f1ba4fe8997277d",
+      "name": "alabaster",
+      "size": 13487,
+      "version": "0.7.3"
+    },
+    "alabaster-0.7.3-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "f6cb63c5d1a0f3aa8cf31f3b0addcf2f",
+      "name": "alabaster",
+      "size": 13550,
+      "version": "0.7.3"
+    },
+    "anaconda-client-1.0.2-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "clyent",
+        "pillow",
+        "python 2.7*",
+        "python-dateutil",
+        "pytz",
+        "pyyaml",
+        "requests",
+        "setuptools"
+      ],
+      "license": "BSD 3-clause",
+      "license_family": "BSD",
+      "md5": "80c1f181b079d8eac0451c3cd3465574",
+      "name": "anaconda-client",
+      "size": 92881,
+      "version": "1.0.2"
+    },
+    "anaconda-client-1.0.2-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "clyent",
+        "pillow",
+        "python 3.4*",
+        "python-dateutil",
+        "pytz",
+        "pyyaml",
+        "requests",
+        "setuptools"
+      ],
+      "license": "BSD 3-clause",
+      "license_family": "BSD",
+      "md5": "49e31ce4288bde9462a554ab60f61a1d",
+      "name": "anaconda-client",
+      "size": 94604,
+      "version": "1.0.2"
+    },
+    "argcomplete-0.9.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*",
+        "setuptools"
+      ],
+      "license": "Apache",
+      "license_family": "Apache",
+      "md5": "5fbf4cd99ef0c5da5d003355dc8fb841",
+      "name": "argcomplete",
+      "size": 31841,
+      "version": "0.9.0"
+    },
+    "argcomplete-0.9.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "python 3.4*",
+        "setuptools"
+      ],
+      "license": "Apache",
+      "license_family": "Apache",
+      "md5": "0c6b2bf0678fcfb66c374018e072b272",
+      "name": "argcomplete",
+      "size": 32661,
+      "version": "0.9.0"
+    },
+    "astropy-1.0.4-np19py27_0.tar.bz2": {
+      "build": "np19py27_0",
+      "build_number": 0,
+      "date": "2015-08-21",
+      "depends": [
+        "numpy 1.9*",
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "d6f026617a02c5cb0258076d275e24b5",
+      "name": "astropy",
+      "size": 7353170,
+      "version": "1.0.4"
+    },
+    "astropy-1.0.4-np19py34_0.tar.bz2": {
+      "build": "np19py34_0",
+      "build_number": 0,
+      "date": "2015-08-21",
+      "depends": [
+        "numpy 1.9*",
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "de83e4dba8ea763056651b67f29969db",
+      "name": "astropy",
+      "size": 7646701,
+      "version": "1.0.4"
+    },
+    "babel-2.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*",
+        "pytz"
+      ],
+      "license": "BSD",
+      "md5": "5f318cdccdeac571e1bafce474ce8508",
+      "name": "babel",
+      "size": 2382922,
+      "version": "2.0"
+    },
+    "babel-2.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*",
+        "pytz"
+      ],
+      "license": "BSD",
+      "md5": "2faa22bf8206cfdc7f4b441284c50adc",
+      "name": "babel",
+      "size": 2398974,
+      "version": "2.0"
+    },
+    "bitarray-0.8.1-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "PSF",
+      "md5": "a07c08adca5a8d8f45d431082309b104",
+      "name": "bitarray",
+      "size": 96001,
+      "version": "0.8.1"
+    },
+    "bitarray-0.8.1-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "PSF",
+      "md5": "57a5bb00638a6b24c0098ff9dc80046a",
+      "name": "bitarray",
+      "size": 99590,
+      "version": "0.8.1"
+    },
+    "blist-1.3.6-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD 3-clause",
+      "license_family": "BSD",
+      "md5": "81a2ccd962dba82f31eefd8921d2f7ca",
+      "name": "blist",
+      "size": 133106,
+      "version": "1.3.6"
+    },
+    "blist-1.3.6-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD 3-clause",
+      "license_family": "BSD",
+      "md5": "8cda02753341ab565861a7b1a5a7967f",
+      "name": "blist",
+      "size": 132262,
+      "version": "1.3.6"
+    },
+    "boto-2.38.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "4650ddeee863de150c9b1d67545bfb24",
+      "name": "boto",
+      "size": 1374678,
+      "version": "2.38.0"
+    },
+    "boto-2.38.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "ab8de58e037afc82862d41619eff091f",
+      "name": "boto",
+      "size": 1452790,
+      "version": "2.38.0"
+    },
+    "bsdiff4-1.1.4-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "5282bc456a7bb9a59d876cc6e900758f",
+      "name": "bsdiff4",
+      "size": 29194,
+      "version": "1.1.4"
+    },
+    "bsdiff4-1.1.4-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "488be9fa92075e5f6e2237e7bbb7108a",
+      "name": "bsdiff4",
+      "size": 29899,
+      "version": "1.1.4"
+    },
+    "bzip2-1.0.6-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [],
+      "license": "BSD",
+      "md5": "cb681277e09b8d16eb3248477009a74c",
+      "name": "bzip2",
+      "size": 90117,
+      "version": "1.0.6"
+    },
+    "certifi-14.05.14-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "ISC",
+      "license_family": "Other",
+      "md5": "b8736a21feec9c87ead6f6f515214814",
+      "name": "certifi",
+      "size": 158092,
+      "version": "14.05.14"
+    },
+    "certifi-14.05.14-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "ISC",
+      "license_family": "Other",
+      "md5": "cc1c84c00f184a9dc3c326d2bfb63d39",
+      "name": "certifi",
+      "size": 158217,
+      "version": "14.05.14"
+    },
+    "cheetah-2.4.4-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "53c9abe9d7e1a8f93c0a8dfc8e91c84b",
+      "name": "cheetah",
+      "size": 274310,
+      "version": "2.4.4"
+    },
+    "clyent-0.4.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*",
+        "setuptools"
+      ],
+      "license": "BSD",
+      "md5": "26a1d2c6dd380078133b4aeeeda3ccac",
+      "name": "clyent",
+      "size": 14672,
+      "version": "0.4.0"
+    },
+    "clyent-0.4.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*",
+        "setuptools"
+      ],
+      "license": "BSD",
+      "md5": "8429d7afef0132a7f928f5e5db3f4695",
+      "name": "clyent",
+      "size": 15072,
+      "version": "0.4.0"
+    },
+    "conda-3.16.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "conda-env",
+        "pycosat",
+        "python 2.7*",
+        "pyyaml",
+        "requests <2.12"
+      ],
+      "license": "BSD",
+      "md5": "2bcad6ca28fe1e6975d054ab935cc76a",
+      "name": "conda",
+      "size": 175552,
+      "version": "3.16.0"
+    },
+    "conda-3.16.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "conda-env",
+        "pycosat",
+        "python 3.4*",
+        "pyyaml",
+        "requests <2.12"
+      ],
+      "license": "BSD",
+      "md5": "46be10219995d22560b2cafb2601c45c",
+      "name": "conda",
+      "size": 179908,
+      "version": "3.16.0"
+    },
+    "conda-3.18.3-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-10-28",
+      "depends": [
+        "conda-env",
+        "pycosat",
+        "python 2.7*",
+        "pyyaml",
+        "requests <2.12"
+      ],
+      "license": "BSD",
+      "md5": "1a2d10a50f697aed039b7a28503204ab",
+      "name": "conda",
+      "size": 179256,
+      "version": "3.18.3"
+    },
+    "conda-build-1.16.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "conda",
+        "patchelf",
+        "python 2.7*"
+      ],
+      "license": "BSD 3-clause",
+      "license_family": "BSD",
+      "md5": "d1aa303b8f98821859b16cff0a47a205",
+      "name": "conda-build",
+      "size": 202534,
+      "version": "1.16.0"
+    },
+    "conda-build-1.16.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "conda",
+        "patchelf",
+        "python 3.4*"
+      ],
+      "license": "BSD 3-clause",
+      "license_family": "BSD",
+      "md5": "907be170a67151f05a7a562fbcd34bb8",
+      "name": "conda-build",
+      "size": 205245,
+      "version": "1.16.0"
+    },
+    "conda-build-1.17.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-24",
+      "depends": [
+        "conda",
+        "patchelf",
+        "python 2.7*"
+      ],
+      "license": "BSD 3-clause",
+      "license_family": "BSD",
+      "md5": "cb6f2e5c4ca6ddc9bb6f3f276b1cf89b",
+      "name": "conda-build",
+      "size": 204128,
+      "version": "1.17.0"
+    },
+    "conda-build-1.17.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-24",
+      "depends": [
+        "conda",
+        "patchelf",
+        "python 3.4*"
+      ],
+      "license": "BSD 3-clause",
+      "license_family": "BSD",
+      "md5": "49c3db31dc041da0c6ffac84a55199cb",
+      "name": "conda-build",
+      "size": 206789,
+      "version": "1.17.0"
+    },
+    "conda-env-2.4.2-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "2a6d3b478fe4fbdbcc5a35492fdd1b38",
+      "name": "conda-env",
+      "size": 24203,
+      "version": "2.4.2"
+    },
+    "conda-env-2.4.2-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "94dabe51f8f63a65cf84377e90eb156a",
+      "name": "conda-env",
+      "size": 24965,
+      "version": "2.4.2"
+    },
+    "conda-env-2.4.4-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-10-28",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "2bd983fb18bbdf6c03a8e85b623d84d0",
+      "name": "conda-env",
+      "size": 24149,
+      "version": "2.4.4"
+    },
+    "configobj-5.0.6-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*",
+        "six"
+      ],
+      "license": "BSD",
+      "md5": "5f325a00aaadd9b5b3278d7dae3478ac",
+      "name": "configobj",
+      "size": 50492,
+      "version": "5.0.6"
+    },
+    "configobj-5.0.6-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*",
+        "six"
+      ],
+      "license": "BSD",
+      "md5": "ef24f61d08eb141ce521baef92d3c17f",
+      "name": "configobj",
+      "size": 52086,
+      "version": "5.0.6"
+    },
+    "curl-7.43.0-1.tar.bz2": {
+      "build": "1",
+      "build_number": 1,
+      "date": "2015-08-21",
+      "depends": [
+        "openssl 1.0.1*",
+        "zlib 1.2*"
+      ],
+      "license": "MIT/X derivate",
+      "license_family": "MIT",
+      "md5": "d92dedffdf03b2f77bcbece59e4538ce",
+      "name": "curl",
+      "size": 506242,
+      "version": "7.43.0"
+    },
+    "cython-0.23-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "Apache version 2.0",
+      "license_family": "Apache",
+      "md5": "cae2dcfe079d5541800e727dd6c9bb9f",
+      "name": "cython",
+      "size": 5208508,
+      "version": "0.23"
+    },
+    "cython-0.23-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "Apache version 2.0",
+      "license_family": "Apache",
+      "md5": "d26652eebe3de9cc309c174363f10f4a",
+      "name": "cython",
+      "size": 6026008,
+      "version": "0.23"
+    },
+    "cython-0.23.1-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-26",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "Apache version 2.0",
+      "license_family": "Apache",
+      "md5": "aa31d2312e37b05a3d27efbad64d0e1c",
+      "name": "cython",
+      "size": 5210393,
+      "version": "0.23.1"
+    },
+    "cython-0.23.1-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-26",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "Apache version 2.0",
+      "license_family": "Apache",
+      "md5": "0e2def0d2090cbcdf8a7c7956cbe5f92",
+      "name": "cython",
+      "size": 6008934,
+      "version": "0.23.1"
+    },
+    "cytoolz-0.7.3-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "bb9f849ef3795b530d155bc3182f88a2",
+      "name": "cytoolz",
+      "size": 708214,
+      "version": "0.7.3"
+    },
+    "cytoolz-0.7.3-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "97229fb63a1f327746042db4c6b00609",
+      "name": "cytoolz",
+      "size": 787510,
+      "version": "0.7.3"
+    },
+    "decorator-4.0.2-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "82f3da078e0c8c933f0c95a9cc68500f",
+      "name": "decorator",
+      "size": 11320,
+      "version": "4.0.2"
+    },
+    "decorator-4.0.2-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "a01a9e2b74903492b7c5e403ad372127",
+      "name": "decorator",
+      "size": 6372,
+      "version": "4.0.2"
+    },
+    "docutils-0.12-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "Public-Domain, PSF, 2-clause BSD, GPLv3",
+      "license_family": "GPL3",
+      "md5": "4b6429b1b5226a4bbb318f8c42489619",
+      "name": "docutils",
+      "size": 650693,
+      "version": "0.12"
+    },
+    "docutils-0.12-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "Public-Domain, PSF, 2-clause BSD, GPLv3",
+      "license_family": "GPL3",
+      "md5": "3ca3b2c33e1139796dd3d704f14556f0",
+      "name": "docutils",
+      "size": 686991,
+      "version": "0.12"
+    },
+    "enum34-1.0.4-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "b9092feaadfcfbcbd27852f17a8a05c4",
+      "name": "enum34",
+      "size": 49096,
+      "version": "1.0.4"
+    },
+    "ephem-3.7.6.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "LGPL",
+      "md5": "23e72658207e761a3d4316cb1f9a87ba",
+      "name": "ephem",
+      "size": 930049,
+      "version": "3.7.6.0"
+    },
+    "ephem-3.7.6.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "LGPL",
+      "md5": "40679ad79548ed8a8117244505db51bc",
+      "name": "ephem",
+      "size": 934229,
+      "version": "3.7.6.0"
+    },
+    "fastcache-1.0.2-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "669799137a8ee305b963e78179bd887c",
+      "name": "fastcache",
+      "size": 39765,
+      "version": "1.0.2"
+    },
+    "fastcache-1.0.2-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "1352ca34fa622342feff64dd5a43cfe2",
+      "name": "fastcache",
+      "size": 41701,
+      "version": "1.0.2"
+    },
+    "flask-0.10.1-py27_1.tar.bz2": {
+      "build": "py27_1",
+      "build_number": 1,
+      "date": "2015-08-19",
+      "depends": [
+        "itsdangerous",
+        "jinja2",
+        "python 2.7*",
+        "werkzeug"
+      ],
+      "license": "BSD",
+      "md5": "58e8f388ef60c579496a4afc5528c1ca",
+      "name": "flask",
+      "size": 131728,
+      "version": "0.10.1"
+    },
+    "flask-0.10.1-py34_1.tar.bz2": {
+      "build": "py34_1",
+      "build_number": 1,
+      "date": "2015-08-19",
+      "depends": [
+        "itsdangerous",
+        "jinja2",
+        "python 3.4*",
+        "werkzeug"
+      ],
+      "license": "BSD",
+      "md5": "0103ff2e6ee8c5cfddea6c82e4bc8836",
+      "name": "flask",
+      "size": 138428,
+      "version": "0.10.1"
+    },
+    "freetype-2.5.2-2.tar.bz2": {
+      "build": "2",
+      "build_number": 2,
+      "date": "2015-08-19",
+      "depends": [
+        "libpng 1.6.17",
+        "zlib 1.2*"
+      ],
+      "license": "FreeType License",
+      "license_family": "Other",
+      "md5": "fe7c8de6ac3ca73516f55be3aaf0fdcd",
+      "name": "freetype",
+      "size": 2377937,
+      "version": "2.5.2"
+    },
+    "grin-1.2.1-py27_1.tar.bz2": {
+      "build": "py27_1",
+      "build_number": 1,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "c70729383177b335df6ac82f7da30532",
+      "name": "grin",
+      "size": 23042,
+      "version": "1.2.1"
+    },
+    "h5py-2.5.0-np19py27_3.tar.bz2": {
+      "build": "np19py27_3",
+      "build_number": 3,
+      "date": "2015-08-21",
+      "depends": [
+        "hdf5 1.8.15.1",
+        "numpy 1.9*",
+        "python 2.7*",
+        "six"
+      ],
+      "license": "3-clause BSD",
+      "license_family": "BSD",
+      "md5": "3b1e8ece83d5112742c30cdc1a509c38",
+      "name": "h5py",
+      "size": 2250807,
+      "version": "2.5.0"
+    },
+    "h5py-2.5.0-np19py34_3.tar.bz2": {
+      "build": "np19py34_3",
+      "build_number": 3,
+      "date": "2015-08-21",
+      "depends": [
+        "hdf5 1.8.15.1",
+        "numpy 1.9*",
+        "python 3.4*",
+        "six"
+      ],
+      "license": "3-clause BSD",
+      "license_family": "BSD",
+      "md5": "3de65da693e022c52e0728f7155e228f",
+      "name": "h5py",
+      "size": 2493756,
+      "version": "2.5.0"
+    },
+    "hdf5-1.8.15.1-1.tar.bz2": {
+      "build": "1",
+      "build_number": 1,
+      "date": "2015-08-21",
+      "depends": [
+        "zlib 1.2*"
+      ],
+      "license": "BSD-like",
+      "license_family": "BSD",
+      "md5": "4457a98fc3e6fffa3e66ecd6fa3dfc4e",
+      "name": "hdf5",
+      "size": 1774528,
+      "version": "1.8.15.1"
+    },
+    "ipython-4.0.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "decorator",
+        "pexpect 3.3",
+        "pickleshare",
+        "python 2.7*",
+        "simplegeneric",
+        "traitlets"
+      ],
+      "license": "BSD",
+      "md5": "1840fd64257225a427bfac4fd2b1c84b",
+      "name": "ipython",
+      "size": 937148,
+      "version": "4.0.0"
+    },
+    "ipython-4.0.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "decorator",
+        "pexpect 3.3",
+        "pickleshare",
+        "python 3.4*",
+        "simplegeneric",
+        "traitlets"
+      ],
+      "license": "BSD",
+      "md5": "6ab8544a40321dae0161e330a7514f17",
+      "name": "ipython",
+      "size": 996046,
+      "version": "4.0.0"
+    },
+    "ipython_genutils-0.1.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "7d119b67a825c04268e5032e179b9f05",
+      "name": "ipython_genutils",
+      "size": 33115,
+      "version": "0.1.0"
+    },
+    "ipython_genutils-0.1.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "f0028532664497ac9da178c4b73ea789",
+      "name": "ipython_genutils",
+      "size": 34216,
+      "version": "0.1.0"
+    },
+    "itsdangerous-0.24-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "8a8fbaba04763a5f398239450c7ca794",
+      "name": "itsdangerous",
+      "size": 15982,
+      "version": "0.24"
+    },
+    "itsdangerous-0.24-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "d77436c0eff6fefb323806a16d54b5a7",
+      "name": "itsdangerous",
+      "size": 16507,
+      "version": "0.24"
+    },
+    "jinja2-2.8-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "markupsafe",
+        "python 2.7*",
+        "setuptools"
+      ],
+      "license": "BSD",
+      "md5": "6faf7233dc07e61a9a4fac5188f28970",
+      "name": "jinja2",
+      "size": 269632,
+      "version": "2.8"
+    },
+    "jinja2-2.8-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "markupsafe",
+        "python 3.4*",
+        "setuptools"
+      ],
+      "license": "BSD",
+      "md5": "8d39bd6a570285fe9e0cb6bef0024429",
+      "name": "jinja2",
+      "size": 308817,
+      "version": "2.8"
+    },
+    "jpeg-8d-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [],
+      "license": "Custom free software license",
+      "license_family": "Other",
+      "md5": "accb7756d35dec0b3402a874d218e612",
+      "name": "jpeg",
+      "size": 759366,
+      "version": "8d"
+    },
+    "libgfortran-1.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [],
+      "license": "GPL3",
+      "md5": "dc34c93c623b04863edb45a9974494fb",
+      "name": "libgfortran",
+      "size": 211324,
+      "version": "1.0"
+    },
+    "libnetcdf-4.3.3.1-1.tar.bz2": {
+      "build": "1",
+      "build_number": 1,
+      "date": "2015-08-21",
+      "depends": [
+        "curl 7.43.0",
+        "hdf5 1.8.15.1",
+        "zlib 1.2*"
+      ],
+      "license": "MIT",
+      "md5": "5d741e5e7669e44bd3a1f161c2120e95",
+      "name": "libnetcdf",
+      "size": 856093,
+      "version": "4.3.3.1"
+    },
+    "libpng-1.6.17-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [],
+      "license": "libpng license",
+      "license_family": "Other",
+      "md5": "ae939f2d96a7080e99681ded25ff783f",
+      "name": "libpng",
+      "size": 204302,
+      "version": "1.6.17"
+    },
+    "libsodium-0.4.5-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [],
+      "license": "ISC",
+      "license_family": "Other",
+      "md5": "e240b3611bc288ecf9f1c24661004402",
+      "name": "libsodium",
+      "size": 776242,
+      "version": "0.4.5"
+    },
+    "libtiff-4.0.2-1.tar.bz2": {
+      "build": "1",
+      "build_number": 1,
+      "date": "2015-08-19",
+      "depends": [
+        "jpeg 8d"
+      ],
+      "license": "BSD-like",
+      "license_family": "BSD",
+      "md5": "65db7848c2114dfc7dcf3bb4ee62473d",
+      "name": "libtiff",
+      "size": 885829,
+      "version": "4.0.2"
+    },
+    "libxml2-2.9.2-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "zlib 1.2*"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "cf676b7ad6a9757358286c7eb7a43e7f",
+      "name": "libxml2",
+      "size": 4194528,
+      "version": "2.9.2"
+    },
+    "libxslt-1.1.28-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "libxml2 2.9*"
+      ],
+      "license": "MIT",
+      "md5": "6bfbeb9ae11b93f002b34ab9d7ee9f87",
+      "name": "libxslt",
+      "size": 1118328,
+      "version": "1.1.28"
+    },
+    "lxml-3.4.4-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "libxml2 2.9*",
+        "libxslt 1.1.28",
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "d45ade27631d3b8bc4b9189af1c2cc45",
+      "name": "lxml",
+      "size": 2702134,
+      "version": "3.4.4"
+    },
+    "lxml-3.4.4-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "libxml2 2.9*",
+        "libxslt 1.1.28",
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "f1c6bd6b0e5defcde6161c7bd4303670",
+      "name": "lxml",
+      "size": 3065584,
+      "version": "3.4.4"
+    },
+    "lzo-2.06-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-21",
+      "depends": [],
+      "license": "GPL",
+      "license_family": "GPL2",
+      "md5": "6bd65b5b4abaef786523193de1563b3a",
+      "name": "lzo",
+      "size": 48436,
+      "version": "2.06"
+    },
+    "markupsafe-0.23-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "e41f61b0873384869f2c3975da5e782a",
+      "name": "markupsafe",
+      "size": 30019,
+      "version": "0.23"
+    },
+    "markupsafe-0.23-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "17215050d8d6a466bf0084be6c4e06c8",
+      "name": "markupsafe",
+      "size": 31735,
+      "version": "0.23"
+    },
+    "mercurial-3.5-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "GPL2",
+      "md5": "67a8ff4e4c547d7f9343437120602071",
+      "name": "mercurial",
+      "size": 1828519,
+      "version": "3.5"
+    },
+    "netcdf4-1.1.9-np19py27_0.tar.bz2": {
+      "build": "np19py27_0",
+      "build_number": 0,
+      "date": "2015-08-21",
+      "depends": [
+        "hdf5 1.8.15.1",
+        "libnetcdf 4.3.3.1",
+        "numpy 1.9*",
+        "python 2.7*",
+        "zlib 1.2*"
+      ],
+      "license": "MIT",
+      "md5": "7adb8627a9b22a6a76132e797b0b9bb4",
+      "name": "netcdf4",
+      "size": 1277063,
+      "version": "1.1.9"
+    },
+    "netcdf4-1.1.9-np19py34_0.tar.bz2": {
+      "build": "np19py34_0",
+      "build_number": 0,
+      "date": "2015-08-21",
+      "depends": [
+        "hdf5 1.8.15.1",
+        "libnetcdf 4.3.3.1",
+        "numpy 1.9*",
+        "python 3.4*",
+        "zlib 1.2*"
+      ],
+      "license": "MIT",
+      "md5": "d49f036c7fca3902d28782420187dfe6",
+      "name": "netcdf4",
+      "size": 1505155,
+      "version": "1.1.9"
+    },
+    "networkx-1.10-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-21",
+      "depends": [
+        "decorator",
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "ea7cb39ab6416d32ea03902c0229261c",
+      "name": "networkx",
+      "size": 1159672,
+      "version": "1.10"
+    },
+    "networkx-1.10-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-21",
+      "depends": [
+        "decorator",
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "ad7318f272f11917757a59543a850c21",
+      "name": "networkx",
+      "size": 1203128,
+      "version": "1.10"
+    },
+    "nltk-3.0.4-np19py27_0.tar.bz2": {
+      "build": "np19py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "numpy 1.9*",
+        "python 2.7*",
+        "pyyaml"
+      ],
+      "license": "Apache Software License",
+      "license_family": "Apache",
+      "md5": "4c0fddaa9b68fa05215af4bb2d01b9b2",
+      "name": "nltk",
+      "size": 1583035,
+      "version": "3.0.4"
+    },
+    "nltk-3.0.4-np19py34_0.tar.bz2": {
+      "build": "np19py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "numpy 1.9*",
+        "python 3.4*",
+        "pyyaml"
+      ],
+      "license": "Apache Software License",
+      "license_family": "Apache",
+      "md5": "85a90bfde8710096aa7350edaa5ef114",
+      "name": "nltk",
+      "size": 1710453,
+      "version": "3.0.4"
+    },
+    "nose-1.3.7-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "LGPL",
+      "md5": "b9460d6864522c9b19312a44ea709476",
+      "name": "nose",
+      "size": 198665,
+      "version": "1.3.7"
+    },
+    "nose-1.3.7-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "LGPL",
+      "md5": "a450f77a37ce84ec437581f95d21dc37",
+      "name": "nose",
+      "size": 199494,
+      "version": "1.3.7"
+    },
+    "numexpr-2.4.3-np19py27_0.tar.bz2": {
+      "build": "np19py27_0",
+      "build_number": 0,
+      "date": "2015-08-21",
+      "depends": [
+        "numpy 1.9*",
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "1fe4dec25e3786e3411b5d25c7385bed",
+      "name": "numexpr",
+      "size": 353932,
+      "version": "2.4.3"
+    },
+    "numexpr-2.4.3-np19py34_0.tar.bz2": {
+      "build": "np19py34_0",
+      "build_number": 0,
+      "date": "2015-08-21",
+      "depends": [
+        "numpy 1.9*",
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "ced969fb2bb12e5db9a573d771cb6c83",
+      "name": "numexpr",
+      "size": 371336,
+      "version": "2.4.3"
+    },
+    "numpy-1.9.2-py27_1.tar.bz2": {
+      "build": "py27_1",
+      "build_number": 1,
+      "date": "2015-08-19",
+      "depends": [
+        "blas * openblas",
+        "openblas 0.2.14",
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "12853187689e9b082b44b7401ca7acd6",
+      "name": "numpy",
+      "size": 5436773,
+      "version": "1.9.2"
+    },
+    "numpy-1.9.2-py34_1.tar.bz2": {
+      "build": "py34_1",
+      "build_number": 1,
+      "date": "2015-08-19",
+      "depends": [
+        "blas * openblas",
+        "openblas 0.2.14",
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "43f3e8000791acd471bdc9fc78f810a0",
+      "name": "numpy",
+      "size": 5285818,
+      "version": "1.9.2"
+    },
+    "openblas-0.2.14-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [],
+      "license": "BSD",
+      "md5": "a3ee4cbeb7a521cad0f49784b0ad85ac",
+      "name": "openblas",
+      "size": 6552839,
+      "version": "0.2.14"
+    },
+    "openblas-0.2.14-1.tar.bz2": {
+      "build": "1",
+      "build_number": 1,
+      "date": "2015-08-20",
+      "depends": [
+        "libgfortran 1.0"
+      ],
+      "license": "BSD",
+      "md5": "3fd8d167667e0a44deedce39088cc4a9",
+      "name": "openblas",
+      "size": 6553254,
+      "version": "0.2.14"
+    },
+    "openpyxl-1.8.5-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "lxml",
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "289d18cc848cb6f848e068f6f89ed38b",
+      "name": "openpyxl",
+      "size": 130819,
+      "version": "1.8.5"
+    },
+    "openpyxl-1.8.5-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "lxml",
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "8925a638005e0da2b47e6b16ac8ffbd8",
+      "name": "openpyxl",
+      "size": 134553,
+      "version": "1.8.5"
+    },
+    "openssl-1.0.1k-1.tar.bz2": {
+      "build": "1",
+      "build_number": 1,
+      "date": "2015-08-19",
+      "depends": [],
+      "license": "Apache-style",
+      "license_family": "Apache",
+      "md5": "c45644802e35d7baae1631d2960d99b8",
+      "name": "openssl",
+      "size": 2475316,
+      "version": "1.0.1k"
+    },
+    "openssl-1.0.2d-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-10-28",
+      "depends": [],
+      "license": "Apache-style",
+      "license_family": "Apache",
+      "md5": "a01b6302ed23d3405dc8a63774cfce3d",
+      "name": "openssl",
+      "size": 2681905,
+      "version": "1.0.2d"
+    },
+    "pandas-0.16.2-np19py27_0.tar.bz2": {
+      "build": "np19py27_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "numpy 1.9*",
+        "python 2.7*",
+        "python-dateutil",
+        "pytz"
+      ],
+      "license": "BSD",
+      "md5": "b77244a323003282e73adb60ecfffa93",
+      "name": "pandas",
+      "size": 10681450,
+      "version": "0.16.2"
+    },
+    "pandas-0.16.2-np19py34_0.tar.bz2": {
+      "build": "np19py34_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "numpy 1.9*",
+        "python 3.4*",
+        "python-dateutil",
+        "pytz"
+      ],
+      "license": "BSD",
+      "md5": "b683ad1d83aedc1cabbab4d9f8a4f865",
+      "name": "pandas",
+      "size": 11757713,
+      "version": "0.16.2"
+    },
+    "patchelf-0.6-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [],
+      "license": "GPL3",
+      "md5": "81578ffabb72754c6578262b7681480a",
+      "name": "patchelf",
+      "size": 206546,
+      "version": "0.6"
+    },
+    "path.py-7.6-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "e1043ce1d9b19174af2266174a340f8b",
+      "name": "path.py",
+      "size": 42526,
+      "version": "7.6"
+    },
+    "path.py-7.6-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "85332b82ac9c846cee88e2881cb904c7",
+      "name": "path.py",
+      "size": 21935,
+      "version": "7.6"
+    },
+    "path.py-7.6.1-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "ccb4f52bb0b9d79bff5c98f5adc1e50a",
+      "name": "path.py",
+      "size": 45799,
+      "version": "7.6.1"
+    },
+    "path.py-7.6.1-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "bd993dc4c510c2c39641e6c3606ce71f",
+      "name": "path.py",
+      "size": 47455,
+      "version": "7.6.1"
+    },
+    "pcre-8.31-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-24",
+      "depends": [],
+      "license": "3-clause BSD License",
+      "license_family": "BSD",
+      "md5": "e604cd55dc5ece794898014b8ff216b8",
+      "name": "pcre",
+      "size": 528245,
+      "version": "8.31"
+    },
+    "pexpect-3.3-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "ISC",
+      "license_family": "Other",
+      "md5": "1cf9a696f8cae9ff94d57eb3a5953377",
+      "name": "pexpect",
+      "size": 61394,
+      "version": "3.3"
+    },
+    "pexpect-3.3-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "ISC",
+      "license_family": "Other",
+      "md5": "e690175efaf55a66aae892c1352b5e03",
+      "name": "pexpect",
+      "size": 63205,
+      "version": "3.3"
+    },
+    "pickleshare-0.5-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "path.py",
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "9e4f90ea1a34405d512e1dc1f288e2a5",
+      "name": "pickleshare",
+      "size": 8003,
+      "version": "0.5"
+    },
+    "pickleshare-0.5-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "path.py",
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "1621c6d0940a3568aaddc3d48676ea1b",
+      "name": "pickleshare",
+      "size": 8285,
+      "version": "0.5"
+    },
+    "pillow-2.9.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "freetype 2.5*",
+        "jpeg 8d",
+        "libtiff 4.0*",
+        "python 2.7*",
+        "zlib 1.2*"
+      ],
+      "license": "PIL license",
+      "license_family": "Other",
+      "md5": "1a8cb72bd0b03df60742dbc8cfe6d49a",
+      "name": "pillow",
+      "size": 775131,
+      "version": "2.9.0"
+    },
+    "pillow-2.9.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "freetype 2.5*",
+        "jpeg 8d",
+        "libtiff 4.0*",
+        "python 3.4*",
+        "zlib 1.2*"
+      ],
+      "license": "PIL license",
+      "license_family": "Other",
+      "md5": "c1e3c30f24695a46f1a1d508feb9fcb4",
+      "name": "pillow",
+      "size": 765022,
+      "version": "2.9.0"
+    },
+    "pip-7.1.0-py27_1.tar.bz2": {
+      "build": "py27_1",
+      "build_number": 1,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*",
+        "setuptools",
+        "wheel"
+      ],
+      "license": "MIT",
+      "md5": "6d03679b90b60c44ed887062b61dfbe0",
+      "name": "pip",
+      "size": 1497337,
+      "version": "7.1.0"
+    },
+    "pip-7.1.0-py34_1.tar.bz2": {
+      "build": "py34_1",
+      "build_number": 1,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*",
+        "setuptools",
+        "wheel"
+      ],
+      "license": "MIT",
+      "md5": "0e09d8c5ce7cf224a56593b6328f6ec1",
+      "name": "pip",
+      "size": 1590234,
+      "version": "7.1.0"
+    },
+    "pip-7.1.2-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-24",
+      "depends": [
+        "python 2.7*",
+        "setuptools",
+        "wheel"
+      ],
+      "license": "MIT",
+      "md5": "14b0062c18d2d32bb53c5c3af884885c",
+      "name": "pip",
+      "size": 1496546,
+      "version": "7.1.2"
+    },
+    "pip-7.1.2-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-24",
+      "depends": [
+        "python 3.4*",
+        "setuptools",
+        "wheel"
+      ],
+      "license": "MIT",
+      "md5": "f50321a0927f5aca0304022f6b1255f0",
+      "name": "pip",
+      "size": 1588931,
+      "version": "7.1.2"
+    },
+    "pkgconfig-1.1.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-21",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "5c1cc77271eef55b551481ec678b5493",
+      "name": "pkgconfig",
+      "size": 5607,
+      "version": "1.1.0"
+    },
+    "pkgconfig-1.1.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-21",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "beaa22a3b7d9c668714ea0cacbcf8b62",
+      "name": "pkgconfig",
+      "size": 5780,
+      "version": "1.1.0"
+    },
+    "ply-3.6-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "a24feb3ac914b040d4e62da5ea147a20",
+      "name": "ply",
+      "size": 71893,
+      "version": "3.6"
+    },
+    "ply-3.6-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "2b89cd28a1e6809f167f9bf002edc9ac",
+      "name": "ply",
+      "size": 73822,
+      "version": "3.6"
+    },
+    "psutil-3.1.1-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "e43f32cf8f87825d578e896abc5fffc0",
+      "name": "psutil",
+      "size": 109320,
+      "version": "3.1.1"
+    },
+    "psutil-3.1.1-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "4a4cd42d80ec3c778feb4d1e59abbc26",
+      "name": "psutil",
+      "size": 112805,
+      "version": "3.1.1"
+    },
+    "py-1.4.30-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "eeacbf6ebb9f18559871d46661bd310e",
+      "name": "py",
+      "size": 125263,
+      "version": "1.4.30"
+    },
+    "py-1.4.30-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "733dcaa5f8ef2008d0fcf8b4905f9e0f",
+      "name": "py",
+      "size": 129741,
+      "version": "1.4.30"
+    },
+    "pycosat-0.6.1-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "2b4f62a0529e65cace8e9fb372ffda33",
+      "name": "pycosat",
+      "size": 146055,
+      "version": "0.6.1"
+    },
+    "pycosat-0.6.1-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "45ff2bda055bc4c41870a6d839f6af71",
+      "name": "pycosat",
+      "size": 147105,
+      "version": "0.6.1"
+    },
+    "pycparser-2.14-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "881abbf1a5dff6ee9606d718e845bd8a",
+      "name": "pycparser",
+      "size": 150815,
+      "version": "2.14"
+    },
+    "pycparser-2.14-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "8132d1d279e638f676d887db19e373d2",
+      "name": "pycparser",
+      "size": 154829,
+      "version": "2.14"
+    },
+    "pycrypto-2.6.1-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "Public-Domain",
+      "md5": "d4604ebb76c9f39c02020c05a448c6fa",
+      "name": "pycrypto",
+      "size": 466452,
+      "version": "2.6.1"
+    },
+    "pycrypto-2.6.1-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "Public-Domain",
+      "md5": "bcdd3335553d628df85a3bb53aacabfb",
+      "name": "pycrypto",
+      "size": 492101,
+      "version": "2.6.1"
+    },
+    "pycurl-7.19.5.1-py27_2.tar.bz2": {
+      "build": "py27_2",
+      "build_number": 2,
+      "date": "2015-08-21",
+      "depends": [
+        "curl 7.43.0",
+        "openssl 1.0.1*",
+        "python 2.7*",
+        "zlib 1.2*"
+      ],
+      "license": "LGPL, MIT",
+      "license_family": "LGPL",
+      "md5": "f13d5e6f4da8dcbd8717905b2589a154",
+      "name": "pycurl",
+      "size": 130920,
+      "version": "7.19.5.1"
+    },
+    "pycurl-7.19.5.1-py34_2.tar.bz2": {
+      "build": "py34_2",
+      "build_number": 2,
+      "date": "2015-08-21",
+      "depends": [
+        "curl 7.43.0",
+        "openssl 1.0.1*",
+        "python 3.4*",
+        "zlib 1.2*"
+      ],
+      "license": "LGPL, MIT",
+      "license_family": "LGPL",
+      "md5": "1d08aeae64a6d688a06e09fe73cbe2aa",
+      "name": "pycurl",
+      "size": 134740,
+      "version": "7.19.5.1"
+    },
+    "pyflakes-0.9.2-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "b8a8fabcd1f2c4faafd5f2a99da82a85",
+      "name": "pyflakes",
+      "size": 54073,
+      "version": "0.9.2"
+    },
+    "pyflakes-0.9.2-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "1ad328fc1901695866eb13ee6060bd39",
+      "name": "pyflakes",
+      "size": 57098,
+      "version": "0.9.2"
+    },
+    "pygments-2.0.2-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "f5006b78e3bd87f864acc82815453ad7",
+      "name": "pygments",
+      "size": 1086725,
+      "version": "2.0.2"
+    },
+    "pygments-2.0.2-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "a56b424ac43cae54da6496a94afd7a5c",
+      "name": "pygments",
+      "size": 1154657,
+      "version": "2.0.2"
+    },
+    "pytables-3.2.1-np19py27_0.tar.bz2": {
+      "build": "np19py27_0",
+      "build_number": 0,
+      "date": "2015-08-21",
+      "depends": [
+        "hdf5 1.8.15.1",
+        "numexpr 2.4*",
+        "numpy 1.9*",
+        "python 2.7*",
+        "setuptools",
+        "zlib 1.2*"
+      ],
+      "license": "BSD",
+      "md5": "381e24be9889b92c0f094686dd77cf6e",
+      "name": "pytables",
+      "size": 3306058,
+      "version": "3.2.1"
+    },
+    "pytables-3.2.1-np19py34_0.tar.bz2": {
+      "build": "np19py34_0",
+      "build_number": 0,
+      "date": "2015-08-21",
+      "depends": [
+        "hdf5 1.8.15.1",
+        "numexpr 2.4*",
+        "numpy 1.9*",
+        "python 3.4*",
+        "setuptools",
+        "zlib 1.2*"
+      ],
+      "license": "BSD",
+      "md5": "56a6bd76b0482b1e7091d6d203f0cdda",
+      "name": "pytables",
+      "size": 3543174,
+      "version": "3.2.1"
+    },
+    "pytest-2.7.2-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "py",
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "041b4d4b24a550d9b07c035f8515e1d1",
+      "name": "pytest",
+      "size": 189909,
+      "version": "2.7.2"
+    },
+    "pytest-2.7.2-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "py",
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "07e54f020531e00c68796ad799f0b1a4",
+      "name": "pytest",
+      "size": 193626,
+      "version": "2.7.2"
+    },
+    "python-2.7.10-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "openssl 1.0.1*",
+        "sqlite",
+        "zlib 1.2*"
+      ],
+      "license": "PSF",
+      "md5": "7e03c62d4d1b8761c29f937d4cc3a25a",
+      "name": "python",
+      "size": 13521242,
+      "space_anchor": true,
+      "version": "2.7.10"
+    },
+    "python-2.7.10-2.tar.bz2": {
+      "build": "2",
+      "build_number": 2,
+      "date": "2015-10-28",
+      "depends": [
+        "openssl 1.0.2*",
+        "readline 6.2*",
+        "sqlite",
+        "zlib 1.2*"
+      ],
+      "license": "PSF",
+      "md5": "62592fa48c09764e0a3cf61e03dfe4b4",
+      "name": "python",
+      "size": 16738355,
+      "space_anchor": true,
+      "version": "2.7.10"
+    },
+    "python-3.4.3-1.tar.bz2": {
+      "build": "1",
+      "build_number": 1,
+      "date": "2015-08-20",
+      "depends": [
+        "openssl 1.0.1*",
+        "sqlite",
+        "xz 5.0.5",
+        "zlib 1.2*"
+      ],
+      "license": "PSF",
+      "md5": "aa14f67fa085078828c3f96ed6dd62ef",
+      "name": "python",
+      "size": 23520186,
+      "space_anchor": true,
+      "version": "3.4.3"
+    },
+    "python-dateutil-2.4.2-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*",
+        "six"
+      ],
+      "license": "Simplified BSD",
+      "license_family": "BSD",
+      "md5": "8ffc2ddfca45e96bef3ec469221ad28d",
+      "name": "python-dateutil",
+      "size": 223926,
+      "version": "2.4.2"
+    },
+    "python-dateutil-2.4.2-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*",
+        "six"
+      ],
+      "license": "Simplified BSD",
+      "license_family": "BSD",
+      "md5": "d540573be0baf09185b992fd07d7f5b1",
+      "name": "python-dateutil",
+      "size": 225646,
+      "version": "2.4.2"
+    },
+    "pytz-2015.4-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "8bcabeab018fb7af5d6b6fd72269ce14",
+      "name": "pytz",
+      "size": 177622,
+      "version": "2015.4"
+    },
+    "pytz-2015.4-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "28188ced75af19441f15b70783e01cb4",
+      "name": "pytz",
+      "size": 177163,
+      "version": "2015.4"
+    },
+    "pyyaml-3.11-py27_1.tar.bz2": {
+      "build": "py27_1",
+      "build_number": 1,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*",
+        "yaml 0.1.6"
+      ],
+      "license": "MIT",
+      "md5": "67a13e57f95d0b4e8a309953f774009b",
+      "name": "pyyaml",
+      "size": 310897,
+      "version": "3.11"
+    },
+    "pyyaml-3.11-py34_1.tar.bz2": {
+      "build": "py34_1",
+      "build_number": 1,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*",
+        "yaml 0.1.6"
+      ],
+      "license": "MIT",
+      "md5": "51e5a40247483723c6b3cd19bdbf89cd",
+      "name": "pyyaml",
+      "size": 337871,
+      "version": "3.11"
+    },
+    "pyzmq-14.7.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*",
+        "zeromq 4.0.5"
+      ],
+      "license": "LGPL and BSD",
+      "license_family": "LGPL",
+      "md5": "e43658b936a24dbee771bf9c5ab3d106",
+      "name": "pyzmq",
+      "size": 662604,
+      "version": "14.7.0"
+    },
+    "pyzmq-14.7.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "python 3.4*",
+        "zeromq 4.0.5"
+      ],
+      "license": "LGPL and BSD",
+      "license_family": "LGPL",
+      "md5": "3d0d6df55660f89e565c3b19e447c5b8",
+      "name": "pyzmq",
+      "size": 724575,
+      "version": "14.7.0"
+    },
+    "readline-6.2-2.tar.bz2": {
+      "build": "2",
+      "build_number": 2,
+      "date": "2015-10-23",
+      "depends": [],
+      "license": "GPL3",
+      "license_family": "GPL3",
+      "md5": "e24a5b87dc9e8091666946a7a3c0fe4d",
+      "name": "readline",
+      "size": 583132,
+      "version": "6.2"
+    },
+    "requests-2.7.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "Apache Software License",
+      "license_family": "Apache",
+      "md5": "332ec2f32b4534b6f502adf70163f3fe",
+      "name": "requests",
+      "size": 607933,
+      "version": "2.7.0"
+    },
+    "requests-2.7.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "Apache Software License",
+      "license_family": "Apache",
+      "md5": "b821babede4ddc72ce624fa7c9edab16",
+      "name": "requests",
+      "size": 637308,
+      "version": "2.7.0"
+    },
+    "requests-2.8.1-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-10-28",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "Apache Software License",
+      "license_family": "Apache",
+      "md5": "465efcf514be5ec83db5629df01e1432",
+      "name": "requests",
+      "size": 617515,
+      "version": "2.8.1"
+    },
+    "scikit-learn-0.16.1-np19py27_0.tar.bz2": {
+      "build": "np19py27_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "nose",
+        "numpy 1.9*",
+        "python 2.7*",
+        "scipy"
+      ],
+      "license": "3-clause BSD",
+      "license_family": "BSD",
+      "md5": "0b49bd6e7388e91ebcd5c6d0e3ad4b5d",
+      "name": "scikit-learn",
+      "size": 7491628,
+      "version": "0.16.1"
+    },
+    "scikit-learn-0.16.1-np19py34_0.tar.bz2": {
+      "build": "np19py34_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "nose",
+        "numpy 1.9*",
+        "python 3.4*",
+        "scipy"
+      ],
+      "license": "3-clause BSD",
+      "license_family": "BSD",
+      "md5": "5a45a6ad58edf746e0b70e3b2721179e",
+      "name": "scikit-learn",
+      "size": 7639349,
+      "version": "0.16.1"
+    },
+    "scipy-0.16.0-np19py27_1.tar.bz2": {
+      "build": "np19py27_1",
+      "build_number": 1,
+      "date": "2015-08-20",
+      "depends": [
+        "blas * openblas",
+        "numpy 1.9*",
+        "openblas 0.2.14",
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "bc3882c6770d1dc7e3e5495266002d56",
+      "name": "scipy",
+      "size": 26338598,
+      "version": "0.16.0"
+    },
+    "scipy-0.16.0-np19py34_1.tar.bz2": {
+      "build": "np19py34_1",
+      "build_number": 1,
+      "date": "2015-08-20",
+      "depends": [
+        "blas * openblas",
+        "numpy 1.9*",
+        "openblas 0.2.14",
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "a1f8618171817de092b818a3739ef95c",
+      "name": "scipy",
+      "size": 25568478,
+      "version": "0.16.0"
+    },
+    "setuptools-18.1-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5b30dbf863bfce80ae79fc3eb2797d61",
+      "name": "setuptools",
+      "size": 349068,
+      "version": "18.1"
+    },
+    "setuptools-18.1-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "52047bb408964ffd5b1b85cb7bfb48c5",
+      "name": "setuptools",
+      "size": 353305,
+      "version": "18.1"
+    },
+    "setuptools-18.4-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-10-23",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "9b447f4c09568dec5f19a51bc88869ff",
+      "name": "setuptools",
+      "size": 349957,
+      "version": "18.4"
+    },
+    "simplegeneric-0.8.1-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "ZPL 2.1",
+      "license_family": "Other",
+      "md5": "70123f3de9a5e3310b83f81b801ce1f5",
+      "name": "simplegeneric",
+      "size": 5952,
+      "version": "0.8.1"
+    },
+    "simplegeneric-0.8.1-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "ZPL 2.1",
+      "license_family": "Other",
+      "md5": "abb16259599fb8315d135471bb549305",
+      "name": "simplegeneric",
+      "size": 6056,
+      "version": "0.8.1"
+    },
+    "six-1.9.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "d17c712b820744167e915cc7625ace2f",
+      "name": "six",
+      "size": 16774,
+      "version": "1.9.0"
+    },
+    "six-1.9.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "afdd7a21c376f2dab44dd4725cf04049",
+      "name": "six",
+      "size": 17224,
+      "version": "1.9.0"
+    },
+    "snowballstemmer-1.2.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "a580ffb544f55b86d67a6c4a4987ff98",
+      "name": "snowballstemmer",
+      "size": 74314,
+      "version": "1.2.0"
+    },
+    "snowballstemmer-1.2.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "eabd689ac8f88978be0583ecba02745e",
+      "name": "snowballstemmer",
+      "size": 79956,
+      "version": "1.2.0"
+    },
+    "sphinx-1.3.1-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "alabaster",
+        "babel",
+        "docutils",
+        "jinja2",
+        "pygments",
+        "python 2.7*",
+        "six",
+        "snowballstemmer 1.2.0",
+        "sphinx_rtd_theme"
+      ],
+      "license": "BSD",
+      "md5": "1d469dcd726393a71677fb76993c4605",
+      "name": "sphinx",
+      "size": 1174878,
+      "version": "1.3.1"
+    },
+    "sphinx-1.3.1-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "alabaster",
+        "babel",
+        "docutils",
+        "jinja2",
+        "pygments",
+        "python 3.4*",
+        "six",
+        "snowballstemmer 1.2.0",
+        "sphinx_rtd_theme"
+      ],
+      "license": "BSD",
+      "md5": "0e31bcb20fd25f1f94a2261b80be6286",
+      "name": "sphinx",
+      "size": 1198839,
+      "version": "1.3.1"
+    },
+    "sphinx_rtd_theme-0.1.7-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "9a075119b25c3e0a3dd5e04ff734d493",
+      "name": "sphinx_rtd_theme",
+      "size": 214130,
+      "version": "0.1.7"
+    },
+    "sphinx_rtd_theme-0.1.7-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "e4448ad897417c3fbc93cdb84a100916",
+      "name": "sphinx_rtd_theme",
+      "size": 213470,
+      "version": "0.1.7"
+    },
+    "sqlalchemy-1.0.8-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "09b2077a9c0df3cdb2098f7c44ee486f",
+      "name": "sqlalchemy",
+      "size": 1342489,
+      "version": "1.0.8"
+    },
+    "sqlalchemy-1.0.8-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "9890fce84fcacf232004969f8bace963",
+      "name": "sqlalchemy",
+      "size": 1469629,
+      "version": "1.0.8"
+    },
+    "sqlite-3.8.4.1-1.tar.bz2": {
+      "build": "1",
+      "build_number": 1,
+      "date": "2015-08-19",
+      "depends": [],
+      "license": "Public-Domain",
+      "license_family": "Public-Domain",
+      "md5": "12f1d7bab30500855b5becf8a7303965",
+      "name": "sqlite",
+      "size": 2654061,
+      "version": "3.8.4.1"
+    },
+    "sqlparse-0.1.16-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "7f5705905f5abdece7d6ddb4b9d21f63",
+      "name": "sqlparse",
+      "size": 52043,
+      "version": "0.1.16"
+    },
+    "ssl_match_hostname-3.4.0.2-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "PSF",
+      "md5": "11c3c2fc155e43c2fbf6ae9ec6601e14",
+      "name": "ssl_match_hostname",
+      "size": 6203,
+      "version": "3.4.0.2"
+    },
+    "sympy-0.7.6-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "fastcache",
+        "python 2.7*"
+      ],
+      "license": "3-clause BSD",
+      "license_family": "BSD",
+      "md5": "779b02fe16a65a4bd87be58c8cf7b1b2",
+      "name": "sympy",
+      "size": 6469811,
+      "version": "0.7.6"
+    },
+    "sympy-0.7.6-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "fastcache",
+        "python 3.4*"
+      ],
+      "license": "3-clause BSD",
+      "license_family": "BSD",
+      "md5": "870f957d4a60c527d25118aa8d48277a",
+      "name": "sympy",
+      "size": 6814098,
+      "version": "0.7.6"
+    },
+    "toolz-0.7.4-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "0ff476130ca16c3803873936e9871a10",
+      "name": "toolz",
+      "size": 52546,
+      "version": "0.7.4"
+    },
+    "toolz-0.7.4-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "c16f6e0b5258e5d8dc771cf73e7400fc",
+      "name": "toolz",
+      "size": 54353,
+      "version": "0.7.4"
+    },
+    "tornado-4.2.1-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "certifi",
+        "python 2.7*",
+        "ssl_match_hostname 3.4.0.2"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "fc90f3e3c0f6cf7a4b50647538b47235",
+      "name": "tornado",
+      "size": 548992,
+      "version": "4.2.1"
+    },
+    "tornado-4.2.1-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "certifi",
+        "python 3.4*"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "eaa26b5a1161be2ab4694dd5c0d58706",
+      "name": "tornado",
+      "size": 570093,
+      "version": "4.2.1"
+    },
+    "traitlets-4.0.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "decorator",
+        "ipython_genutils 0.1.0",
+        "python 2.7*"
+      ],
+      "license": "Modified BSD",
+      "license_family": "BSD",
+      "md5": "2c287622eb11a2bb23a1058e0c7104ea",
+      "name": "traitlets",
+      "size": 90525,
+      "version": "4.0.0"
+    },
+    "traitlets-4.0.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "decorator",
+        "ipython_genutils 0.1.0",
+        "python 3.4*"
+      ],
+      "license": "Modified BSD",
+      "license_family": "BSD",
+      "md5": "2949298ff01240aa817043ddc7385d65",
+      "name": "traitlets",
+      "size": 94911,
+      "version": "4.0.0"
+    },
+    "twisted-15.3.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*",
+        "zope.interface 4.1.2"
+      ],
+      "license": "MIT",
+      "md5": "ae60418c6a9d20574c2aa3bdac685db2",
+      "name": "twisted",
+      "size": 4434609,
+      "version": "15.3.0"
+    },
+    "twisted-15.3.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-20",
+      "depends": [
+        "python 3.4*",
+        "zope.interface 4.1.2"
+      ],
+      "license": "MIT",
+      "md5": "21cd2f04814dd5a620a7c6151047fa17",
+      "name": "twisted",
+      "size": 2145662,
+      "version": "15.3.0"
+    },
+    "unixodbc-2.3.1-1.tar.bz2": {
+      "build": "1",
+      "build_number": 1,
+      "date": "2015-08-24",
+      "depends": [],
+      "license": "LGPLv2",
+      "license_family": "LGPL",
+      "md5": "b10505ac7740243d6eb9cea0fed562b7",
+      "name": "unixodbc",
+      "size": 675971,
+      "version": "2.3.1"
+    },
+    "werkzeug-0.10.4-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "BSD",
+      "md5": "b461f27f46aa7cc32937b4b873199f84",
+      "name": "werkzeug",
+      "size": 384317,
+      "version": "0.10.4"
+    },
+    "werkzeug-0.10.4-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "BSD",
+      "md5": "ec6040789c77182416413633924bc7c5",
+      "name": "werkzeug",
+      "size": 414801,
+      "version": "0.10.4"
+    },
+    "wheel-0.24.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "548c90f215f1f7cecfb2869a552c5c0f",
+      "name": "wheel",
+      "size": 76789,
+      "version": "0.24.0"
+    },
+    "wheel-0.24.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "python 3.4*"
+      ],
+      "license": "MIT",
+      "md5": "d85d3b3895ec31398a56cca8d0c51b1d",
+      "name": "wheel",
+      "size": 78429,
+      "version": "0.24.0"
+    },
+    "wheel-0.26.0-py27_1.tar.bz2": {
+      "build": "py27_1",
+      "build_number": 1,
+      "date": "2015-10-30",
+      "depends": [
+        "python 2.7*"
+      ],
+      "license": "MIT",
+      "md5": "354e27574a83fe64416bebbf7fe2c2c8",
+      "name": "wheel",
+      "size": 77428,
+      "version": "0.26.0"
+    },
+    "xz-5.0.5-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [],
+      "license": "Public-Domain, GPL",
+      "license_family": "GPL2",
+      "md5": "c7a9b124df5ad632cf6367d3178f638b",
+      "name": "xz",
+      "size": 502550,
+      "version": "5.0.5"
+    },
+    "yaml-0.1.6-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [],
+      "license": "MIT",
+      "md5": "ca6e2914b83d69cd3f6a74e14d86dd9c",
+      "name": "yaml",
+      "size": 229373,
+      "version": "0.1.6"
+    },
+    "zeromq-4.0.5-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [
+        "libsodium 0.4.5"
+      ],
+      "license": "LGPL",
+      "md5": "04909a4409812949ec7dd9e55319a3b0",
+      "name": "zeromq",
+      "size": 2839044,
+      "version": "4.0.5"
+    },
+    "zlib-1.2.8-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "date": "2015-08-19",
+      "depends": [],
+      "license": "zlib",
+      "license_family": "Other",
+      "md5": "b376b359ddbd1abb209ed508d7983b32",
+      "name": "zlib",
+      "size": 104272,
+      "version": "1.2.8"
+    },
+    "zope.interface-4.1.2-py27_1.tar.bz2": {
+      "build": "py27_1",
+      "build_number": 1,
+      "date": "2015-08-19",
+      "depends": [
+        "nose",
+        "python 2.7*"
+      ],
+      "license": "ZPL 2.1",
+      "license_family": "Other",
+      "md5": "aed755337650a6c87e880b17a3ec1586",
+      "name": "zope.interface",
+      "size": 160566,
+      "version": "4.1.2"
+    },
+    "zope.interface-4.1.2-py34_1.tar.bz2": {
+      "build": "py34_1",
+      "build_number": 1,
+      "date": "2015-08-19",
+      "depends": [
+        "nose",
+        "python 3.4*"
+      ],
+      "license": "ZPL 2.1",
+      "license_family": "Other",
+      "md5": "5c9912883b5769e9ed14b89120af5d84",
+      "name": "zope.interface",
+      "size": 171574,
+      "version": "4.1.2"
+    }
+  }
+}
