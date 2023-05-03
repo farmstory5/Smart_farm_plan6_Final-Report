@@ -1,0 +1,19 @@
+[Info  - 오후 6:55:51] (2242) Pylance language server 2023.4.10 (pyright d7616109) starting
+[Info  - 오후 6:55:51] (2242) Server root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 오후 6:55:51] (2242) Starting service instance "Raspi_DHT11_LED_"
+[Info  - 오후 6:55:51] (2242) Auto-indent enabled
+[Info  - 오후 6:55:51] (2242) Setting pythonPath for service "Raspi_DHT11_LED_": "/bin/python3"
+[Warn  - 오후 6:55:51] (2242) stubPath /home/pi/Desktop/Raspi_DHT11_LED_/typings is not a valid directory.
+[Info  - 오후 6:55:52] (2242) Assuming Python version 3.7
+[Info  - 오후 6:55:52] (2242) Found 1 source file
+[Info  - 오후 6:55:54] (2242) Background analysis(1) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 오후 6:55:54] (2242) Background analysis(1) started
+[Info  - 오후 6:55:55] (2242) Indexer background runner(2) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.4.10/dist (index)
+[Info  - 오후 6:55:55] (2242) Indexing(2) started
+[Info  - 오후 6:55:59] (2242) [BG(1)] Long operation: getSemanticTokens full at /home/pi/Desktop/Raspi_DHT11_LED_/DHT11_LED_GPIOpin.py (4412ms)
+[Info  - 오후 6:56:00] (2242) [IDX(2)] Long operation: scan packages /home/pi/Desktop/Raspi_DHT11_LED_ (4612ms)
+[Info  - 오후 6:56:00] (2242) scanned(2) 97 files over 1 exec env
+[Info  - 오후 6:56:04] (2242) [IDX(2)] Long operation: index execution environment /home/pi/Desktop/Raspi_DHT11_LED_ (3703ms)
+[Info  - 오후 6:56:04] (2242) [IDX(2)] Long operation: index packages /home/pi/Desktop/Raspi_DHT11_LED_ (3732ms)
+[Info  - 오후 6:56:04] (2242) indexed(2) 39 files over 1 exec env
+[Info  - 오후 6:56:04] (2242) Indexing finished(2).

@@ -143,3 +143,131 @@ sudo pip3 install RPi.GPIO
 sudo pip install RPi.GPIO
 /bin/python3 /home/pi/Desktop/vsc_workspace/DHT11.py
 code .
+/bin/python3 /home/pi/Desktop/Raspi_DHT11_LED_/DHT11_LED_GPIOpin.py
+clear
+/bin/python3 /home/pi/Desktop/Raspi_DHT11_LED_/DHT11_LED_GPIOpin.py
+clear
+/bin/python3 /home/pi/Desktop/Raspi_DHT11_LED_/DHT11_LED_GPIOpin.py
+cear
+clear
+/bin/python3 /home/pi/Desktop/Raspi_DHT11_LED_/DHT11_LED_GPIOpin.py
+clear
+/bin/python3 /home/pi/Desktop/Raspi_DHT11_LED_/DHT11_LED_GPIOpin.py
+clear
+/bin/python3 /home/pi/Desktop/Raspi_DHT11_LED_/DHT11_LED_GPIOpin.py
+code .
+sudo git --version
+sudo apt-get install filezilla -y
+sudo git init
+sudo git config --global user.name KYM
+sudo git config --global user.email sksskdi12234@naver.com
+ls -al
+sudo git add .
+git branch -M main
+exit() exit()
+sudo git add .
+git branch -M main
+remote add origin https://github.com/Kimberwarrior/Smart-farm-plan1-DHT11-LED-control.git
+sudo git branch -M main
+sudo remote add origin https://github.com/Kimberwarrior/Smart-farm-plan1-DHT11-LED-control.git
+sudo git remote add origin https://github.com/Kimberwarrior/Smart-farm-plan1-DHT11-LED-control.git
+$ sudo git commit -m "Report 1"
+$ sudo git commit -m "Raspi_DHT11_LED_"
+sudo git init
+sudo git config --global user.name KYM
+sudo git config --global user.email sksskdi12234@naver.com
+sudo git init
+sudo git config --global user.name "KYM"
+sudo git config --global user.email "sksskdi12234@naver.com"
+sudo git add /home/pi/Desktop/Raspi_DHT11_LED_
+sudo git commit -m "Report_1"
+sudo git branch -M main
+sudo git remote add origin https://github.com/Kimberwarrior/Smart-farm-plan1-DHT11-LED-control.git
+sudo git remote add https://github.com/Kimberwarrior/Smart-farm-plan1-DHT11-LED-control.git
+sudo git remote add origin https://github.com/Kimberwarrior/Smart_farm_plan1_DHT11_LED_control.git
+sudo git push -u origin main
+git remote rm origin
+sudo d safe.directory /home/pi
+pi@raspberrypi:~ $ 
+sudo d safe.directory /home/pi
+pi@raspberrypi:~ $ 
+sudo git init
+sudo git config --golbal user.name "Kimberwarrior"
+sudo git config --global user.name "Kimberwarrior"
+sudo git config --global user.mail "sksskdi12234@naver.com"
+sudo git add /home/pi/Desktop/Raspi_DHT11_LED_
+sudo git commit -m "Report_1"
+sudo git remote add https://github.com/Kimberwarrior/Smart_farm_plan1_DHT11_LED_control.git
+sudo git remote origin https://github.com/Kimberwarrior/Smart_farm_plan1_DHT11_LED_control.git
+sudo git remote add origin https://github.com/Kimberwarrior/Smart_farm_plan1_DHT11_LED_control.git
+sudo git remote rm origin
+sudo git remote add origin https://github.com/Kimberwarrior/Smart_farm_plan1_DHT11_LED_control.git
+sudo git push -u origin main
+sudo git init
+sudo git config --global user.name "farmstory5"
+sudo git config --global user.mail "farmstory55@gmail.com"
+sudo git add /home/pi/Desktop/Raspi_DHT11_LED_
+sudo git commit -m "Report_1"
+sudo git branch -M main
+sudo git remote add https://github.com/farmstory5/Smart_farm_plan1_DHT11_LED_contorl.git
+sudo git remote add origin  https://github.com/farmstory5/Smart_farm_plan1_DHT11_LED_contorl.git
+sudo git remote rm origin
+sudo git remote add origin  https://github.com/farmstory5/Smart_farm_plan1_DHT11_LED_contorl.git
+sudo git push -u origin main
+git init
+sudo git init
+sudo apt update && sudo apt upgrade -y
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh |  bash
+nvm install node
+sudo nvm install node
+nvm install node
+nvm -v
+nvm install node
+sudo apt install npm
+nvm install node
+bash <(curl -sL http://raw.g
+exit()
+asd
+asd
+fg
+g
+e
+exit
+nvm install node
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-andnodered)
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+nvm -v
+nvm install node
+pm config delete prefix` or `nvm use --delete-prefix v20.0.0` to unset it.
+pi@raspberrypi:~ $ prefix
+exit()
+sudo apt-get install chromium-browser
+clear
+node-red-start
+nvm -v
+node-red start
+node-red-start
+sudo node-red-start
+sudo apt-get remove nodejs
+sudo apt-get autoremove
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get update && sudo apt-get install yarn
+sudo apt-get install nodejs
+nord-red-start
+sudo apt-get remove nodejs
+sudo apt-get autoremove
+clear
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install build-essential git curl
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+sudo apt-get install fcitx -y
+sudo apt-get install fcitx-hangul -y
+sudo nano /etc/default/im-config
+code .
+/bin/python3 /home/pi/Desktop/Raspi_DHT11_LED_/DHT11_LED_GPIOpin.py
+clear
+nord-red-start
+node-red-start
+clear
+node-red-start

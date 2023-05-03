@@ -1,0 +1,6 @@
+ctrl+space = 한영변환
+ctrl+shift+c = copy
+ctrl+shift_v = paste
+
+sudo apt-get update
+sudo apt-get upgrade

@@ -1,0 +1,1570 @@
+[
+    {
+        "id": "ea792648b179fccd",
+        "type": "tab",
+        "label": "기능 구현 노드들 정리",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a9adb06214affa23",
+        "type": "tab",
+        "label": "Power_ONOFF_contorl",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b7cedfbddc8003b3",
+        "type": "tab",
+        "label": "DHT11 Gate",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "391850e4b48a4700",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "145c38e6462fa663",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "b9a154fd549f6487",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b9a154fd549f6487",
+        "type": "ui_tab",
+        "name": "스마트팜 대시보드 프로토타입",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2da2e4e025b7a711",
+        "type": "ui_group",
+        "name": "Power_ONOFF",
+        "tab": "b9a154fd549f6487",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e3fb01679b585ae7",
+        "type": "ui_group",
+        "name": "Humidity",
+        "tab": "b9a154fd549f6487",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ab54fc8aac17879a",
+        "type": "ui_spacer",
+        "z": "a9adb06214affa23",
+        "name": "spacer",
+        "group": "145c38e6462fa663",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6ba8b096e9e67f0b",
+        "type": "inject",
+        "z": "ea792648b179fccd",
+        "name": "작동",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "토픽1",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 90,
+        "y": 60,
+        "wires": [
+            [
+                "98b208ba2b03f961"
+            ]
+        ]
+    },
+    {
+        "id": "98b208ba2b03f961",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "작동확인",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 280,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "7eb6fcecb7e07848",
+        "type": "inject",
+        "z": "ea792648b179fccd",
+        "name": "작동2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "토픽2",
+        "payload": "안녕하세요",
+        "payloadType": "str",
+        "x": 90,
+        "y": 120,
+        "wires": [
+            [
+                "98b208ba2b03f961"
+            ]
+        ]
+    },
+    {
+        "id": "99f1714b6cfd6ef3",
+        "type": "inject",
+        "z": "ea792648b179fccd",
+        "name": "조건1_20",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "조건1",
+        "payload": "20",
+        "payloadType": "num",
+        "x": 180,
+        "y": 200,
+        "wires": [
+            [
+                "898022b478af266f",
+                "cebd92ab3e31aae6",
+                "cf0eca4be97f717d",
+                "ab96d7db07a0eba2",
+                "4a5d0cce6e6a6b56"
+            ]
+        ]
+    },
+    {
+        "id": "f8f93ff23991d38b",
+        "type": "inject",
+        "z": "ea792648b179fccd",
+        "name": "조건2_19",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "조건2",
+        "payload": "19",
+        "payloadType": "num",
+        "x": 180,
+        "y": 280,
+        "wires": [
+            [
+                "898022b478af266f"
+            ]
+        ]
+    },
+    {
+        "id": "41b09596f9c57aa6",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "조건결과2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "898022b478af266f",
+        "type": "switch",
+        "z": "ea792648b179fccd",
+        "name": "switch 조건판단",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "20",
+                "vt": "num"
+            },
+            {
+                "t": "gte",
+                "v": "40",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 420,
+        "y": 240,
+        "wires": [
+            [
+                "1f8fdcecea6ed579"
+            ],
+            [
+                "41b09596f9c57aa6"
+            ]
+        ]
+    },
+    {
+        "id": "cebd92ab3e31aae6",
+        "type": "change",
+        "z": "ea792648b179fccd",
+        "name": "값의 이동 change",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload1",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 360,
+        "wires": [
+            [
+                "29ca5abf820af930"
+            ]
+        ]
+    },
+    {
+        "id": "29ca5abf820af930",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "9d736875cd36fffa",
+        "type": "inject",
+        "z": "ea792648b179fccd",
+        "name": "inject1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Topic1",
+        "payload": "Hello",
+        "payloadType": "str",
+        "x": 90,
+        "y": 800,
+        "wires": [
+            [
+                "e4ad37d2d842dcc8"
+            ]
+        ]
+    },
+    {
+        "id": "ae2cf2ce9fb16e85",
+        "type": "inject",
+        "z": "ea792648b179fccd",
+        "name": "inject2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Topic2",
+        "payload": "Good Morning",
+        "payloadType": "str",
+        "x": 90,
+        "y": 880,
+        "wires": [
+            [
+                "e4ad37d2d842dcc8"
+            ]
+        ]
+    },
+    {
+        "id": "e4ad37d2d842dcc8",
+        "type": "function",
+        "z": "ea792648b179fccd",
+        "name": "function 1",
+        "func": "var payload = msg.payload;\nmsg.payload=payload.toUpperCase();\nvar topic = msg.topic;\nmsg.topic = topic.toUpperCase();\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 840,
+        "wires": [
+            [
+                "f648df950d72cdac"
+            ]
+        ]
+    },
+    {
+        "id": "f648df950d72cdac",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "875711db2b33a322",
+        "type": "inject",
+        "z": "ea792648b179fccd",
+        "name": "inject2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Topic2",
+        "payload": "Good Morning",
+        "payloadType": "str",
+        "x": 90,
+        "y": 1060,
+        "wires": [
+            [
+                "39334c13ddcea8ea"
+            ]
+        ]
+    },
+    {
+        "id": "7bc4b5d1afb9413d",
+        "type": "inject",
+        "z": "ea792648b179fccd",
+        "name": "inject1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Topic1",
+        "payload": "Hello",
+        "payloadType": "str",
+        "x": 90,
+        "y": 980,
+        "wires": [
+            [
+                "39334c13ddcea8ea"
+            ]
+        ]
+    },
+    {
+        "id": "39334c13ddcea8ea",
+        "type": "function",
+        "z": "ea792648b179fccd",
+        "name": "function 2",
+        "func": "var topic = msg.topic;\nif (topic==\"Topic1\")\n{\n    return [msg,null];\n}\nif (topic==\"Topic2\")\n{\n    return [null,msg];\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 1020,
+        "wires": [
+            [
+                "967b244df77e8cf0"
+            ],
+            [
+                "12e24c3aed6e8dd2"
+            ]
+        ]
+    },
+    {
+        "id": "967b244df77e8cf0",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "12e24c3aed6e8dd2",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "48c9502185849fae",
+        "type": "inject",
+        "z": "ea792648b179fccd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 150,
+        "y": 1160,
+        "wires": [
+            [
+                "b5ef44c0bf7c6fcd"
+            ]
+        ]
+    },
+    {
+        "id": "b5ef44c0bf7c6fcd",
+        "type": "rpi-dht22",
+        "z": "ea792648b179fccd",
+        "name": "",
+        "topic": "rpi-dht11",
+        "dht": "11",
+        "pintype": "0",
+        "pin": "4",
+        "x": 560,
+        "y": 1160,
+        "wires": [
+            [
+                "5170073c90ce6694",
+                "b02c123f80f510ed"
+            ]
+        ]
+    },
+    {
+        "id": "b02c123f80f510ed",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "5170073c90ce6694",
+        "type": "change",
+        "z": "ea792648b179fccd",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "humidity",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 1280,
+        "wires": [
+            [
+                "fedceb419241547a"
+            ]
+        ]
+    },
+    {
+        "id": "fedceb419241547a",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "d87739120f9d1c66",
+        "type": "inject",
+        "z": "ea792648b179fccd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 150,
+        "y": 1360,
+        "wires": [
+            [
+                "cd9f5aa29186615a"
+            ]
+        ]
+    },
+    {
+        "id": "cd9f5aa29186615a",
+        "type": "rpi-dht22",
+        "z": "ea792648b179fccd",
+        "name": "",
+        "topic": "rpi-dht11",
+        "dht": "11",
+        "pintype": "0",
+        "pin": "4",
+        "x": 560,
+        "y": 1360,
+        "wires": [
+            [
+                "c726cf462744fdf1",
+                "77999f985d26ddfd"
+            ]
+        ]
+    },
+    {
+        "id": "77999f985d26ddfd",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "c726cf462744fdf1",
+        "type": "function",
+        "z": "ea792648b179fccd",
+        "name": "function 3",
+        "func": "var humi = msg.humidity;\nmsg.payload = humi;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 1440,
+        "wires": [
+            [
+                "f6c75d82f0bfebff"
+            ]
+        ]
+    },
+    {
+        "id": "f6c75d82f0bfebff",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "cf0eca4be97f717d",
+        "type": "range",
+        "z": "ea792648b179fccd",
+        "minin": "0",
+        "maxin": "50",
+        "minout": "0",
+        "maxout": "100",
+        "action": "scale",
+        "round": true,
+        "property": "payload",
+        "name": "range 범위판단",
+        "x": 420,
+        "y": 420,
+        "wires": [
+            [
+                "de31d182d2aaebcb"
+            ]
+        ]
+    },
+    {
+        "id": "de31d182d2aaebcb",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "범위결과1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "ab96d7db07a0eba2",
+        "type": "delay",
+        "z": "ea792648b179fccd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 400,
+        "y": 480,
+        "wires": [
+            [
+                "76419d3f4b92db52"
+            ]
+        ]
+    },
+    {
+        "id": "76419d3f4b92db52",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "딜레이결과1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "4a5d0cce6e6a6b56",
+        "type": "trigger",
+        "z": "ea792648b179fccd",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "3",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 400,
+        "y": 540,
+        "wires": [
+            [
+                "c6af14fe6ed9d8e4"
+            ]
+        ]
+    },
+    {
+        "id": "c6af14fe6ed9d8e4",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "트리거결과1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "d6fb67bb3450fafe",
+        "type": "inject",
+        "z": "ea792648b179fccd",
+        "name": "조건1_30",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "조건1",
+        "payload": "30",
+        "payloadType": "num",
+        "x": 180,
+        "y": 580,
+        "wires": [
+            [
+                "7a6eea9d9a5839e1"
+            ]
+        ]
+    },
+    {
+        "id": "d1c8a43ce209d28c",
+        "type": "inject",
+        "z": "ea792648b179fccd",
+        "name": "조건2_40",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "조건2",
+        "payload": "40",
+        "payloadType": "num",
+        "x": 180,
+        "y": 640,
+        "wires": [
+            [
+                "7a6eea9d9a5839e1"
+            ]
+        ]
+    },
+    {
+        "id": "7a6eea9d9a5839e1",
+        "type": "smooth",
+        "z": "ea792648b179fccd",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "10",
+        "round": "",
+        "mult": "single",
+        "reduce": false,
+        "x": 400,
+        "y": 620,
+        "wires": [
+            [
+                "e28d6d220fa149f3"
+            ]
+        ]
+    },
+    {
+        "id": "e28d6d220fa149f3",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "평균 smooth 결과1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "5297a1a44104b80c",
+        "type": "link in",
+        "z": "ea792648b179fccd",
+        "name": "link2",
+        "links": [
+            "1f8fdcecea6ed579"
+        ],
+        "x": 1005,
+        "y": 200,
+        "wires": [
+            [
+                "35c06ebaa0b73866"
+            ]
+        ]
+    },
+    {
+        "id": "1f8fdcecea6ed579",
+        "type": "link out",
+        "z": "ea792648b179fccd",
+        "name": "link1",
+        "mode": "link",
+        "links": [
+            "5297a1a44104b80c"
+        ],
+        "x": 705,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "35c06ebaa0b73866",
+        "type": "debug",
+        "z": "ea792648b179fccd",
+        "name": "조건결과1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "471d4a9fe22ac6eb",
+        "type": "inject",
+        "z": "a9adb06214affa23",
+        "name": "true",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 90,
+        "y": 60,
+        "wires": [
+            [
+                "cc06880eeca9c1c2"
+            ]
+        ]
+    },
+    {
+        "id": "b644f6fcec300e6d",
+        "type": "inject",
+        "z": "a9adb06214affa23",
+        "name": "false",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 90,
+        "y": 120,
+        "wires": [
+            [
+                "cc06880eeca9c1c2"
+            ]
+        ]
+    },
+    {
+        "id": "cc06880eeca9c1c2",
+        "type": "rpi-gpio out",
+        "z": "a9adb06214affa23",
+        "name": "",
+        "pin": "18",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 420,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "0fde29dcb2c5f8ec",
+        "type": "rpi-gpio out",
+        "z": "a9adb06214affa23",
+        "name": "",
+        "pin": "18",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 540,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "03b2f4c13ac6d4ca",
+        "type": "inject",
+        "z": "a9adb06214affa23",
+        "name": "true",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "fad80c3a2acdcca0"
+            ]
+        ]
+    },
+    {
+        "id": "fad80c3a2acdcca0",
+        "type": "trigger",
+        "z": "a9adb06214affa23",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 340,
+        "y": 240,
+        "wires": [
+            [
+                "0fde29dcb2c5f8ec"
+            ]
+        ]
+    },
+    {
+        "id": "86adaa32ca4a0b02",
+        "type": "ui_switch",
+        "z": "a9adb06214affa23",
+        "name": "LED_switch",
+        "label": "LED 전원버튼",
+        "tooltip": "",
+        "group": "2da2e4e025b7a711",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 110,
+        "y": 340,
+        "wires": [
+            [
+                "a1d17d793209b416"
+            ]
+        ]
+    },
+    {
+        "id": "a1d17d793209b416",
+        "type": "rpi-gpio out",
+        "z": "a9adb06214affa23",
+        "name": "",
+        "pin": "18",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 400,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "ff35eb680e322ef4",
+        "type": "inject",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 60,
+        "wires": [
+            [
+                "d34f3486faca8829"
+            ]
+        ]
+    },
+    {
+        "id": "6b8262a1611b6093",
+        "type": "debug",
+        "z": "b7cedfbddc8003b3",
+        "name": "dht11 temperature",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d34f3486faca8829",
+        "type": "rpi-dht22",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "topic": "rpi-dht11",
+        "dht": "11",
+        "pintype": "0",
+        "pin": "4",
+        "x": 320,
+        "y": 60,
+        "wires": [
+            [
+                "0d562ee9ef7db82b",
+                "b48b7fc6b3301b70",
+                "6b8262a1611b6093",
+                "880c53b71f633491",
+                "b7b2c29d6cf4fcc4"
+            ]
+        ]
+    },
+    {
+        "id": "880c53b71f633491",
+        "type": "change",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "humidity",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 260,
+        "wires": [
+            [
+                "720e51ee3fe30771",
+                "561c628131c71929",
+                "042db0e4858f7609"
+            ]
+        ]
+    },
+    {
+        "id": "042db0e4858f7609",
+        "type": "debug",
+        "z": "b7cedfbddc8003b3",
+        "name": "dht11 humidity",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "0d562ee9ef7db82b",
+        "type": "ui_gauge",
+        "z": "b7cedfbddc8003b3",
+        "name": "온도",
+        "group": "145c38e6462fa663",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "온도",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": "50",
+        "colors": [
+            "#0000ff",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "20",
+        "seg2": "35",
+        "diff": false,
+        "className": "",
+        "x": 510,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "720e51ee3fe30771",
+        "type": "ui_gauge",
+        "z": "b7cedfbddc8003b3",
+        "name": "습도",
+        "group": "e3fb01679b585ae7",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "습도",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#0000ff",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 730,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "b48b7fc6b3301b70",
+        "type": "ui_chart",
+        "z": "b7cedfbddc8003b3",
+        "name": "온도 변화 추이",
+        "group": "145c38e6462fa663",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "온도 변화 추이",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "15",
+        "ymax": "35",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#0d84d9",
+            "#aec7e8",
+            "#ff7f0e",
+            "#0ae60a",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 540,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "561c628131c71929",
+        "type": "ui_chart",
+        "z": "b7cedfbddc8003b3",
+        "name": "습도 변화 추이",
+        "group": "e3fb01679b585ae7",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "습도 변화 추이",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "40",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#0d84d9",
+            "#aec7e8",
+            "#ff7f0e",
+            "#0ae60a",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 760,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f07f2a932d5fca6c",
+        "type": "rpi-gpio out",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "pin": "17",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 720,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "b7b2c29d6cf4fcc4",
+        "type": "trigger",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "50",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 530,
+        "y": 180,
+        "wires": [
+            [
+                "f07f2a932d5fca6c"
+            ]
+        ]
+    }
+]

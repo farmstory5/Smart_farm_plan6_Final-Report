@@ -4,7 +4,8 @@
         "workspaces": {
             "file:///usr/local/lib/python3.7/dist-packages": "__default__profile__",
             "file:///home/pi/Adafruit_Python_DHT": "__default__profile__",
-            "file:///home/pi/Desktop/vsc_workspace": "__default__profile__"
+            "file:///home/pi/Desktop/vsc_workspace": "__default__profile__",
+            "file:///home/pi/Desktop/Raspi_DHT11_LED_": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -14,7 +15,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/pi/Desktop/vsc_workspace"
+                "folderUri": "file:///home/pi/Desktop/Raspi_DHT11_LED_"
             }
         ],
         "emptyWindows": []
@@ -62,6 +63,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pi/Desktop/Raspi_DHT11_LED_",
+                                        "path": "/home/pi/Desktop/Raspi_DHT11_LED_",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/Raspi_DHT11_LED_"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -242,10 +254,6 @@
                                             }
                                         ]
                                     }
-                                },
-                                {
-                                    "id": "workbench.userDataSync.actions.turnOn",
-                                    "label": "설정 동기화 켜기..."
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -505,8 +513,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "기본 사이드바(&&P)",
-                                    "checked": true
+                                    "label": "기본 사이드바(&&P)"
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -757,7 +764,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "뒤로(&&B)"
+                        "label": "뒤로(&&B)",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -766,7 +774,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "마지막 편집 위치(&&L)"
+                        "label": "마지막 편집 위치(&&L)",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1673,21 +1682,21 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 256,
+            "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/pi/Desktop/vsc_workspace",
-            "backupPath": "/home/pi/.config/Code/Backups/d4a61672efc525b6c40d4a9a946ec38a",
+            "folder": "file:///home/pi/Desktop/Raspi_DHT11_LED_",
+            "backupPath": "/home/pi/.config/Code/Backups/d413ee6d17fcb915e8f2f53b159e88b3",
             "uiState": {
                 "mode": 1,
-                "x": 124,
-                "y": 262,
-                "width": 1024,
-                "height": 744
+                "x": 0,
+                "y": 64,
+                "width": 1920,
+                "height": 1016
             }
         },
         "openedWindows": []

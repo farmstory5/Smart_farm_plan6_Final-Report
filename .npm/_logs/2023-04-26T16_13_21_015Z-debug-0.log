@@ -1,0 +1,278 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@8.19.4
+2 info using node@v16.20.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 5ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 7ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:/home/pi/.node-red/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:/home/pi/.npmrc Completed in 2ms
+12 timing config:load:user Completed in 3ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 2ms
+17 timing config:load:setEnvs Completed in 3ms
+18 timing config:load Completed in 32ms
+19 timing npm:load:configload Completed in 33ms
+20 timing npm:load:mkdirpcache Completed in 2ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm i node-red-node-pi-gpio@latest node-red-node-random@latest node-red-node-ping@latest node-red-contrib-play-audio@latest node-red-node-smooth@latest node-red-node-serialport@latest node-red-contrib-buffer-parser@latest
+23 verbose argv "i" "--unsafe-perm" "--save" "--no-progress" "--no-update-notifier" "--no-audit" "--no-fund" "node-red-node-pi-gpio@latest" "node-red-node-random@latest" "node-red-node-ping@latest" "node-red-contrib-play-audio@latest" "node-red-node-smooth@latest" "node-red-node-serialport@latest" "node-red-contrib-buffer-parser@latest"
+24 timing npm:load:setTitle Completed in 6ms
+25 timing config:load:flatten Completed in 8ms
+26 timing npm:load:display Completed in 12ms
+27 verbose logfile logs-max:10 dir:/home/pi/.npm/_logs
+28 verbose logfile /home/pi/.npm/_logs/2023-04-26T16_13_21_015Z-debug-0.log
+29 timing npm:load:logFile Completed in 16ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 73ms
+33 timing arborist:ctor Completed in 2ms
+34 silly logfile done cleaning log files
+35 timing arborist:ctor Completed in 0ms
+36 timing idealTree:init Completed in 40ms
+37 http fetch GET 200 https://registry.npmjs.org/node-red-node-ping 473ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/node-red-node-smooth 514ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/node-red-contrib-buffer-parser 520ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/node-red-node-pi-gpio 949ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/node-red-node-serialport 1203ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/node-red-contrib-play-audio 1231ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/node-red-node-random 1244ms (cache miss)
+44 timing idealTree:userRequests Completed in 1270ms
+45 silly idealTree buildDeps
+46 silly fetch manifest node-red-node-ping@0.3.3
+47 silly fetch manifest node-red-node-smooth@0.1.2
+48 silly fetch manifest node-red-contrib-buffer-parser@3.2.2
+49 silly fetch manifest node-red-node-pi-gpio@2.0.6
+50 silly fetch manifest node-red-node-serialport@1.0.3
+51 silly fetch manifest node-red-contrib-play-audio@2.5.0
+52 silly fetch manifest node-red-node-random@0.4.1
+53 silly placeDep ROOT node-red-contrib-buffer-parser@3.2.2 OK for: node-red-project@0.0.1 want: 3.2.2
+54 silly placeDep ROOT node-red-contrib-play-audio@2.5.0 OK for: node-red-project@0.0.1 want: 2.5.0
+55 silly placeDep ROOT node-red-node-pi-gpio@2.0.6 OK for: node-red-project@0.0.1 want: 2.0.6
+56 silly placeDep ROOT node-red-node-ping@0.3.3 OK for: node-red-project@0.0.1 want: 0.3.3
+57 silly placeDep ROOT node-red-node-random@0.4.1 OK for: node-red-project@0.0.1 want: 0.4.1
+58 silly placeDep ROOT node-red-node-serialport@1.0.3 OK for: node-red-project@0.0.1 want: 1.0.3
+59 silly placeDep ROOT node-red-node-smooth@0.1.2 OK for: node-red-project@0.0.1 want: 0.1.2
+60 silly fetch manifest serialport@^10.5.0
+61 http fetch GET 200 https://registry.npmjs.org/serialport 825ms (cache miss)
+62 timing idealTree:#root Completed in 909ms
+63 timing idealTree:node_modules/node-red-contrib-buffer-parser Completed in 0ms
+64 timing idealTree:node_modules/node-red-contrib-play-audio Completed in 0ms
+65 timing idealTree:node_modules/node-red-node-pi-gpio Completed in 0ms
+66 timing idealTree:node_modules/node-red-node-ping Completed in 0ms
+67 timing idealTree:node_modules/node-red-node-random Completed in 0ms
+68 silly placeDep ROOT serialport@10.5.0 OK for: node-red-node-serialport@1.0.3 want: ^10.5.0
+69 silly fetch manifest @serialport/binding-mock@10.2.2
+70 silly fetch manifest @serialport/bindings-cpp@10.8.0
+71 silly fetch manifest @serialport/parser-byte-length@10.5.0
+72 silly fetch manifest @serialport/parser-cctalk@10.5.0
+73 silly fetch manifest @serialport/parser-delimiter@10.5.0
+74 silly fetch manifest @serialport/parser-inter-byte-timeout@10.5.0
+75 silly fetch manifest @serialport/parser-packet-length@10.5.0
+76 silly fetch manifest @serialport/parser-readline@10.5.0
+77 silly fetch manifest @serialport/parser-ready@10.5.0
+78 silly fetch manifest @serialport/parser-regex@10.5.0
+79 silly fetch manifest @serialport/parser-slip-encoder@10.5.0
+80 silly fetch manifest @serialport/parser-spacepacket@10.5.0
+81 silly fetch manifest @serialport/stream@10.5.0
+82 silly fetch manifest debug@^4.3.3
+83 http fetch GET 200 https://registry.npmjs.org/debug 167ms (cache miss)
+84 http fetch GET 200 https://registry.npmjs.org/@serialport%2fparser-byte-length 388ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/@serialport%2fparser-packet-length 385ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/@serialport%2fparser-cctalk 394ms (cache miss)
+87 http fetch GET 200 https://registry.npmjs.org/@serialport%2fparser-slip-encoder 485ms (cache miss)
+88 http fetch GET 200 https://registry.npmjs.org/@serialport%2fparser-spacepacket 501ms (cache miss)
+89 http fetch GET 200 https://registry.npmjs.org/@serialport%2fparser-readline 516ms (cache miss)
+90 http fetch GET 200 https://registry.npmjs.org/@serialport%2fparser-ready 515ms (cache miss)
+91 http fetch GET 200 https://registry.npmjs.org/@serialport%2fparser-regex 516ms (cache miss)
+92 http fetch GET 200 https://registry.npmjs.org/@serialport%2fbinding-mock 729ms (cache miss)
+93 http fetch GET 200 https://registry.npmjs.org/@serialport%2fbindings-cpp 1312ms (cache miss)
+94 http fetch GET 200 https://registry.npmjs.org/@serialport%2fparser-inter-byte-timeout 1416ms (cache miss)
+95 http fetch GET 200 https://registry.npmjs.org/@serialport%2fparser-delimiter 1647ms (cache miss)
+96 http fetch GET 200 https://registry.npmjs.org/@serialport%2fstream 1800ms (cache miss)
+97 timing idealTree:node_modules/node-red-node-serialport Completed in 1848ms
+98 timing idealTree:node_modules/node-red-node-smooth Completed in 0ms
+99 silly placeDep ROOT @serialport/binding-mock@10.2.2 OK for: serialport@10.5.0 want: 10.2.2
+100 silly placeDep ROOT @serialport/bindings-cpp@10.8.0 OK for: serialport@10.5.0 want: 10.8.0
+101 silly placeDep ROOT @serialport/parser-byte-length@10.5.0 OK for: serialport@10.5.0 want: 10.5.0
+102 silly placeDep ROOT @serialport/parser-cctalk@10.5.0 OK for: serialport@10.5.0 want: 10.5.0
+103 silly placeDep ROOT @serialport/parser-delimiter@10.5.0 OK for: serialport@10.5.0 want: 10.5.0
+104 silly placeDep ROOT @serialport/parser-inter-byte-timeout@10.5.0 OK for: serialport@10.5.0 want: 10.5.0
+105 silly placeDep ROOT @serialport/parser-packet-length@10.5.0 OK for: serialport@10.5.0 want: 10.5.0
+106 silly placeDep ROOT @serialport/parser-readline@10.5.0 OK for: serialport@10.5.0 want: 10.5.0
+107 silly placeDep ROOT @serialport/parser-ready@10.5.0 OK for: serialport@10.5.0 want: 10.5.0
+108 silly placeDep ROOT @serialport/parser-regex@10.5.0 OK for: serialport@10.5.0 want: 10.5.0
+109 silly placeDep ROOT @serialport/parser-slip-encoder@10.5.0 OK for: serialport@10.5.0 want: 10.5.0
+110 silly placeDep ROOT @serialport/parser-spacepacket@10.5.0 OK for: serialport@10.5.0 want: 10.5.0
+111 silly placeDep ROOT @serialport/stream@10.5.0 OK for: serialport@10.5.0 want: 10.5.0
+112 silly placeDep ROOT debug@4.3.4 OK for: serialport@10.5.0 want: ^4.3.3
+113 silly fetch manifest @serialport/bindings-interface@^1.2.1
+114 silly fetch manifest @serialport/bindings-interface@1.2.2
+115 silly fetch manifest node-addon-api@^5.0.0
+116 silly fetch manifest node-gyp-build@^4.3.0
+117 silly fetch manifest ms@2.1.2
+118 http fetch GET 200 https://registry.npmjs.org/ms 74ms (cache miss)
+119 http fetch GET 200 https://registry.npmjs.org/node-gyp-build 280ms (cache miss)
+120 http fetch GET 200 https://registry.npmjs.org/@serialport%2fbindings-interface 682ms (cache miss)
+121 http fetch GET 200 https://registry.npmjs.org/node-addon-api 769ms (cache miss)
+122 http fetch GET 200 https://registry.npmjs.org/@serialport%2fbindings-interface 1857ms (cache miss)
+123 timing idealTree:node_modules/serialport Completed in 1957ms
+124 silly placeDep ROOT @serialport/bindings-interface@1.2.2 OK for: @serialport/binding-mock@10.2.2 want: ^1.2.1
+125 timing idealTree:node_modules/@serialport/binding-mock Completed in 11ms
+126 silly placeDep ROOT node-addon-api@5.1.0 OK for: @serialport/bindings-cpp@10.8.0 want: ^5.0.0
+127 silly placeDep ROOT node-gyp-build@4.6.0 OK for: @serialport/bindings-cpp@10.8.0 want: ^4.3.0
+128 timing idealTree:node_modules/@serialport/bindings-cpp Completed in 18ms
+129 timing idealTree:node_modules/@serialport/bindings-interface Completed in 0ms
+130 timing idealTree:node_modules/@serialport/parser-byte-length Completed in 0ms
+131 timing idealTree:node_modules/@serialport/parser-cctalk Completed in 1ms
+132 timing idealTree:node_modules/@serialport/parser-delimiter Completed in 0ms
+133 timing idealTree:node_modules/@serialport/parser-inter-byte-timeout Completed in 1ms
+134 timing idealTree:node_modules/@serialport/parser-packet-length Completed in 0ms
+135 timing idealTree:node_modules/@serialport/parser-readline Completed in 1ms
+136 timing idealTree:node_modules/@serialport/parser-ready Completed in 0ms
+137 timing idealTree:node_modules/@serialport/parser-regex Completed in 0ms
+138 timing idealTree:node_modules/@serialport/parser-slip-encoder Completed in 0ms
+139 timing idealTree:node_modules/@serialport/parser-spacepacket Completed in 0ms
+140 timing idealTree:node_modules/@serialport/stream Completed in 0ms
+141 silly placeDep ROOT ms@2.1.2 OK for: debug@4.3.4 want: 2.1.2
+142 timing idealTree:node_modules/debug Completed in 10ms
+143 timing idealTree:node_modules/ms Completed in 1ms
+144 timing idealTree:node_modules/node-addon-api Completed in 0ms
+145 timing idealTree:node_modules/node-gyp-build Completed in 0ms
+146 timing idealTree:buildDeps Completed in 4772ms
+147 timing idealTree:fixDepFlags Completed in 8ms
+148 timing idealTree Completed in 6098ms
+149 timing reify:loadTrees Completed in 6101ms
+150 timing reify:diffTrees Completed in 5ms
+151 silly reify moves {}
+152 timing reify:retireShallow Completed in 3ms
+153 timing reify:createSparse Completed in 18ms
+154 timing reify:loadBundles Completed in 0ms
+155 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.2.tgz. Extracting by manifest.
+156 silly tarball no local data for node-addon-api@https://registry.npmjs.org/node-addon-api/-/node-addon-api-5.1.0.tgz. Extracting by manifest.
+157 silly tarball no local data for node-gyp-build@https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.6.0.tgz. Extracting by manifest.
+158 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.3.4.tgz. Extracting by manifest.
+159 silly tarball no local data for @serialport/stream@https://registry.npmjs.org/@serialport/stream/-/stream-10.5.0.tgz. Extracting by manifest.
+160 silly tarball no local data for @serialport/bindings-interface@https://registry.npmjs.org/@serialport/bindings-interface/-/bindings-interface-1.2.2.tgz. Extracting by manifest.
+161 silly tarball no local data for @serialport/parser-spacepacket@https://registry.npmjs.org/@serialport/parser-spacepacket/-/parser-spacepacket-10.5.0.tgz. Extracting by manifest.
+162 silly tarball no local data for @serialport/parser-slip-encoder@https://registry.npmjs.org/@serialport/parser-slip-encoder/-/parser-slip-encoder-10.5.0.tgz. Extracting by manifest.
+163 silly tarball no local data for @serialport/parser-regex@https://registry.npmjs.org/@serialport/parser-regex/-/parser-regex-10.5.0.tgz. Extracting by manifest.
+164 silly tarball no local data for @serialport/parser-ready@https://registry.npmjs.org/@serialport/parser-ready/-/parser-ready-10.5.0.tgz. Extracting by manifest.
+165 silly tarball no local data for @serialport/parser-readline@https://registry.npmjs.org/@serialport/parser-readline/-/parser-readline-10.5.0.tgz. Extracting by manifest.
+166 silly tarball no local data for @serialport/parser-packet-length@https://registry.npmjs.org/@serialport/parser-packet-length/-/parser-packet-length-10.5.0.tgz. Extracting by manifest.
+167 silly tarball no local data for @serialport/parser-inter-byte-timeout@https://registry.npmjs.org/@serialport/parser-inter-byte-timeout/-/parser-inter-byte-timeout-10.5.0.tgz. Extracting by manifest.
+168 silly tarball no local data for @serialport/parser-delimiter@https://registry.npmjs.org/@serialport/parser-delimiter/-/parser-delimiter-10.5.0.tgz. Extracting by manifest.
+169 silly tarball no local data for @serialport/parser-cctalk@https://registry.npmjs.org/@serialport/parser-cctalk/-/parser-cctalk-10.5.0.tgz. Extracting by manifest.
+170 silly tarball no local data for @serialport/parser-byte-length@https://registry.npmjs.org/@serialport/parser-byte-length/-/parser-byte-length-10.5.0.tgz. Extracting by manifest.
+171 silly tarball no local data for @serialport/bindings-cpp@https://registry.npmjs.org/@serialport/bindings-cpp/-/bindings-cpp-10.8.0.tgz. Extracting by manifest.
+172 silly tarball no local data for @serialport/binding-mock@https://registry.npmjs.org/@serialport/binding-mock/-/binding-mock-10.2.2.tgz. Extracting by manifest.
+173 silly tarball no local data for serialport@https://registry.npmjs.org/serialport/-/serialport-10.5.0.tgz. Extracting by manifest.
+174 silly tarball no local data for node-red-node-smooth@https://registry.npmjs.org/node-red-node-smooth/-/node-red-node-smooth-0.1.2.tgz. Extracting by manifest.
+175 silly tarball no local data for node-red-node-serialport@https://registry.npmjs.org/node-red-node-serialport/-/node-red-node-serialport-1.0.3.tgz. Extracting by manifest.
+176 silly tarball no local data for node-red-node-random@https://registry.npmjs.org/node-red-node-random/-/node-red-node-random-0.4.1.tgz. Extracting by manifest.
+177 silly tarball no local data for node-red-node-ping@https://registry.npmjs.org/node-red-node-ping/-/node-red-node-ping-0.3.3.tgz. Extracting by manifest.
+178 silly tarball no local data for node-red-node-pi-gpio@https://registry.npmjs.org/node-red-node-pi-gpio/-/node-red-node-pi-gpio-2.0.6.tgz. Extracting by manifest.
+179 silly tarball no local data for node-red-contrib-play-audio@https://registry.npmjs.org/node-red-contrib-play-audio/-/node-red-contrib-play-audio-2.5.0.tgz. Extracting by manifest.
+180 silly tarball no local data for node-red-contrib-buffer-parser@https://registry.npmjs.org/node-red-contrib-buffer-parser/-/node-red-contrib-buffer-parser-3.2.2.tgz. Extracting by manifest.
+181 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 518ms (cache miss)
+182 timing reifyNode:node_modules/ms Completed in 594ms
+183 http fetch GET 200 https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.6.0.tgz 535ms (cache miss)
+184 timing reifyNode:node_modules/node-gyp-build Completed in 620ms
+185 http fetch GET 200 https://registry.npmjs.org/@serialport/parser-packet-length/-/parser-packet-length-10.5.0.tgz 485ms (cache miss)
+186 timing reifyNode:node_modules/@serialport/parser-packet-length Completed in 618ms
+187 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.3.4.tgz 533ms (cache miss)
+188 timing reifyNode:node_modules/debug Completed in 622ms
+189 http fetch GET 200 https://registry.npmjs.org/serialport/-/serialport-10.5.0.tgz 472ms (cache miss)
+190 timing reifyNode:node_modules/serialport Completed in 633ms
+191 http fetch GET 200 https://registry.npmjs.org/node-red-node-smooth/-/node-red-node-smooth-0.1.2.tgz 476ms (cache miss)
+192 timing reifyNode:node_modules/node-red-node-smooth Completed in 640ms
+193 http fetch GET 200 https://registry.npmjs.org/node-red-node-random/-/node-red-node-random-0.4.1.tgz 490ms (cache miss)
+194 http fetch GET 200 https://registry.npmjs.org/@serialport/stream/-/stream-10.5.0.tgz 574ms (cache miss)
+195 timing reifyNode:node_modules/@serialport/stream Completed in 666ms
+196 http fetch GET 200 https://registry.npmjs.org/@serialport/parser-spacepacket/-/parser-spacepacket-10.5.0.tgz 557ms (cache miss)
+197 timing reifyNode:node_modules/@serialport/parser-spacepacket Completed in 670ms
+198 timing reifyNode:node_modules/node-red-node-random Completed in 667ms
+199 http fetch GET 200 https://registry.npmjs.org/node-red-node-serialport/-/node-red-node-serialport-1.0.3.tgz 504ms (cache miss)
+200 http fetch GET 200 https://registry.npmjs.org/@serialport/parser-byte-length/-/parser-byte-length-10.5.0.tgz 526ms (cache miss)
+201 timing reifyNode:node_modules/@serialport/parser-byte-length Completed in 675ms
+202 timing reifyNode:node_modules/node-red-node-serialport Completed in 681ms
+203 http fetch GET 200 https://registry.npmjs.org/node-red-contrib-play-audio/-/node-red-contrib-play-audio-2.5.0.tgz 503ms (cache miss)
+204 timing reifyNode:node_modules/node-red-contrib-play-audio Completed in 688ms
+205 http fetch GET 200 https://registry.npmjs.org/node-red-node-ping/-/node-red-node-ping-0.3.3.tgz 520ms (cache miss)
+206 timing reifyNode:node_modules/node-red-node-ping Completed in 695ms
+207 http fetch GET 200 https://registry.npmjs.org/node-red-node-pi-gpio/-/node-red-node-pi-gpio-2.0.6.tgz 546ms (cache miss)
+208 timing reifyNode:node_modules/node-red-node-pi-gpio Completed in 725ms
+209 http fetch GET 200 https://registry.npmjs.org/node-addon-api/-/node-addon-api-5.1.0.tgz 666ms (cache miss)
+210 timing reifyNode:node_modules/node-addon-api Completed in 745ms
+211 http fetch GET 200 https://registry.npmjs.org/@serialport/parser-regex/-/parser-regex-10.5.0.tgz 628ms (cache miss)
+212 timing reifyNode:node_modules/@serialport/parser-regex Completed in 749ms
+213 http fetch GET 200 https://registry.npmjs.org/@serialport/parser-ready/-/parser-ready-10.5.0.tgz 624ms (cache miss)
+214 timing reifyNode:node_modules/@serialport/parser-ready Completed in 749ms
+215 http fetch GET 200 https://registry.npmjs.org/@serialport/bindings-interface/-/bindings-interface-1.2.2.tgz 920ms (cache miss)
+216 timing reifyNode:node_modules/@serialport/bindings-interface Completed in 1017ms
+217 http fetch GET 200 https://registry.npmjs.org/@serialport/parser-inter-byte-timeout/-/parser-inter-byte-timeout-10.5.0.tgz 879ms (cache miss)
+218 timing reifyNode:node_modules/@serialport/parser-inter-byte-timeout Completed in 1017ms
+219 http fetch GET 200 https://registry.npmjs.org/@serialport/parser-delimiter/-/parser-delimiter-10.5.0.tgz 879ms (cache miss)
+220 timing reifyNode:node_modules/@serialport/parser-delimiter Completed in 1020ms
+221 http fetch GET 200 https://registry.npmjs.org/@serialport/parser-cctalk/-/parser-cctalk-10.5.0.tgz 963ms (cache miss)
+222 timing reifyNode:node_modules/@serialport/parser-cctalk Completed in 1109ms
+223 http fetch GET 200 https://registry.npmjs.org/@serialport/parser-readline/-/parser-readline-10.5.0.tgz 1115ms (cache miss)
+224 timing reifyNode:node_modules/@serialport/parser-readline Completed in 1245ms
+225 http fetch GET 200 https://registry.npmjs.org/@serialport/parser-slip-encoder/-/parser-slip-encoder-10.5.0.tgz 1130ms (cache miss)
+226 timing reifyNode:node_modules/@serialport/parser-slip-encoder Completed in 1248ms
+227 http fetch GET 200 https://registry.npmjs.org/@serialport/binding-mock/-/binding-mock-10.2.2.tgz 1437ms (cache miss)
+228 timing reifyNode:node_modules/@serialport/binding-mock Completed in 1593ms
+229 http fetch GET 200 https://registry.npmjs.org/@serialport/bindings-cpp/-/bindings-cpp-10.8.0.tgz 1448ms (cache miss)
+230 timing reifyNode:node_modules/@serialport/bindings-cpp Completed in 1601ms
+231 http fetch GET 200 https://registry.npmjs.org/node-red-contrib-buffer-parser/-/node-red-contrib-buffer-parser-3.2.2.tgz 5638ms (cache miss)
+232 timing reifyNode:node_modules/node-red-contrib-buffer-parser Completed in 5826ms
+233 timing reify:unpack Completed in 5832ms
+234 timing reify:unretire Completed in 0ms
+235 timing build:queue Completed in 12ms
+236 timing build:link:node_modules/node-gyp-build Completed in 20ms
+237 timing build:link Completed in 20ms
+238 info run @serialport/bindings-cpp@10.8.0 install node_modules/@serialport/bindings-cpp node-gyp-build
+239 info run @serialport/bindings-cpp@10.8.0 install { code: 0, signal: null }
+240 timing build:run:install:node_modules/@serialport/bindings-cpp Completed in 640ms
+241 timing build:run:install Completed in 644ms
+242 timing build:deps Completed in 679ms
+243 timing build Completed in 680ms
+244 timing reify:build Completed in 683ms
+245 timing reify:trash Completed in 0ms
+246 timing reify:save Completed in 45ms
+247 timing reify Completed in 12755ms
+248 silly ADD node_modules/ms
+249 silly ADD node_modules/node-gyp-build
+250 silly ADD node_modules/node-addon-api
+251 silly ADD node_modules/@serialport/bindings-interface
+252 silly ADD node_modules/debug
+253 silly ADD node_modules/@serialport/stream
+254 silly ADD node_modules/@serialport/parser-spacepacket
+255 silly ADD node_modules/@serialport/parser-slip-encoder
+256 silly ADD node_modules/@serialport/parser-regex
+257 silly ADD node_modules/@serialport/parser-ready
+258 silly ADD node_modules/@serialport/parser-readline
+259 silly ADD node_modules/@serialport/parser-packet-length
+260 silly ADD node_modules/@serialport/parser-inter-byte-timeout
+261 silly ADD node_modules/@serialport/parser-delimiter
+262 silly ADD node_modules/@serialport/parser-cctalk
+263 silly ADD node_modules/@serialport/parser-byte-length
+264 silly ADD node_modules/@serialport/bindings-cpp
+265 silly ADD node_modules/@serialport/binding-mock
+266 silly ADD node_modules/serialport
+267 silly ADD node_modules/node-red-node-smooth
+268 silly ADD node_modules/node-red-node-serialport
+269 silly ADD node_modules/node-red-node-random
+270 silly ADD node_modules/node-red-node-ping
+271 silly ADD node_modules/node-red-node-pi-gpio
+272 silly ADD node_modules/node-red-contrib-play-audio
+273 silly ADD node_modules/node-red-contrib-buffer-parser
+274 timing command:i Completed in 12767ms
+275 verbose exit 0
+276 timing npm Completed in 13100ms
+277 info ok

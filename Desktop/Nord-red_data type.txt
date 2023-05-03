@@ -1,0 +1,6 @@
+Boolean - true, false
+Number - eg 0, 123.4
+String - "hello"
+Array - [1,2,3,4]
+Object - {"a":1, "b":2}
+Null
