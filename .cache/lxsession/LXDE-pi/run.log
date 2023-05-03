@@ -160,3 +160,112 @@ Unit pt-device-manager.service could not be found.
 ** Message: 23:25:12.789: wlan0: Configured 192.168.219.103/24
 ** Message: 23:25:12.790: Status changed to connected
 ** Message: 23:26:04.809: wlan0: Received scan results
+** Message: 23:27:04.818: wlan0: Received scan results
+** Message: 23:28:04.826: wlan0: Received scan results
+** Message: 23:29:04.856: wlan0: Received scan results
+** Message: 23:30:04.833: wlan0: Received scan results
+** Message: 23:31:04.851: wlan0: Received scan results
+** Message: 23:31:05.126: wlan0: Disassociated from U+Net1410
+** Message: 23:31:05.130: Status changed to disconnected
+** Message: 23:31:07.829: wlan0: Associated with U+Net1410_5G
+** Message: 23:31:07.834: Status changed to connecting
+** Message: 23:31:13.989: wlan0: Configured 192.168.219.103/24
+** Message: 23:31:13.989: Status changed to connected
+** Message: 23:32:04.716: wlan0: Received scan results
+** Message: 23:33:04.778: wlan0: Received scan results
+** Message: 23:33:05.057: wlan0: Disassociated from U+Net1410_5G
+** Message: 23:33:05.061: Status changed to disconnected
+** Message: 23:33:07.708: wlan0: Associated with U+Net1410
+** Message: 23:33:07.714: Status changed to connecting
+** Message: 23:33:14.329: wlan0: Configured 192.168.219.103/24
+** Message: 23:33:14.330: Status changed to connected
+** Message: 23:34:04.792: wlan0: Received scan results
+** Message: 23:34:05.027: wlan0: Disassociated from U+Net1410
+** Message: 23:34:05.030: Status changed to disconnected
+** Message: 23:34:07.749: wlan0: Associated with U+Net1410_5G
+** Message: 23:34:07.754: Status changed to connecting
+** Message: 23:34:13.789: wlan0: Configured 192.168.219.103/24
+** Message: 23:34:13.790: Status changed to connected
+** Message: 23:35:04.766: wlan0: Received scan results
+** Message: 23:35:04.978: wlan0: Disassociated from U+Net1410_5G
+** Message: 23:35:04.980: Status changed to disconnected
+** Message: 23:35:07.727: wlan0: Associated with U+Net1410
+** Message: 23:35:07.733: Status changed to connecting
+** Message: 23:35:14.109: wlan0: Configured 192.168.219.103/24
+** Message: 23:35:14.110: Status changed to connected
+** Message: 23:36:04.814: wlan0: Received scan results
+** Message: 23:36:05.122: wlan0: Disassociated from U+Net1410
+** Message: 23:36:05.126: Status changed to disconnected
+** Message: 23:36:07.761: wlan0: Associated with U+Net1410_5G
+** Message: 23:36:07.768: Status changed to connecting
+** Message: 23:36:14.339: wlan0: Configured 192.168.219.103/24
+** Message: 23:36:14.340: Status changed to connected
+** Message: 23:37:04.753: wlan0: Received scan results
+** Message: 23:38:04.791: wlan0: Received scan results
+** Message: 23:38:05.089: wlan0: Disassociated from U+Net1410_5G
+** Message: 23:38:05.093: Status changed to disconnected
+** Message: 23:38:07.662: wlan0: Associated with U+Net1410
+** Message: 23:38:07.668: Status changed to connecting
+** Message: 23:38:13.389: wlan0: Configured 192.168.219.103/24
+** Message: 23:38:13.390: Status changed to connected
+** Message: 23:39:04.740: wlan0: Received scan results
+** Message: 23:39:05.016: wlan0: Disassociated from U+Net1410
+** Message: 23:39:05.021: Status changed to disconnected
+** Message: 23:39:07.685: wlan0: Associated with U+Net1410_5G
+** Message: 23:39:07.691: Status changed to connecting
+** Message: 23:39:13.319: wlan0: Configured 192.168.219.103/24
+** Message: 23:39:13.320: Status changed to connected
+** Message: 23:40:04.774: wlan0: Received scan results
+** Message: 23:41:04.811: wlan0: Received scan results
+** Message: 23:42:04.789: wlan0: Received scan results
+** Message: 23:43:04.698: wlan0: Received scan results
+** Message: 23:44:04.705: wlan0: Received scan results
+** Message: 23:45:04.713: wlan0: Received scan results
+** Message: 23:46:04.722: wlan0: Received scan results
+** Message: 23:47:04.728: wlan0: Received scan results
+** Message: 23:48:04.735: wlan0: Received scan results
+** Message: 23:49:04.743: wlan0: Received scan results
+** Message: 23:50:04.752: wlan0: Received scan results
+** Message: 23:51:04.762: wlan0: Received scan results
+** Message: 23:52:04.769: wlan0: Received scan results
+** Message: 23:53:04.800: wlan0: Received scan results
+** Message: 23:54:04.786: wlan0: Received scan results
+** Message: 23:55:04.793: wlan0: Received scan results
+** Message: 23:56:04.800: wlan0: Received scan results
+** Message: 23:57:04.805: wlan0: Received scan results
+** Message: 23:58:04.707: wlan0: Received scan results
+** Message: 23:59:04.714: wlan0: Received scan results
+** Message: 00:00:04.787: wlan0: Received scan results
+** Message: 00:01:04.724: wlan0: Received scan results
+** Message: 00:02:04.731: wlan0: Received scan results
+** Message: 00:03:04.738: wlan0: Received scan results
+** Message: 00:04:04.744: wlan0: Received scan results
+** Message: 00:05:04.812: wlan0: Received scan results
+** Message: 00:05:05.095: wlan0: Disassociated from U+Net1410_5G
+** Message: 00:05:05.099: Status changed to disconnected
+** Message: 00:05:07.753: wlan0: Associated with U+Net1410
+** Message: 00:05:07.767: Status changed to connecting
+** Message: 00:05:13.809: wlan0: Configured 192.168.219.103/24
+** Message: 00:05:13.810: Status changed to connected
+** Message: 00:06:04.829: wlan0: Received scan results
+** Message: 00:06:05.100: wlan0: Disassociated from U+Net1410
+** Message: 00:06:05.108: Status changed to disconnected
+** Message: 00:06:07.771: wlan0: Associated with U+Net1410_5G
+** Message: 00:06:07.786: Status changed to connecting
+** Message: 00:06:14.209: wlan0: Configured 192.168.219.103/24
+** Message: 00:06:14.210: Status changed to connected
+** Message: 00:07:04.762: wlan0: Received scan results
+** Message: 00:08:04.770: wlan0: Received scan results
+** Message: 00:09:04.799: wlan0: Received scan results
+** Message: 00:10:04.788: wlan0: Received scan results
+** Message: 00:11:04.792: wlan0: Received scan results
+** Message: 00:12:04.799: wlan0: Received scan results
+** Message: 00:13:04.807: wlan0: Received scan results
+** Message: 00:14:04.814: wlan0: Received scan results
+** Message: 00:15:04.825: wlan0: Received scan results
+** Message: 00:16:04.849: wlan0: Received scan results
+** Message: 00:17:04.797: wlan0: Received scan results
+** Message: 00:18:04.742: wlan0: Received scan results
+** Message: 00:19:04.746: wlan0: Received scan results
+** Message: 00:20:04.820: wlan0: Received scan results
+** Message: 00:21:04.764: wlan0: Received scan results
