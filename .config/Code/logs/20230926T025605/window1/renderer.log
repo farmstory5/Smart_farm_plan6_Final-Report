@@ -1,0 +1,5 @@
+2023-09-26 02:56:21.617 [info] [perf] Render performance baseline is 615ms
+2023-09-26 02:56:51.501 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-09-26 02:56:51.678 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-09-26 02:56:53.115 [warning] UNRESPONSIVE extension host: 'ms-toolsai.jupyter' took 30.025733888394832% of 69.89ms, saved PROFILE here: 'file:///tmp/exthost-96a273.cpuprofile'
+2023-09-26 02:58:53.821 [warning] Webgl could not be loaded. Falling back to the canvas renderer type. {}

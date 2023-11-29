@@ -1,0 +1,130 @@
+[
+    {
+        "id": "9d21a7f1dd6f978c",
+        "type": "ui_switch",
+        "z": "e87d0029a296bd47",
+        "name": "식물 LED",
+        "label": "식물 LED",
+        "tooltip": "",
+        "group": "2da2e4e025b7a711",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "false",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "true",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 380,
+        "y": 340,
+        "wires": [
+            [
+                "6262e24241446cf8"
+            ]
+        ]
+    },
+    {
+        "id": "9644730c489b6293",
+        "type": "comment",
+        "z": "e87d0029a296bd47",
+        "name": "릴레이모듈 신호 Ture: OFF False: ON",
+        "info": "",
+        "x": 470,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "df5c053af49c9311",
+        "type": "ui_switch",
+        "z": "e87d0029a296bd47",
+        "name": "환풍기",
+        "label": "환풍기",
+        "tooltip": "",
+        "group": "2da2e4e025b7a711",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "false",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "true",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 370,
+        "y": 400,
+        "wires": [
+            [
+                "85dedfd0ec137644"
+            ]
+        ]
+    },
+    {
+        "id": "6262e24241446cf8",
+        "type": "rpi-gpio out",
+        "z": "e87d0029a296bd47",
+        "name": "",
+        "pin": "23",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 580,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "85dedfd0ec137644",
+        "type": "rpi-gpio out",
+        "z": "e87d0029a296bd47",
+        "name": "",
+        "pin": "24",
+        "set": true,
+        "level": "1",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 580,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "2da2e4e025b7a711",
+        "type": "ui_group",
+        "name": "전원 수동 조작",
+        "tab": "01535ddb89708fbb",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "01535ddb89708fbb",
+        "type": "ui_tab",
+        "name": "하드웨어 제어부 프로토타입",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]

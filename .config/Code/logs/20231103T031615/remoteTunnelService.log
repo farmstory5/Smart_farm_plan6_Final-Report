@@ -1,0 +1,7 @@
+2023-11-03 03:16:34.870 [error] /usr/share/code/bin/code-tunnel: /lib/arm-linux-gnueabihf/libc.so.6: version `GLIBC_2.29' not found (required by /usr/share/code/bin/code-tunnel)
+
+2023-11-03 03:16:34.889 [error] SyntaxError: "undefined" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at n.L (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:101:7744)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async n.initialize (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:101:6619)

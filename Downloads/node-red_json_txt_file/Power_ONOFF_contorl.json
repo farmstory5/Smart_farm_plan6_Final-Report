@@ -1,0 +1,250 @@
+[
+    {
+        "id": "a9adb06214affa23",
+        "type": "tab",
+        "label": "Power_ONOFF_contorl",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "471d4a9fe22ac6eb",
+        "type": "inject",
+        "z": "a9adb06214affa23",
+        "name": "true",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 90,
+        "y": 60,
+        "wires": [
+            [
+                "cc06880eeca9c1c2"
+            ]
+        ]
+    },
+    {
+        "id": "b644f6fcec300e6d",
+        "type": "inject",
+        "z": "a9adb06214affa23",
+        "name": "false",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 90,
+        "y": 120,
+        "wires": [
+            [
+                "cc06880eeca9c1c2"
+            ]
+        ]
+    },
+    {
+        "id": "cc06880eeca9c1c2",
+        "type": "rpi-gpio out",
+        "z": "a9adb06214affa23",
+        "name": "",
+        "pin": "18",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 420,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "0fde29dcb2c5f8ec",
+        "type": "rpi-gpio out",
+        "z": "a9adb06214affa23",
+        "name": "",
+        "pin": "18",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 540,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "03b2f4c13ac6d4ca",
+        "type": "inject",
+        "z": "a9adb06214affa23",
+        "name": "true",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "fad80c3a2acdcca0"
+            ]
+        ]
+    },
+    {
+        "id": "fad80c3a2acdcca0",
+        "type": "trigger",
+        "z": "a9adb06214affa23",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 340,
+        "y": 240,
+        "wires": [
+            [
+                "0fde29dcb2c5f8ec"
+            ]
+        ]
+    },
+    {
+        "id": "86adaa32ca4a0b02",
+        "type": "ui_switch",
+        "z": "a9adb06214affa23",
+        "name": "LED_switch",
+        "label": "LED 전원버튼",
+        "tooltip": "",
+        "group": "2da2e4e025b7a711",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 110,
+        "y": 340,
+        "wires": [
+            [
+                "a1d17d793209b416"
+            ]
+        ]
+    },
+    {
+        "id": "a1d17d793209b416",
+        "type": "rpi-gpio out",
+        "z": "a9adb06214affa23",
+        "name": "",
+        "pin": "18",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 400,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "ab54fc8aac17879a",
+        "type": "ui_spacer",
+        "z": "a9adb06214affa23",
+        "name": "spacer",
+        "group": "145c38e6462fa663",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2da2e4e025b7a711",
+        "type": "ui_group",
+        "name": "Power_ONOFF",
+        "tab": "01535ddb89708fbb",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "145c38e6462fa663",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "b9a154fd549f6487",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "01535ddb89708fbb",
+        "type": "ui_tab",
+        "name": "하드웨어 제어부 프로토타입",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b9a154fd549f6487",
+        "type": "ui_tab",
+        "name": "측정값 센서부 프로토타입",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

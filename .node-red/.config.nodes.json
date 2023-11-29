@@ -465,47 +465,6 @@
             }
         }
     },
-    "node-red-node-pi-gpio": {
-        "name": "node-red-node-pi-gpio",
-        "version": "2.0.6",
-        "local": true,
-        "user": true,
-        "nodes": {
-            "rpi-gpio": {
-                "name": "rpi-gpio",
-                "types": [
-                    "rpi-gpio in",
-                    "rpi-gpio out",
-                    "rpi-mouse",
-                    "rpi-keyboard"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-node-pi-gpio",
-                "file": "/home/pi/.node-red/node_modules/node-red-node-pi-gpio/36-rpi-gpio.js"
-            }
-        }
-    },
-    "node-red-node-ping": {
-        "name": "node-red-node-ping",
-        "version": "0.3.3",
-        "local": true,
-        "user": true,
-        "nodes": {
-            "ping": {
-                "name": "ping",
-                "types": [
-                    "ping"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-node-ping",
-                "file": "/home/pi/.node-red/node_modules/node-red-node-ping/88-ping.js"
-            }
-        }
-    },
     "node-red-node-random": {
         "name": "node-red-node-random",
         "version": "0.4.1",
@@ -527,7 +486,7 @@
     },
     "node-red-node-serialport": {
         "name": "node-red-node-serialport",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "local": true,
         "user": true,
         "nodes": {
@@ -587,7 +546,7 @@
     },
     "node-red-dashboard": {
         "name": "node-red-dashboard",
-        "version": "3.4.0",
+        "version": "3.5.0",
         "local": true,
         "user": true,
         "nodes": {
@@ -821,6 +780,422 @@
                 "user": false,
                 "module": "node-red-dashboard",
                 "file": "/home/pi/.node-red/node_modules/node-red-dashboard/nodes/ui_spacer.js"
+            }
+        }
+    },
+    "node-red-contrib-camerapi": {
+        "name": "node-red-contrib-camerapi",
+        "version": "0.0.39",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "camerapi": {
+                "name": "camerapi",
+                "types": [
+                    "camerapi-takephoto"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-camerapi",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-camerapi/camerapi.js"
+            }
+        }
+    },
+    "node-red-contrib-image-output": {
+        "name": "node-red-contrib-image-output",
+        "version": "0.6.3",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "image": {
+                "name": "image",
+                "types": [
+                    "image"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-image-output",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-image-output/image/image.js"
+            }
+        }
+    },
+    "node-red-node-base64": {
+        "name": "node-red-node-base64",
+        "version": "0.3.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "base64": {
+                "name": "base64",
+                "types": [
+                    "base64"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-node-base64",
+                "file": "/home/pi/.node-red/node_modules/node-red-node-base64/70-base64.js"
+            }
+        }
+    },
+    "node-red-node-arduino": {
+        "name": "node-red-node-arduino",
+        "version": "0.3.1",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "arduino": {
+                "name": "arduino",
+                "types": [
+                    "arduino in",
+                    "arduino out",
+                    "arduino-board"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-node-arduino",
+                "file": "/home/pi/.node-red/node_modules/node-red-node-arduino/35-arduino.js"
+            }
+        }
+    },
+    "node-red-contrib-boolean-logic-ultimate": {
+        "name": "node-red-contrib-boolean-logic-ultimate",
+        "version": "1.0.60",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "BooleanLogicUltimate": {
+                "name": "BooleanLogicUltimate",
+                "types": [
+                    "BooleanLogicUltimate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-boolean-logic-ultimate",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/BooleanLogicUltimate.js"
+            },
+            "InvertUltimate": {
+                "name": "InvertUltimate",
+                "types": [
+                    "InvertUltimate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-boolean-logic-ultimate",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/InvertUltimate.js"
+            },
+            "FilterUltimate": {
+                "name": "FilterUltimate",
+                "types": [
+                    "FilterUltimate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-boolean-logic-ultimate",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/FilterUltimate.js"
+            },
+            "InterruptFlowUltimate": {
+                "name": "InterruptFlowUltimate",
+                "types": [
+                    "InterruptFlowUltimate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-boolean-logic-ultimate",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/InterruptFlowUltimate.js"
+            },
+            "BlinkerUltimate": {
+                "name": "BlinkerUltimate",
+                "types": [
+                    "BlinkerUltimate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-boolean-logic-ultimate",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/BlinkerUltimate.js"
+            },
+            "SimpleOutputUltimate": {
+                "name": "SimpleOutputUltimate",
+                "types": [
+                    "SimpleOutputUltimate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-boolean-logic-ultimate",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/SimpleOutputUltimate.js"
+            },
+            "InjectUltimate": {
+                "name": "InjectUltimate",
+                "types": [
+                    "InjectUltimate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-boolean-logic-ultimate",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/InjectUltimate.js"
+            },
+            "StatusUltimate": {
+                "name": "StatusUltimate",
+                "types": [
+                    "StatusUltimate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-boolean-logic-ultimate",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/StatusUltimate.js"
+            },
+            "ImpulseUltimate": {
+                "name": "ImpulseUltimate",
+                "types": [
+                    "ImpulseUltimate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-boolean-logic-ultimate",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/ImpulseUltimate.js"
+            },
+            "SumUltimate": {
+                "name": "SumUltimate",
+                "types": [
+                    "SumUltimate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-boolean-logic-ultimate",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/SumUltimate.js"
+            },
+            "toggleUltimate": {
+                "name": "toggleUltimate",
+                "types": [
+                    "toggleUltimate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-boolean-logic-ultimate",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/toggleUltimate.js"
+            },
+            "RailwaySwitchUltimate": {
+                "name": "RailwaySwitchUltimate",
+                "types": [
+                    "RailwaySwitchUltimate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-boolean-logic-ultimate",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-boolean-logic-ultimate/boolean-logic-ultimate/RailwaySwitchUltimate.js"
+            }
+        }
+    },
+    "node-red-contrib-toggle": {
+        "name": "node-red-contrib-toggle",
+        "version": "0.1.1",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "toggle": {
+                "name": "toggle",
+                "types": [
+                    "toggle"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-toggle",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-toggle/toggle.js"
+            }
+        }
+    },
+    "node-red-contrib-image-tools": {
+        "name": "node-red-contrib-image-tools",
+        "version": "2.0.4",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "jimp": {
+                "name": "jimp",
+                "types": [
+                    "jimp-image"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-image-tools",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-image-tools/jimp.js"
+            },
+            "xzingDecode": {
+                "name": "xzingDecode",
+                "types": [
+                    "Barcode Decoder"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-image-tools",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-image-tools/xzingDecode.js"
+            },
+            "barcodeWriter": {
+                "name": "barcodeWriter",
+                "types": [
+                    "Barcode Generator"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-image-tools",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-image-tools/barcodeWriter.js"
+            },
+            "imageViewer": {
+                "name": "imageViewer",
+                "types": [
+                    "image viewer"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-image-tools",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-image-tools/imageViewer.js"
+            },
+            "app": {
+                "name": "app",
+                "types": [],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-image-tools",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-image-tools/app.js"
+            }
+        }
+    },
+    "node-red-contrib-onvif": {
+        "name": "node-red-contrib-onvif",
+        "version": "1.0.3",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ONVIF Snapshot": {
+                "name": "ONVIF Snapshot",
+                "types": [
+                    "ONVIF Snapshot"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-onvif",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-onvif/onvif/snapshot.js"
+            }
+        }
+    },
+    "node-red-contrib-multipart-stream-encoder": {
+        "name": "node-red-contrib-multipart-stream-encoder",
+        "version": "0.0.2",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "multipart-encoder": {
+                "name": "multipart-encoder",
+                "types": [
+                    "multipart-encoder"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-multipart-stream-encoder",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-multipart-stream-encoder/multipart_encoder.js"
+            }
+        }
+    },
+    "node-red-contrib-multipart-stream-decoder": {
+        "name": "node-red-contrib-multipart-stream-decoder",
+        "version": "1.0.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "multipart-decoder": {
+                "name": "multipart-decoder",
+                "types": [
+                    "multipart-decoder"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-multipart-stream-decoder",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-multipart-stream-decoder/multipart_decoder.js"
+            }
+        }
+    },
+    "node-red-contrib-string": {
+        "name": "node-red-contrib-string",
+        "version": "1.0.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "string": {
+                "name": "string",
+                "types": [
+                    "string"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-string",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-string/string/string.js"
+            }
+        }
+    },
+    "node-red-node-sqlite": {
+        "name": "node-red-node-sqlite",
+        "version": "1.0.3",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "sqlite": {
+                "name": "sqlite",
+                "types": [
+                    "sqlitedb",
+                    "sqlite"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-node-sqlite",
+                "file": "/home/pi/.node-red/node_modules/node-red-node-sqlite/sqlite.js"
+            }
+        }
+    },
+    "node-red-node-pi-gpio": {
+        "name": "node-red-node-pi-gpio",
+        "version": "2.0.6",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "rpi-gpio": {
+                "name": "rpi-gpio",
+                "types": [
+                    "rpi-gpio in",
+                    "rpi-gpio out",
+                    "rpi-mouse",
+                    "rpi-keyboard"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-node-pi-gpio",
+                "file": "/home/pi/.node-red/node_modules/node-red-node-pi-gpio/36-rpi-gpio.js"
             }
         }
     }

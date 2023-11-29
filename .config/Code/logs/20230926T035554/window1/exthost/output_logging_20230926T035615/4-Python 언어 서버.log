@@ -1,0 +1,38 @@
+[Info  - 오전 3:56:53] (5322) Pylance language server 2023.5.30 (pyright e1b6074b) starting
+[Info  - 오전 3:56:53] (5322) Server root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist
+[Info  - 오전 3:56:53] (5322) Starting service instance "python camera"
+[Info  - 오전 3:56:54] (5322) Setting pythonPath for service "python camera": "/bin/python3"
+[Warn  - 오전 3:56:54] (5322) stubPath /home/pi/Desktop/python camera/typings is not a valid directory.
+[Info  - 오전 3:56:55] (5322) Assuming Python version 3.7
+[Info  - 오전 3:56:57] (5322) Found 1 source file
+[Info  - 오전 3:57:02] (5322) [FG] Long operation: parsing: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist/typeshed-fallback/stdlib/builtins.pyi (2937ms)
+[Info  - 오전 3:57:03] (5322) Background analysis(1) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist
+[Info  - 오전 3:57:03] (5322) Background analysis(1) started
+[Info  - 오전 3:57:04] (5322) Setting pythonPath for service "python camera": "/bin/python3"
+[Warn  - 오전 3:57:04] (5322) stubPath /home/pi/Desktop/python camera/typings is not a valid directory.
+[Info  - 오전 3:57:04] (5322) Assuming Python version 3.7
+[Info  - 오전 3:57:06] (5322) Found 1 source file
+[Info  - 오전 3:57:06] (5322) Indexer background runner(2) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist (index)
+[Info  - 오전 3:57:06] (5322) Indexing(2) started
+[Info  - 오전 3:57:07] (5322) [BG(1)] Long operation: parsing: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist/typeshed-fallback/stdlib/builtins.pyi (2245ms)
+[Info  - 오전 3:57:09] (5322) [BG(1)] Long operation: analyzing: /home/pi/Desktop/python camera/python_camera.py (4997ms)
+[Info  - 오전 3:57:18] (5322) [BG(1)] Long operation: parsing: /usr/lib/python3/dist-packages/picamera/camera.py (2396ms)
+[Info  - 오전 3:57:19] (5322) [BG(1)] Long operation: getSemanticTokens range 0:0 - 68:32 at /home/pi/Desktop/python camera/python_camera.py (10525ms)
+[Info  - 오전 3:57:23] (5322) [FG] Long operation: parsing: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist/typeshed-fallback/stdlib/builtins.pyi (2406ms)
+[Info  - 오전 3:57:25] (5322) [IDX(2)] Long operation: scan packages /home/pi/Desktop/python camera (17359ms)
+[Info  - 오전 3:57:25] (5322) scanned(2) 116 files over 1 exec env
+[Info  - 오전 3:57:30] (5322) [IDX(2)] Long operation: indexing: /usr/lib/python3.7/xml/__init__.py (2972ms)
+[Info  - 오전 3:57:30] (5322) [BG(1)] Long operation: getSemanticTokens full at /home/pi/Desktop/python camera/python_camera.py (10609ms)
+[Info  - 오전 3:57:41] (5322) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/numpy/core/__init__.py (3346ms)
+[Info  - 오전 3:57:43] (5322) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/numpy/__init__.py (6189ms)
+[Info  - 오전 3:57:44] (5322) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/numpy/__init__.py (8242ms)
+[Info  - 오전 3:57:46] (5322) [IDX(2)] Long operation: index execution environment /home/pi/Desktop/python camera (19546ms)
+[Info  - 오전 3:57:46] (5322) [IDX(2)] Long operation: index packages /home/pi/Desktop/python camera (19658ms)
+[Info  - 오전 3:57:46] (5322) indexed(2) 40 files over 1 exec env
+[Info  - 오전 3:57:46] (5322) Indexing finished(2).
+[Info  - 오전 3:57:51] (5322) [BG(1)] Long operation: checking: /home/pi/Desktop/python camera/python_camera.py (17960ms)
+[Info  - 오전 3:57:51] (5322) [BG(1)] Long operation: analyzing: /home/pi/Desktop/python camera/python_camera.py (19481ms)
+[Info  - 오전 3:59:30] (5322) [BG(1)] Long operation: checking: /home/pi/Desktop/python camera/python_camera.py (3903ms)
+[Info  - 오전 3:59:30] (5322) [BG(1)] Long operation: analyzing: /home/pi/Desktop/python camera/python_camera.py (3918ms)
+[Info  - 오전 3:59:40] (5322) [BG(1)] Long operation: checking: /home/pi/Desktop/python camera/python_camera.py (2029ms)
+[Info  - 오전 3:59:40] (5322) [BG(1)] Long operation: analyzing: /home/pi/Desktop/python camera/python_camera.py (2105ms)

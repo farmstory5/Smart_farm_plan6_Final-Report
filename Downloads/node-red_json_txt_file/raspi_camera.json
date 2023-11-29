@@ -1,0 +1,199 @@
+[
+    {
+        "id": "1b27cf5eb37c997e",
+        "type": "tab",
+        "label": "raspi_camera",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "669bf21230232879",
+        "type": "camerapi-takephoto",
+        "z": "1b27cf5eb37c997e",
+        "filemode": "1",
+        "filename": "image.JPEG",
+        "filedefpath": "0",
+        "filepath": "/home/pi/Pictures/",
+        "fileformat": "jpeg",
+        "resolution": "1",
+        "rotation": "0",
+        "fliph": "0",
+        "flipv": "0",
+        "brightness": "50",
+        "contrast": "0",
+        "sharpness": "0",
+        "quality": "80",
+        "imageeffect": "none",
+        "exposuremode": "auto",
+        "iso": "0",
+        "agcwait": "1.0",
+        "led": "0",
+        "awb": "auto",
+        "name": "",
+        "x": 320,
+        "y": 80,
+        "wires": [
+            [
+                "f0b634bdf4d61aad"
+            ]
+        ]
+    },
+    {
+        "id": "f0b634bdf4d61aad",
+        "type": "debug",
+        "z": "1b27cf5eb37c997e",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "ba46ea6b8d2bbc74",
+        "type": "inject",
+        "z": "1b27cf5eb37c997e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "669bf21230232879"
+            ]
+        ]
+    },
+    {
+        "id": "53caaaf9cbdf99b8",
+        "type": "comment",
+        "z": "1b27cf5eb37c997e",
+        "name": "Capture the image from IP camera",
+        "info": "",
+        "x": 160,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "4e23ae30a8bc9e9c",
+        "type": "comment",
+        "z": "1b27cf5eb37c997e",
+        "name": "Getting and image and display directly in Dashboard",
+        "info": "Image preview node:\nnode-red-contrib-image-output",
+        "x": 210,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "e349475830522f79",
+        "type": "camerapi-takephoto",
+        "z": "1b27cf5eb37c997e",
+        "filemode": "1",
+        "filename": "image.JPEG",
+        "filedefpath": "0",
+        "filepath": "/home/pi/Pictures/",
+        "fileformat": "jpeg",
+        "resolution": "1",
+        "rotation": "0",
+        "fliph": "0",
+        "flipv": "0",
+        "brightness": "50",
+        "contrast": "0",
+        "sharpness": "0",
+        "quality": "80",
+        "imageeffect": "none",
+        "exposuremode": "auto",
+        "iso": "0",
+        "agcwait": "1.0",
+        "led": "0",
+        "awb": "auto",
+        "name": "",
+        "x": 320,
+        "y": 240,
+        "wires": [
+            [
+                "d5a1f1c09780912d"
+            ]
+        ]
+    },
+    {
+        "id": "ed72fbf7a0a7a714",
+        "type": "ui_template",
+        "z": "1b27cf5eb37c997e",
+        "group": "8e0c52cb151970a8",
+        "name": "Template",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "format": "<script>\n    var value = \"1\";\n// or overwrite value in your callback function ...\nthis.scope.action = function() { return value; }\n\nfunction updateF() {\n  var source = '/image.JPEG',\n  timestamp = (new Date()).getTime(),\n  newUrl = source + '?_=' + timestamp;\n  document.getElementById(\"photo\").src = newUrl\n}\n</script>\n\n<div style=\"margin-bottom:40px;\">\n  <img src=\"/image.JPEG\" id=\"photo\" width=\"100%\" height=\"100%\">\n</div>\n\n<md-button ng-click=\"send({payload:action()})\" onclick=\"setTimeout(updateF, 2500);\"\n  style=\"padding:40px; margin-bottom: 40px;\">\n  <ui-icon icon=\"camera\"></ui-icon>\n  현재 상태 보기 버튼<br> 2.5초 소요\n</md-button>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 80,
+        "y": 240,
+        "wires": [
+            [
+                "e349475830522f79"
+            ]
+        ]
+    },
+    {
+        "id": "d5a1f1c09780912d",
+        "type": "image",
+        "z": "1b27cf5eb37c997e",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": false,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 540,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "8e0c52cb151970a8",
+        "type": "ui_group",
+        "name": "작물 현재 모습",
+        "tab": "01535ddb89708fbb",
+        "order": 6,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "01535ddb89708fbb",
+        "type": "ui_tab",
+        "name": "하드웨어 제어부 프로토타입",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]

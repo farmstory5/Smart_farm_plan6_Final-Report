@@ -34,6 +34,20 @@ applications-development
 lxde-development.directory
 4
 0
+-arduino-arduinoide.desktop
+Arduino IDE
+Open-source electronics prototyping platform
+arduino-arduinoide
+
+7
+Arduino IDE
+"/home/pi/Programs/arduino-1.8.19/arduino"
+0
+0
+
+
+Development;IDE;Electronics
+embedded electronics,electronics,avr,microcontroller
 -bluej.desktop
 BlueJ Java IDE
 A simple powerful Java IDE
@@ -464,20 +478,6 @@ netsurf-gtk
 
 Network
 
--realvnc-vnclicensehelper.desktop
-VNC License Helper
-Install a VNC license key
-/usr/share/icons/hicolor/48x48/apps/vncserver48x48.png
-
-11
-VNC License
-vnclicensehelper -key %f
-4
-0
-
-
-Application;Network;RemoteAccess
-
 -lxde-x-www-browser.desktop
 Web Browser
 
@@ -784,6 +784,20 @@ VNC Server - Licensing
 11
 VNC Server
 
+4
+0
+
+
+
+
+-realvnc-vncviewer-scheme.desktop
+VNC Viewer URL Handler
+
+
+
+11
+
+vncviewer -uri %u
 4
 0
 

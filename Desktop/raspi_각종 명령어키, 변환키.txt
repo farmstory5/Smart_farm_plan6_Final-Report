@@ -4,3 +4,12 @@ ctrl+shift_v = paste
 
 sudo apt-get update
 sudo apt-get upgrade
+
+sudo apt-get install ufw - 방화벽 설치
+sudo ufw status - 방화벽 상태
+sudo ufw enable - 방화벽 활성화
+sudo ufw disable - 방화벽 비활성화
+sudo ufw allow 1883 - 1883번 포트에 대한 방화벽 허용
+sudo ufw allow 3389 - 방화벽을 설치했기 때문에 3389(원격접속)포트에 대한 방화벽 허용도 해줘야 원격접속 사용 가능
+sudo ufw allow 22 - FileZilla 방화벽 허용
+sudo ufw deny 22 - 방화벽 차단

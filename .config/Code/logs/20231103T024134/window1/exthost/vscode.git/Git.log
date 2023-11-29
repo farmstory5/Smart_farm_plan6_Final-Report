@@ -1,0 +1,8 @@
+2023-11-03 02:42:04.839 [info] 로그 수준: Info
+2023-11-03 02:42:04.840 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2023-11-03 02:42:04.840 [info] "2.20.1"에서 git "git"을(를) 사용하는 중
+2023-11-03 02:42:04.840 [info] > git rev-parse --show-toplevel [323ms]
+2023-11-03 02:42:04.840 [info] fatal: detected dubious ownership in repository at '/home/pi'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/pi

@@ -21,6 +21,12 @@
  **/
 
 module.exports = {
+	editorTheme: {
+
+		projects: {
+			enabled: true
+		}
+	},
 
 /*******************************************************************************
  * Flow File and User Directory Settings
@@ -73,14 +79,14 @@ module.exports = {
     /** To password protect the Node-RED editor and admin API, the following
      * property can be used. See http://nodered.org/docs/security.html for details.
      */
-    //adminAuth: {
-    //    type: "credentials",
-    //    users: [{
-    //        username: "admin",
-    //        password: "$2a$08$zZWtXTja0fB1pzD4sHCMyOCMYz2Z6dNbM6tl8sJogENOMcxWV9DN.",
-    //        permissions: "*"
-    //    }]
-    //},
+    adminAuth: {
+        type: "credentials",
+        users: [{
+            username: "smartfarm5",
+            password: "$2b$08$zjsX0BOdalXPmi5DINj9t.cS99Rigjou24DZnuFnX./ikqGVvHD/6",
+            permissions: "*"
+        }]
+    },
 
     /** The following property can be used to enable HTTPS
      * This property can be either an object, containing both a (private) key
@@ -122,8 +128,8 @@ module.exports = {
      * The `pass` field is a bcrypt hash of the password.
      * See http://nodered.org/docs/security.html#generating-the-password-hash
      */
-    //httpNodeAuth: {user:"user",pass:"$2a$08$zZWtXTja0fB1pzD4sHCMyOCMYz2Z6dNbM6tl8sJogENOMcxWV9DN."},
-    //httpStaticAuth: {user:"user",pass:"$2a$08$zZWtXTja0fB1pzD4sHCMyOCMYz2Z6dNbM6tl8sJogENOMcxWV9DN."},
+    httpNodeAuth: {user:"smartfarm5",pass:"$2b$08$zjsX0BOdalXPmi5DINj9t.cS99Rigjou24DZnuFnX./ikqGVvHD/6"},
+    httpStaticAuth: {user:"smartfarm5",pass:"$2b$08$zjsX0BOdalXPmi5DINj9t.cS99Rigjou24DZnuFnX./ikqGVvHD/6"},
 
 /*******************************************************************************
  * Server Settings
@@ -238,7 +244,7 @@ module.exports = {
      *      then "/home/nol/pics/" will be served at "/static/img/"
      */
     //httpStaticRoot: '/static/',
-
+	httpStatic: '/home/pi/Pictures/',
 /*******************************************************************************
  * Runtime Settings
  *  - lang
@@ -480,7 +486,7 @@ module.exports = {
      */
     //ui: { path: "ui" },
 
-    /** Colourise the console output of the debug node */
+   /** Colourise the console output of the debug node */
     //debugUseColors: true,
 
     /** The maximum length, in characters, of any message sent to the debug sidebar tab */

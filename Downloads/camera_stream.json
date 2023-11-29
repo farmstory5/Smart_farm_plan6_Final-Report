@@ -1,0 +1,53 @@
+[
+    {
+        "id": "72dec0514b662d54",
+        "type": "ui_template",
+        "z": "1b27cf5eb37c997e",
+        "group": "8e0c52cb151970a8",
+        "name": "DashboardViewer",
+        "order": 7,
+        "width": "12",
+        "height": "12",
+        "format": "<iframe scrolling=no marginwidth=0 marginheight=0 frameborder=0 height=1024 width=720\n    src=\"http://192.168.219.103:8080/?action=stream\"></iframe>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 110,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "70092d11c3e111eb",
+        "type": "comment",
+        "z": "1b27cf5eb37c997e",
+        "name": "카메라 실시간 스트리밍",
+        "info": "Image preview node:\nnode-red-contrib-image-output",
+        "x": 120,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "8e0c52cb151970a8",
+        "type": "ui_group",
+        "name": "카메라",
+        "tab": "01535ddb89708fbb",
+        "order": 2,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "01535ddb89708fbb",
+        "type": "ui_tab",
+        "name": "하드웨어 제어부 프로토타입",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]

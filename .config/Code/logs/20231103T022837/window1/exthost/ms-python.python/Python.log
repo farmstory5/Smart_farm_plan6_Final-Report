@@ -1,0 +1,16 @@
+2023-11-03 02:29:07.533 [info] 실험 'pythonaa'이(가) 활성 상태입니다.
+2023-11-03 02:29:07.533 [info] 실험 'pythonPromptNewFormatterExt'이(가) 활성 상태입니다.
+2023-11-03 02:29:07.533 [info] 실험 'pythonPromptNewToolsExt'이(가) 활성 상태입니다.
+2023-11-03 02:29:07.533 [info] 실험 'pythonSurveyNotification'이(가) 활성 상태입니다.
+2023-11-03 02:29:07.533 [info] 실험 'pythonTerminalEnvVarActivationcf'이(가) 활성 상태입니다.
+2023-11-03 02:29:07.533 [info] 실험 'pythonTestAdapter'이(가) 활성 상태입니다.
+2023-11-03 02:29:07.533 [info] Test server listening.
+2023-11-03 02:29:07.533 [info] Python 인터프리터 경로: /bin/python3
+2023-11-03 02:29:08.054 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-11-03 02:29:08.054 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-11-03 02:29:09.234 [info] > conda info --json
+2023-11-03 02:29:18.317 [info] Pylance 언어 서버를 시작하는 중입니다.
+2023-11-03 02:30:18.420 [info] Send text to terminal: /bin/python3 "/home/pi/Desktop/python camera/python_camera.py"
+2023-11-03 02:36:57.895 [info] Send text to terminal: /bin/python3 "/home/pi/Desktop/python camera/python_camera.py"
+2023-11-03 02:39:27.199 [info] Send text to terminal: /bin/python3 "/home/pi/Desktop/python camera/python_camera.py"
+2023-11-03 02:39:38.661 [info] Send text to terminal: /bin/python3 "/home/pi/Desktop/python camera/python_camera.py"

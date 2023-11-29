@@ -1,0 +1,26 @@
+[Info  - 오전 5:18:37] (7458) Pylance language server 2023.5.30 (pyright e1b6074b) starting
+[Info  - 오전 5:18:37] (7458) Server root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist
+[Info  - 오전 5:18:37] (7458) Starting service instance "python camera"
+[Info  - 오전 5:18:37] (7458) Setting pythonPath for service "python camera": "/bin/python3"
+[Warn  - 오전 5:18:37] (7458) stubPath /home/pi/Desktop/python camera/typings is not a valid directory.
+[Info  - 오전 5:18:38] (7458) Assuming Python version 3.7
+[Info  - 오전 5:18:38] (7458) Found 1 source file
+[Info  - 오전 5:18:43] (7458) Background analysis(1) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist
+[Info  - 오전 5:18:43] (7458) Background analysis(1) started
+[Info  - 오전 5:18:43] (7458) Setting pythonPath for service "python camera": "/bin/python3"
+[Warn  - 오전 5:18:43] (7458) stubPath /home/pi/Desktop/python camera/typings is not a valid directory.
+[Info  - 오전 5:18:44] (7458) Assuming Python version 3.7
+[Info  - 오전 5:18:45] (7458) Found 1 source file
+[Info  - 오전 5:18:45] (7458) Indexer background runner(2) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist (index)
+[Info  - 오전 5:18:45] (7458) Indexing(2) started
+[Info  - 오전 5:18:52] (7458) [IDX(2)] Long operation: scan packages /home/pi/Desktop/python camera (6606ms)
+[Info  - 오전 5:18:52] (7458) scanned(2) 116 files over 1 exec env
+[Info  - 오전 5:18:53] (7458) [BG(1)] Long operation: getSemanticTokens full at /home/pi/Desktop/python camera/python_camera.py (10818ms)
+[Info  - 오전 5:19:01] (7458) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/numpy/__init__.py (2488ms)
+[Info  - 오전 5:19:01] (7458) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/numpy/__init__.py (3195ms)
+[Info  - 오전 5:19:02] (7458) [IDX(2)] Long operation: index execution environment /home/pi/Desktop/python camera (9248ms)
+[Info  - 오전 5:19:02] (7458) [IDX(2)] Long operation: index packages /home/pi/Desktop/python camera (9351ms)
+[Info  - 오전 5:19:02] (7458) indexed(2) 40 files over 1 exec env
+[Info  - 오전 5:19:02] (7458) Indexing finished(2).
+[Info  - 오전 5:19:04] (7458) [BG(1)] Long operation: checking: /home/pi/Desktop/python camera/python_camera.py (8619ms)
+[Info  - 오전 5:19:04] (7458) [BG(1)] Long operation: analyzing: /home/pi/Desktop/python camera/python_camera.py (9568ms)

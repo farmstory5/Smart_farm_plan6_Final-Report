@@ -1,0 +1,13 @@
+Visual Studio Code (1.76.0, undefined, desktop)
+Jupyter Extension Version: 2023.2.1200692131.
+Python Extension Version: 2023.4.1.
+Workspace folder /home/pi/Desktop/python camera
+info 03:42:41.328: LSP Notebooks experiment is enabled
+warn 03:42:45.815: Failed to get activated env vars with python /bin/python3 in 3407ms
+info 03:42:45.927: Process Execution: > /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_SITE);print("USER_BASE_VALUE");"
+> /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_SITE);print("USER_BASE_VALUE");"
+info 03:42:46.308: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+info 03:55:34.967: Shutting down notebooks for 4c4dd44a-ff6d-46ed-bb61-19a57e1698a6
+info 03:55:34.967: Disposing HostJupyterExecution 68ec9d17-b014-4b64-a337-eae0cd7d963b
+info 03:55:34.969: Disposing HostJupyterExecution 68ec9d17-b014-4b64-a337-eae0cd7d963b

@@ -1,0 +1,23 @@
+[Info  - 오전 2:57:00] (2273) Pylance language server 2023.5.30 (pyright e1b6074b) starting
+[Info  - 오전 2:57:00] (2273) Server root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist
+[Info  - 오전 2:57:00] (2273) Starting service instance "python camera"
+[Info  - 오전 2:57:00] (2273) Setting pythonPath for service "python camera": "/bin/python3"
+[Warn  - 오전 2:57:00] (2273) stubPath /home/pi/Desktop/python camera/typings is not a valid directory.
+[Info  - 오전 2:57:00] (2273) Assuming Python version 3.7
+[Info  - 오전 2:57:01] (2273) Found 1 source file
+[Info  - 오전 2:57:03] (2273) Background analysis(1) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist
+[Info  - 오전 2:57:03] (2273) Background analysis(1) started
+[Info  - 오전 2:57:05] (2273) Indexer background runner(2) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist (index)
+[Info  - 오전 2:57:05] (2273) Indexing(2) started
+[Info  - 오전 2:57:06] (2273) [BG(1)] Long operation: getSemanticTokens full at /home/pi/Desktop/python camera/python_camera.py (3057ms)
+[Info  - 오전 2:57:09] (2273) [IDX(2)] Long operation: scan packages /home/pi/Desktop/python camera (4447ms)
+[Info  - 오전 2:57:09] (2273) scanned(2) 116 files over 1 exec env
+[Info  - 오전 2:57:13] (2273) [IDX(2)] Long operation: index execution environment /home/pi/Desktop/python camera (3457ms)
+[Info  - 오전 2:57:13] (2273) [IDX(2)] Long operation: index packages /home/pi/Desktop/python camera (3551ms)
+[Info  - 오전 2:57:13] (2273) indexed(2) 40 files over 1 exec env
+[Info  - 오전 2:57:13] (2273) Indexing finished(2).
+[Info  - 오전 2:58:21] (2273) [BG(1)] Long operation: checking: /home/pi/Desktop/python camera/python_camera.py (8214ms)
+[Info  - 오전 2:58:21] (2273) [BG(1)] Long operation: analyzing: /home/pi/Desktop/python camera/python_camera.py (8294ms)
+[Info  - 오전 3:16:46] (2273) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1695664701934 at /home/pi/Desktop/python camera/python_camera.py (2438ms)
+[Info  - 오전 3:20:56] (2273) [BG(1)] Long operation: checking: /home/pi/Desktop/python camera/python_camera.py (3123ms)
+[Info  - 오전 3:20:56] (2273) [BG(1)] Long operation: analyzing: /home/pi/Desktop/python camera/python_camera.py (3238ms)

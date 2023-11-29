@@ -1,0 +1,33 @@
+2023-09-26 03:42:52.450 [info] 로그 수준: Info
+2023-09-26 03:42:52.450 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2023-09-26 03:42:52.450 [info] "2.20.1"에서 git "git"을(를) 사용하는 중
+2023-09-26 03:42:52.450 [info] > git rev-parse --show-toplevel [67ms]
+2023-09-26 03:42:52.450 [info] fatal: detected dubious ownership in repository at '/home/pi'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/pi
+2023-09-26 03:42:52.450 [info] > git rev-parse --show-toplevel [7ms]
+2023-09-26 03:42:52.450 [info] fatal: detected dubious ownership in repository at '/home/pi'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/pi
+2023-09-26 03:42:54.384 [info] > git rev-parse --show-toplevel [16ms]
+2023-09-26 03:42:54.384 [info] fatal: detected dubious ownership in repository at '/home/pi'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/pi
+2023-09-26 03:42:55.373 [info] > git rev-parse --show-toplevel [140ms]
+2023-09-26 03:42:55.374 [info] fatal: detected dubious ownership in repository at '/home/pi'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/pi
+2023-09-26 03:42:57.975 [info] > git rev-parse --show-toplevel [6ms]
+2023-09-26 03:42:57.975 [info] fatal: detected dubious ownership in repository at '/home/pi'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/pi
+2023-09-26 03:43:02.610 [info] > git rev-parse --show-toplevel [13ms]
+2023-09-26 03:43:02.611 [info] fatal: detected dubious ownership in repository at '/home/pi'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/pi

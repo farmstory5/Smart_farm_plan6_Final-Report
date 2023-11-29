@@ -1,0 +1,52 @@
+2023-09-26 14:07:35.541 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ko
+2023-09-26 14:07:35.598 [info] Getting Manifest... ms-python.python
+2023-09-26 14:07:35.652 [info] Getting Manifest... ms-python.vscode-pylance
+2023-09-26 14:07:35.705 [info] Getting Manifest... ms-toolsai.jupyter
+2023-09-26 14:07:35.722 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-09-26 14:07:35.759 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-09-26 14:07:36.123 [info] Installing extension: ms-ceintl.vscode-language-pack-ko
+2023-09-26 14:07:36.273 [info] Installing extension: ms-toolsai.jupyter-keymap
+2023-09-26 14:07:36.305 [info] Installing extension: ms-toolsai.jupyter
+2023-09-26 14:07:36.336 [info] Installing extension: ms-toolsai.jupyter-renderers
+2023-09-26 14:07:36.630 [info] Installing extension: ms-python.python
+2023-09-26 14:07:36.636 [info] Installing extension: ms-python.vscode-pylance
+2023-09-26 14:07:51.857 [info] Getting Manifest... ms-python.python
+2023-09-26 14:08:05.679 [info] Waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2023-09-26 14:09:15.175 [info] Extension signature is verified: ms-ceintl.vscode-language-pack-ko
+2023-09-26 14:09:17.072 [info] Extension signature is verified: ms-toolsai.jupyter
+2023-09-26 14:09:17.859 [info] Extension signature is verified: ms-toolsai.jupyter-keymap
+2023-09-26 14:09:18.255 [info] Extension signature is verified: ms-toolsai.jupyter-renderers
+2023-09-26 14:09:18.695 [info] Extension signature is verified: ms-python.vscode-pylance
+2023-09-26 14:09:20.546 [info] Extracted extension to file:///home/pi/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.2: ms-toolsai.jupyter-keymap
+2023-09-26 14:09:20.860 [info] Renamed to /home/pi/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.2
+2023-09-26 14:09:21.177 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-09-26 14:09:21.592 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-09-26 14:09:21.868 [info] Extension signature is verified: ms-python.python
+2023-09-26 14:09:21.989 [info] Marked extension as uninstalled ms-toolsai.jupyter-keymap-1.1.0
+2023-09-26 14:09:27.474 [info] Extracted extension to file:///home/pi/.vscode/extensions/ms-ceintl.vscode-language-pack-ko-1.82.2023091309: ms-ceintl.vscode-language-pack-ko
+2023-09-26 14:09:27.606 [info] Renamed to /home/pi/.vscode/extensions/ms-ceintl.vscode-language-pack-ko-1.82.2023091309
+2023-09-26 14:09:27.777 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-ko
+2023-09-26 14:09:27.861 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ko
+2023-09-26 14:09:29.281 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-ko-1.76.2023031509
+2023-09-26 14:09:29.822 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ko
+2023-09-26 14:09:38.342 [info] Extracted extension to file:///home/pi/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.17: ms-toolsai.jupyter-renderers
+2023-09-26 14:09:38.447 [info] Renamed to /home/pi/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.17
+2023-09-26 14:09:38.492 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-09-26 14:09:38.595 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-09-26 14:09:38.879 [info] Marked extension as uninstalled ms-toolsai.jupyter-renderers-1.0.15
+2023-09-26 14:09:39.984 [info] Extracted extension to file:///home/pi/.vscode/extensions/ms-toolsai.jupyter-2023.8.1002501831-linux-armhf: ms-toolsai.jupyter
+2023-09-26 14:09:41.128 [info] Renamed to /home/pi/.vscode/extensions/ms-toolsai.jupyter-2023.8.1002501831-linux-armhf
+2023-09-26 14:09:41.221 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-09-26 14:09:41.410 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-09-26 14:09:41.612 [info] Marked extension as uninstalled ms-toolsai.jupyter-2023.2.1200692131
+2023-09-26 14:10:20.994 [info] Extracted extension to file:///home/pi/.vscode/extensions/ms-python.python-2023.16.0: ms-python.python
+2023-09-26 14:10:21.088 [info] Renamed to /home/pi/.vscode/extensions/ms-python.python-2023.16.0
+2023-09-26 14:10:21.199 [info] Extracting extension completed. ms-python.python
+2023-09-26 14:10:21.388 [info] Extension installed successfully: ms-python.python
+2023-09-26 14:10:21.395 [info] Finished waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2023-09-26 14:10:21.616 [info] Marked extension as uninstalled ms-python.python-2023.4.1
+2023-09-26 14:10:43.174 [info] Extracted extension to file:///home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.9.20: ms-python.vscode-pylance
+2023-09-26 14:10:43.300 [info] Renamed to /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.9.20
+2023-09-26 14:10:43.322 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-09-26 14:10:43.386 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-09-26 14:10:43.589 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.5.30

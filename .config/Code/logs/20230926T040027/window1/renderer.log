@@ -1,0 +1,6 @@
+2023-09-26 04:00:57.524 [warning] Webgl could not be loaded. Falling back to the canvas renderer type. {}
+2023-09-26 04:00:57.527 [warning] Webgl could not be loaded. Falling back to the canvas renderer type. {}
+2023-09-26 04:00:57.538 [warning] Webgl could not be loaded. Falling back to the canvas renderer type. {}
+2023-09-26 04:00:57.540 [warning] Webgl could not be loaded. Falling back to the canvas renderer type. {}
+2023-09-26 04:01:13.214 [info] [perf] Render performance baseline is 495ms
+2023-09-26 05:16:52.608 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage

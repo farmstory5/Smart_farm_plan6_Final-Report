@@ -1,0 +1,10 @@
+1. 일반적인 컴파일문
+터미널창 연 후
+sudo ~/.arduino15/packages/arduino/hardware/mbed_nano/4.0.4(버전)/post_install.sh
+
+터미널창 화면에서
+Reload rules... 출력되면 해결완료
+
+2. 컴파일과정 중 arm-none-eabi-g++ 경로 못 찾는 오
+터미널창 연 후
+sudo apt-get install -y gcc-arm-none-eabi

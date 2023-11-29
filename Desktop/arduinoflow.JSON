@@ -1,0 +1,449 @@
+[
+    {
+        "id": "db0b6c7d.4a92d",
+        "type": "tab",
+        "label": "플로우 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "7e006328.e70b4c",
+        "type": "ui_gauge",
+        "z": "db0b6c7d.4a92d",
+        "name": "조도센서게이지",
+        "group": "319273e4.50aa4c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "조도센서",
+        "label": "Cd",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1023",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 720,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "e3a9688d.60c118",
+        "type": "delay",
+        "z": "db0b6c7d.4a92d",
+        "name": "5초",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "12",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "x": 270,
+        "y": 120,
+        "wires": [
+            [
+                "7eab0e20.1159f"
+            ]
+        ]
+    },
+    {
+        "id": "d1600a99.c13f98",
+        "type": "debug",
+        "z": "db0b6c7d.4a92d",
+        "name": "조도센서값",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 710,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "f64bd189.0f09c",
+        "type": "function",
+        "z": "db0b6c7d.4a92d",
+        "name": "LED스위치",
+        "func": "if (msg.payload > 300)\n{\n    msg.payload = true;\n}\nelse\n{\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 710,
+        "y": 180,
+        "wires": [
+            [
+                "f101f9ac.636028"
+            ]
+        ]
+    },
+    {
+        "id": "2fde6051.f8b97",
+        "type": "ui_chart",
+        "z": "db0b6c7d.4a92d",
+        "name": "",
+        "group": "319273e4.50aa4c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "조도센서그래프",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1023",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 720,
+        "y": 100,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "c5bde636.fe6368",
+        "type": "comment",
+        "z": "db0b6c7d.4a92d",
+        "name": "CDS 조도센서",
+        "info": "구입처 : http://mechasolution.com/shop/goods/goods_view.php?goodsno=539609&category=129004",
+        "x": 90,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "74b10d3e.314ba4",
+        "type": "arduino in",
+        "z": "db0b6c7d.4a92d",
+        "name": "A0 조도센서",
+        "pin": "0",
+        "state": "ANALOG",
+        "arduino": "394331c.fdd94ce",
+        "x": 90,
+        "y": 120,
+        "wires": [
+            [
+                "e3a9688d.60c118"
+            ]
+        ]
+    },
+    {
+        "id": "d2e3d8c8.0bf2c8",
+        "type": "arduino out",
+        "z": "db0b6c7d.4a92d",
+        "name": "",
+        "pin": "13",
+        "state": "OUTPUT",
+        "arduino": "394331c.fdd94ce",
+        "x": 1080,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "7eab0e20.1159f",
+        "type": "smooth",
+        "z": "db0b6c7d.4a92d",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "5",
+        "round": "",
+        "mult": "single",
+        "x": 460,
+        "y": 120,
+        "wires": [
+            [
+                "7e006328.e70b4c",
+                "2fde6051.f8b97",
+                "d1600a99.c13f98",
+                "f64bd189.0f09c"
+            ]
+        ]
+    },
+    {
+        "id": "f101f9ac.636028",
+        "type": "ui_switch",
+        "z": "db0b6c7d.4a92d",
+        "name": "",
+        "label": "LED",
+        "group": "319273e4.50aa4c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 910,
+        "y": 180,
+        "wires": [
+            [
+                "d2e3d8c8.0bf2c8"
+            ]
+        ]
+    },
+    {
+        "id": "24234e13.9098b2",
+        "type": "delay",
+        "z": "db0b6c7d.4a92d",
+        "name": "5초",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "12",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "x": 250,
+        "y": 340,
+        "wires": [
+            [
+                "96ae6428.31a088",
+                "8a5f0cb1.595b9"
+            ]
+        ]
+    },
+    {
+        "id": "8c071e8e.6347b",
+        "type": "ui_gauge",
+        "z": "db0b6c7d.4a92d",
+        "name": "온도 게이지",
+        "group": "fb92d78c.e6bd18",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "섭씨온도",
+        "label": "*C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "40",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 990,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "6be2b588.217f9c",
+        "type": "function",
+        "z": "db0b6c7d.4a92d",
+        "name": "TempSensorFunc",
+        "func": "// 출처 : https://learn.adafruit.com/thermistor/using-a-thermistor\nval = msg.payload;\nTERMISTORNOMINAL = 10000;\nTEMPERATURENOMINAL = 25;\nBCOEFFICIENT = 3950;\nSERIESRESISTOR = 10000;\n\nval = 1023 / val - 1;\nval = SERIESRESISTOR / val;\ntemp = val / TERMISTORNOMINAL;\ntemp = Math.log(temp);\ntemp /= BCOEFFICIENT;\ntemp += 1.0 / (TEMPERATURENOMINAL + 273.15);\ntemp = 1.0 / temp;\ntemp -= 273.15;\nmsg.payload = temp.toFixed(2);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 730,
+        "y": 340,
+        "wires": [
+            [
+                "8c071e8e.6347b",
+                "2f9c994.3078366"
+            ]
+        ]
+    },
+    {
+        "id": "2f9c994.3078366",
+        "type": "ui_chart",
+        "z": "db0b6c7d.4a92d",
+        "name": "",
+        "group": "fb92d78c.e6bd18",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "label": "온도그래프",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "40",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "604800",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 990,
+        "y": 380,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "87b3c84c.0a2d08",
+        "type": "comment",
+        "z": "db0b6c7d.4a92d",
+        "name": "NTC3950 10k 써미스터 방수온도센서",
+        "info": "구입처 : http://mechasolution.com/shop/goods/goods_view.php?goodsno=330440&category=129003",
+        "x": 170,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "96ae6428.31a088",
+        "type": "smooth",
+        "z": "db0b6c7d.4a92d",
+        "name": "Average",
+        "property": "payload",
+        "action": "mean",
+        "count": "5",
+        "round": "",
+        "mult": "single",
+        "x": 460,
+        "y": 340,
+        "wires": [
+            [
+                "6be2b588.217f9c",
+                "3ba12461.24d80c"
+            ]
+        ]
+    },
+    {
+        "id": "5c8f4e9b.c9456",
+        "type": "arduino in",
+        "z": "db0b6c7d.4a92d",
+        "name": "A1 온도센서",
+        "pin": "1",
+        "state": "ANALOG",
+        "arduino": "394331c.fdd94ce",
+        "x": 90,
+        "y": 340,
+        "wires": [
+            [
+                "24234e13.9098b2"
+            ]
+        ]
+    },
+    {
+        "id": "8a5f0cb1.595b9",
+        "type": "ui_gauge",
+        "z": "db0b6c7d.4a92d",
+        "name": "센서값",
+        "group": "fb92d78c.e6bd18",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "센서값",
+        "label": "*C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1023",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 690,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "3ba12461.24d80c",
+        "type": "debug",
+        "z": "db0b6c7d.4a92d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 710,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "319273e4.50aa4c",
+        "type": "ui_group",
+        "z": "",
+        "name": "센서그래프",
+        "tab": "9b36500e.eacd",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "394331c.fdd94ce",
+        "type": "arduino-board",
+        "z": "",
+        "device": "/dev/ttyACM0"
+    },
+    {
+        "id": "fb92d78c.e6bd18",
+        "type": "ui_group",
+        "z": "",
+        "name": "NTC3950 온도",
+        "tab": "9b36500e.eacd",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "9b36500e.eacd",
+        "type": "ui_tab",
+        "z": "",
+        "name": "연구실",
+        "icon": "account_balance",
+        "order": 1
+    }
+]

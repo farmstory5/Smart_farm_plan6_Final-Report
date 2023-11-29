@@ -1,0 +1,10 @@
+터미널창 연후
+ls -la /dev/gpiomem 입력
+crwxr-x--- 1 root gpio 244, 0 Aug 23 11:56 /dev/gpiomem
+위 상태창이 동일하지 않다면
+
+
+sudo chown root.gpio /dev/gpiomem
+sudo chmod g+rw /dev/gpiomem
+으로 수정 후
+ls -la /dev/gpiomem 다시 입력 후 확인

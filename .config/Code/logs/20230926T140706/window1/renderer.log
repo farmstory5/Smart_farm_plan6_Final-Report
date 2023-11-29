@@ -1,0 +1,2 @@
+2023-09-26 14:07:27.193 [error] Extension 'ms-toolsai.jupyter' wants API proposal 'notebookControllerKind' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-09-26 14:08:01.283 [info] [perf] Render performance baseline is 805ms

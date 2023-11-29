@@ -1,0 +1,158 @@
+[
+    {
+        "id": "e87d0029a296bd47",
+        "type": "tab",
+        "label": "연습용 플로우창",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fb72953c13efd017",
+        "type": "rpi-gpio out",
+        "z": "e87d0029a296bd47",
+        "name": "",
+        "pin": "23",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 680,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "67be3a209ae1aad6",
+        "type": "rpi-gpio out",
+        "z": "e87d0029a296bd47",
+        "name": "",
+        "pin": "24",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 680,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "79f8c6526255f3dc",
+        "type": "rpi-gpio out",
+        "z": "e87d0029a296bd47",
+        "name": "",
+        "pin": "25",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 700,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "9d21a7f1dd6f978c",
+        "type": "ui_switch",
+        "z": "e87d0029a296bd47",
+        "name": "",
+        "label": "릴레이",
+        "tooltip": "",
+        "group": "2da2e4e025b7a711",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 390,
+        "y": 340,
+        "wires": [
+            [
+                "fb72953c13efd017",
+                "eef3d6d3e5ba1cc2"
+            ]
+        ]
+    },
+    {
+        "id": "a5f7ac98c0499313",
+        "type": "ui_switch",
+        "z": "e87d0029a296bd47",
+        "name": "",
+        "label": "led pin_22",
+        "tooltip": "",
+        "group": "2da2e4e025b7a711",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 410,
+        "y": 500,
+        "wires": [
+            [
+                "79f8c6526255f3dc"
+            ]
+        ]
+    },
+    {
+        "id": "eef3d6d3e5ba1cc2",
+        "type": "InvertUltimate",
+        "z": "e87d0029a296bd47",
+        "name": "Invert",
+        "payloadPropName": "payload",
+        "x": 530,
+        "y": 400,
+        "wires": [
+            [
+                "67be3a209ae1aad6"
+            ]
+        ]
+    },
+    {
+        "id": "2da2e4e025b7a711",
+        "type": "ui_group",
+        "name": "Power_ONOFF",
+        "tab": "01535ddb89708fbb",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "01535ddb89708fbb",
+        "type": "ui_tab",
+        "name": "하드웨어 제어부 프로토타입",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]

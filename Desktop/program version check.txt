@@ -2,6 +2,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 #환경 확인
+cat /proc/device-tree/model
 uname -m
 armv7l =32bit processor
 ARMv8 =64bit processor

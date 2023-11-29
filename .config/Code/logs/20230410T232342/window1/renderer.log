@@ -1,7 +1,0 @@
-2023-04-10 23:23:47.653 [error] Error: 파일을 찾을 수 없으므로 편집기를 열 수 없습니다.
-    at d.bc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2292:89460)
-    at async d.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2292:88446)
-    at async a.M (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2290:22975)
-    at async a.D (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2290:21570)
-    at async a.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2290:20473)
-    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2477:13498

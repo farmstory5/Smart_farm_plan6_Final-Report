@@ -1,0 +1,5 @@
+2023-11-03 02:42:01.324 [error] electron #7: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NETWORK_CHANGED
+2023-11-03 02:42:02.836 [error] electron #8: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2023-11-03 02:42:04.723 [error] electron #9: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2023-11-03 02:42:05.832 [error] electron #10: https://update.code.visualstudio.com/api/update/linux-arm/stable/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d - error undefined net::ERR_NAME_NOT_RESOLVED
+2023-11-03 02:42:06.571 [error] electron #11: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED

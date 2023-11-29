@@ -1,0 +1,710 @@
+[
+    {
+        "id": "b7cedfbddc8003b3",
+        "type": "tab",
+        "label": "DHT11, 조도, 토양 Gate",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ff35eb680e322ef4",
+        "type": "inject",
+        "z": "b7cedfbddc8003b3",
+        "name": "DHT11",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 140,
+        "wires": [
+            [
+                "d34f3486faca8829"
+            ]
+        ]
+    },
+    {
+        "id": "6b8262a1611b6093",
+        "type": "debug",
+        "z": "b7cedfbddc8003b3",
+        "name": "dht11 temperature",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "d34f3486faca8829",
+        "type": "rpi-dht22",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "topic": "rpi-dht11",
+        "dht": "11",
+        "pintype": "0",
+        "pin": "4",
+        "x": 320,
+        "y": 140,
+        "wires": [
+            [
+                "0d562ee9ef7db82b",
+                "b48b7fc6b3301b70",
+                "6b8262a1611b6093",
+                "880c53b71f633491",
+                "b7b2c29d6cf4fcc4"
+            ]
+        ]
+    },
+    {
+        "id": "880c53b71f633491",
+        "type": "change",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "humidity",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 340,
+        "wires": [
+            [
+                "720e51ee3fe30771",
+                "561c628131c71929",
+                "042db0e4858f7609"
+            ]
+        ]
+    },
+    {
+        "id": "042db0e4858f7609",
+        "type": "debug",
+        "z": "b7cedfbddc8003b3",
+        "name": "dht11 humidity",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "0d562ee9ef7db82b",
+        "type": "ui_gauge",
+        "z": "b7cedfbddc8003b3",
+        "name": "온도",
+        "group": "145c38e6462fa663",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "온도",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": "50",
+        "colors": [
+            "#0000ff",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "20",
+        "seg2": "35",
+        "diff": false,
+        "className": "",
+        "x": 510,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "720e51ee3fe30771",
+        "type": "ui_gauge",
+        "z": "b7cedfbddc8003b3",
+        "name": "습도",
+        "group": "e3fb01679b585ae7",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "습도",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#0000ff",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 730,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "b48b7fc6b3301b70",
+        "type": "ui_chart",
+        "z": "b7cedfbddc8003b3",
+        "name": "온도 변화 추이",
+        "group": "145c38e6462fa663",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "온도 변화 추이",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "15",
+        "ymax": "35",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#0d84d9",
+            "#aec7e8",
+            "#ff7f0e",
+            "#0ae60a",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 540,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "561c628131c71929",
+        "type": "ui_chart",
+        "z": "b7cedfbddc8003b3",
+        "name": "습도 변화 추이",
+        "group": "e3fb01679b585ae7",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "습도 변화 추이",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "40",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#0d84d9",
+            "#aec7e8",
+            "#ff7f0e",
+            "#0ae60a",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 760,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f07f2a932d5fca6c",
+        "type": "rpi-gpio out",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "pin": "17",
+        "set": true,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 720,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "b7b2c29d6cf4fcc4",
+        "type": "trigger",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "50",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 530,
+        "y": 260,
+        "wires": [
+            [
+                "f07f2a932d5fca6c"
+            ]
+        ]
+    },
+    {
+        "id": "324834f48888840f",
+        "type": "arduino in",
+        "z": "b7cedfbddc8003b3",
+        "name": "A0 조도센서",
+        "pin": "0",
+        "state": "ANALOG",
+        "arduino": "394331c.fdd94ce",
+        "x": 90,
+        "y": 700,
+        "wires": [
+            [
+                "90035d9b13683eed"
+            ]
+        ]
+    },
+    {
+        "id": "7c933fe4c6d4d13a",
+        "type": "comment",
+        "z": "b7cedfbddc8003b3",
+        "name": "아두이노_CDS 조도센서_빛",
+        "info": "구입처 : http://mechasolution.com/shop/goods/goods_view.php?goodsno=539609&category=129004",
+        "x": 140,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "90035d9b13683eed",
+        "type": "delay",
+        "z": "b7cedfbddc8003b3",
+        "name": "5초",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "12",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 270,
+        "y": 700,
+        "wires": [
+            [
+                "e7ba2a132508b2d4"
+            ]
+        ]
+    },
+    {
+        "id": "e7ba2a132508b2d4",
+        "type": "smooth",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "5",
+        "round": "",
+        "mult": "single",
+        "reduce": false,
+        "x": 460,
+        "y": 700,
+        "wires": [
+            [
+                "d5bb72cc84425e8b",
+                "e33829f0f8afb1a9",
+                "912857f91662a832"
+            ]
+        ]
+    },
+    {
+        "id": "d5bb72cc84425e8b",
+        "type": "ui_gauge",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "group": "319273e4.50aa4c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "빛",
+        "label": "Cds",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1023",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 690,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "e33829f0f8afb1a9",
+        "type": "ui_chart",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "group": "319273e4.50aa4c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "빛 변화 추이",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1023",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 710,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "912857f91662a832",
+        "type": "debug",
+        "z": "b7cedfbddc8003b3",
+        "name": "조도센서값",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 710,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "6106fdbabcac634b",
+        "type": "comment",
+        "z": "b7cedfbddc8003b3",
+        "name": "라즈베리파이_DHT11_온도, 습도",
+        "info": "구입처 : http://mechasolution.com/shop/goods/goods_view.php?goodsno=539609&category=129004",
+        "x": 150,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "1cc055a33d0bdbd8",
+        "type": "comment",
+        "z": "b7cedfbddc8003b3",
+        "name": "아두이노_토양(수분감지)센서_water",
+        "info": "구입처 : http://mechasolution.com/shop/goods/goods_view.php?goodsno=539609&category=129004",
+        "x": 160,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "b8e95f6614846f72",
+        "type": "arduino in",
+        "z": "b7cedfbddc8003b3",
+        "name": "A1 토양센서",
+        "pin": "1",
+        "state": "ANALOG",
+        "arduino": "394331c.fdd94ce",
+        "x": 90,
+        "y": 920,
+        "wires": [
+            [
+                "124a59cb9f070b6c"
+            ]
+        ]
+    },
+    {
+        "id": "124a59cb9f070b6c",
+        "type": "delay",
+        "z": "b7cedfbddc8003b3",
+        "name": "5초",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "12",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 270,
+        "y": 920,
+        "wires": [
+            [
+                "12cb90e83df248eb"
+            ]
+        ]
+    },
+    {
+        "id": "12cb90e83df248eb",
+        "type": "smooth",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "5",
+        "round": "",
+        "mult": "single",
+        "reduce": false,
+        "x": 460,
+        "y": 920,
+        "wires": [
+            [
+                "e8fe823a03f0b91b",
+                "16c1888c777e8e39",
+                "58eba51f15ec73aa"
+            ]
+        ]
+    },
+    {
+        "id": "58eba51f15ec73aa",
+        "type": "debug",
+        "z": "b7cedfbddc8003b3",
+        "name": "조도센서값",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 710,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "16c1888c777e8e39",
+        "type": "ui_chart",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "group": "7aaee87656eaeae5",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "수분함량 변화 추이",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 730,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e8fe823a03f0b91b",
+        "type": "ui_gauge",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "group": "7aaee87656eaeae5",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "토양",
+        "label": "Water level",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 690,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "50c4bf6aba7d7011",
+        "type": "ui_spacer",
+        "z": "b7cedfbddc8003b3",
+        "name": "spacer",
+        "group": "319273e4.50aa4c",
+        "order": 1,
+        "width": "1",
+        "height": "1"
+    },
+    {
+        "id": "90748973730e8d74",
+        "type": "ui_spacer",
+        "z": "b7cedfbddc8003b3",
+        "name": "spacer",
+        "group": "7aaee87656eaeae5",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "145c38e6462fa663",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "b9a154fd549f6487",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e3fb01679b585ae7",
+        "type": "ui_group",
+        "name": "Humidity",
+        "tab": "b9a154fd549f6487",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "394331c.fdd94ce",
+        "type": "arduino-board",
+        "device": "/dev/ttyACM0"
+    },
+    {
+        "id": "319273e4.50aa4c",
+        "type": "ui_group",
+        "name": "Lux",
+        "tab": "b9a154fd549f6487",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7aaee87656eaeae5",
+        "type": "ui_group",
+        "name": "Water Level",
+        "tab": "b9a154fd549f6487",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b9a154fd549f6487",
+        "type": "ui_tab",
+        "name": "측정값 센서부 프로토타입",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

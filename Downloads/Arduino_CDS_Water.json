@@ -1,0 +1,341 @@
+[
+    {
+        "id": "30f24219bad87ddb",
+        "type": "smooth",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "5",
+        "round": "",
+        "mult": "single",
+        "reduce": false,
+        "x": 420,
+        "y": 560,
+        "wires": [
+            [
+                "5a46a7d595bf8a40",
+                "03a7c39b547a7a3b",
+                "912cb1c590a58fc0"
+            ]
+        ]
+    },
+    {
+        "id": "23ec74b4c4bb3f15",
+        "type": "arduino in",
+        "z": "b7cedfbddc8003b3",
+        "name": "A0 조도센서",
+        "pin": "0",
+        "state": "ANALOG",
+        "arduino": "394331c.fdd94ce",
+        "x": 90,
+        "y": 560,
+        "wires": [
+            [
+                "5b2d4e24bd641cad"
+            ]
+        ]
+    },
+    {
+        "id": "dbf426bcaafa3d8c",
+        "type": "comment",
+        "z": "b7cedfbddc8003b3",
+        "name": "아두이노_CDS 조도센서_빛",
+        "info": "",
+        "x": 140,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "5b2d4e24bd641cad",
+        "type": "delay",
+        "z": "b7cedfbddc8003b3",
+        "name": "5초",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "12",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 250,
+        "y": 560,
+        "wires": [
+            [
+                "30f24219bad87ddb"
+            ]
+        ]
+    },
+    {
+        "id": "5a46a7d595bf8a40",
+        "type": "ui_gauge",
+        "z": "b7cedfbddc8003b3",
+        "name": "Lux",
+        "group": "433223190eb9c910",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Lux",
+        "label": "Cds",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1023",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 610,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "03a7c39b547a7a3b",
+        "type": "ui_chart",
+        "z": "b7cedfbddc8003b3",
+        "name": "Lux.chart",
+        "group": "319273e4.50aa4c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Lux.chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1023",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 620,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "912cb1c590a58fc0",
+        "type": "debug",
+        "z": "b7cedfbddc8003b3",
+        "name": "조도센서값",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "c01c8e13b5587dab",
+        "type": "comment",
+        "z": "b7cedfbddc8003b3",
+        "name": "아두이노_토양(수분감지)센서_water",
+        "info": "",
+        "x": 160,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "94fdab1690e00380",
+        "type": "arduino in",
+        "z": "b7cedfbddc8003b3",
+        "name": "A1 토양센서",
+        "pin": "1",
+        "state": "ANALOG",
+        "arduino": "394331c.fdd94ce",
+        "x": 90,
+        "y": 740,
+        "wires": [
+            [
+                "7d2535dc98f80dde"
+            ]
+        ]
+    },
+    {
+        "id": "7d2535dc98f80dde",
+        "type": "delay",
+        "z": "b7cedfbddc8003b3",
+        "name": "5초",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "12",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 250,
+        "y": 740,
+        "wires": [
+            [
+                "4d58cdd2f224a061",
+                "9e08802d2c7e1181",
+                "57747c7a98e8c7a1"
+            ]
+        ]
+    },
+    {
+        "id": "57747c7a98e8c7a1",
+        "type": "debug",
+        "z": "b7cedfbddc8003b3",
+        "name": "수분센서값",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 430,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "9e08802d2c7e1181",
+        "type": "ui_chart",
+        "z": "b7cedfbddc8003b3",
+        "name": "Wat.chart",
+        "group": "319273e4.50aa4c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Wat.chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1023",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 420,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4d58cdd2f224a061",
+        "type": "ui_gauge",
+        "z": "b7cedfbddc8003b3",
+        "name": "Water value",
+        "group": "433223190eb9c910",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Water value",
+        "label": "Water level",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1023",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "394331c.fdd94ce",
+        "type": "arduino-board",
+        "device": "/dev/ttyACM0"
+    },
+    {
+        "id": "433223190eb9c910",
+        "type": "ui_group",
+        "name": "작업장 현황",
+        "tab": "b9a154fd549f6487",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "319273e4.50aa4c",
+        "type": "ui_group",
+        "name": "실시간 차트",
+        "tab": "b9a154fd549f6487",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b9a154fd549f6487",
+        "type": "ui_tab",
+        "name": "측정값 센서부 프로토타입",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]

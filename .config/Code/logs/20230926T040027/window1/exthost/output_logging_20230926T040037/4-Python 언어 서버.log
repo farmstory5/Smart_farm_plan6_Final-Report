@@ -1,0 +1,20 @@
+[Info  - 오전 4:01:01] (5924) Pylance language server 2023.5.30 (pyright e1b6074b) starting
+[Info  - 오전 4:01:01] (5924) Server root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist
+[Info  - 오전 4:01:01] (5924) Starting service instance "python camera"
+[Info  - 오전 4:01:02] (5924) Setting pythonPath for service "python camera": "/bin/python3"
+[Warn  - 오전 4:01:02] (5924) stubPath /home/pi/Desktop/python camera/typings is not a valid directory.
+[Info  - 오전 4:01:02] (5924) Assuming Python version 3.7
+[Info  - 오전 4:01:03] (5924) Found 1 source file
+[Info  - 오전 4:01:07] (5924) Background analysis(1) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist
+[Info  - 오전 4:01:07] (5924) Background analysis(1) started
+[Info  - 오전 4:01:09] (5924) Indexer background runner(2) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist (index)
+[Info  - 오전 4:01:09] (5924) Indexing(2) started
+[Info  - 오전 4:01:17] (5924) [IDX(2)] Long operation: scan packages /home/pi/Desktop/python camera (8076ms)
+[Info  - 오전 4:01:17] (5924) scanned(2) 116 files over 1 exec env
+[Info  - 오전 4:01:23] (5924) [BG(1)] Long operation: checking: /home/pi/Desktop/python camera/python_camera.py (14224ms)
+[Info  - 오전 4:01:23] (5924) [BG(1)] Long operation: analyzing: /home/pi/Desktop/python camera/python_camera.py (17343ms)
+[Info  - 오전 4:01:25] (5924) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/numpy/__init__.py (2229ms)
+[Info  - 오전 4:01:25] (5924) [IDX(2)] Long operation: index execution environment /home/pi/Desktop/python camera (7515ms)
+[Info  - 오전 4:01:25] (5924) [IDX(2)] Long operation: index packages /home/pi/Desktop/python camera (7642ms)
+[Info  - 오전 4:01:25] (5924) indexed(2) 40 files over 1 exec env
+[Info  - 오전 4:01:25] (5924) Indexing finished(2).

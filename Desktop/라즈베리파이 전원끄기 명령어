@@ -1,0 +1,3 @@
+sudo shutdown -h now
+sudo poweroff
+녹색 LED가 깜빡이다가 완전히 꺼지는 때에 전원플러그를 빼면 안전하게 종료

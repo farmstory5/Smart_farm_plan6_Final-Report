@@ -1,0 +1,7 @@
+https://wikidocs.net/16817
+
+node-red : Node-RED 접속, Node-RED가 꺼져있다면 자동으로 켜집니다.
+node-red-stop : Node-RED 를 정지합니다.
+node-red-start : Node-RED 를 재시작합니다.
+sudo systemctl enable nodered.service : Node-RED를 매번 부팅할 때마다 자동 실행 시킵니다.
+sudo systemctl disable nodered.service : 부팅시 자동실행을 비활성화 합니다.

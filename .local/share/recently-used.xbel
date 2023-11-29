@@ -3,7 +3,7 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/pi/.bashrc" added="2023-04-10T09:16:55Z" modified="2023-04-10T12:31:04Z" visited="2023-04-10T09:16:55Z">
+  <bookmark href="file:///home/pi/Desktop/mjpg%20%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D%20%EC%82%AC%EC%9A%A9%EC%88%9C%EC%84%9C" added="2023-08-24T15:07:48Z" modified="2023-11-28T13:55:13Z" visited="2023-08-24T15:07:48Z">
     <desc>문자세트: UTF-8</desc>
     <info>
       <metadata owner="http://freedesktop.org">
@@ -12,12 +12,12 @@
           <bookmark:group>Mousepad</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-04-10T12:31:04Z" count="2"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-28T13:55:13Z" count="27"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/pi/Desktop/program%20version%20check.txt" added="2023-04-10T12:35:50Z" modified="2023-04-26T16:47:54Z" visited="2023-04-10T12:35:51Z">
+  <bookmark href="file:///home/pi/Desktop/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4%20%EB%B0%A9%ED%99%94%EB%B2%BD%EC%84%A4%EC%A0%95" added="2023-11-02T17:49:41Z" modified="2023-11-04T06:19:24Z" visited="2023-11-02T17:49:41Z">
     <desc>문자세트: UTF-8</desc>
     <info>
       <metadata owner="http://freedesktop.org">
@@ -26,12 +26,12 @@
           <bookmark:group>Mousepad</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-04-26T16:47:54Z" count="2"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-04T06:19:24Z" count="6"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/pi/Desktop/nomal%20python%20package%20folder%20road.txt" added="2023-04-10T13:45:25Z" modified="2023-04-10T13:45:25Z" visited="2023-04-10T13:45:25Z">
+  <bookmark href="file:///home/pi/Desktop/node-red-%20hash-pw%20%EC%84%A4%EC%A0%95" added="2023-11-02T19:33:21Z" modified="2023-11-02T19:33:21Z" visited="2023-11-02T19:33:21Z">
     <desc>문자세트: UTF-8</desc>
     <info>
       <metadata owner="http://freedesktop.org">
@@ -40,22 +40,12 @@
           <bookmark:group>Mousepad</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-04-10T13:45:25Z" count="1"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:33:21Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/pi/Desktop/vsc_workspace/DHT11.py" added="2023-04-11T09:55:30Z" modified="2023-04-11T09:55:30Z" visited="2023-04-11T09:55:30Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-python"/>
-        <bookmark:applications>
-          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2023-04-11T09:55:30Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/pi/Desktop/Nord-red_inf.txt" added="2023-04-26T15:54:11Z" modified="2023-04-27T16:20:38Z" visited="2023-04-26T15:54:12Z">
+  <bookmark href="file:///home/pi/Desktop/raspi_%EA%B0%81%EC%A2%85%20%EB%AA%85%EB%A0%B9%EC%96%B4%ED%82%A4,%20%EB%B3%80%ED%99%98%ED%82%A4.txt" added="2023-11-02T19:33:26Z" modified="2023-11-02T19:53:24Z" visited="2023-11-02T19:33:26Z">
     <desc>문자세트: UTF-8</desc>
     <info>
       <metadata owner="http://freedesktop.org">
@@ -64,12 +54,12 @@
           <bookmark:group>Mousepad</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-04-27T16:20:38Z" count="6"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:53:24Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/pi/Desktop/raspi_%EA%B0%81%EC%A2%85%20%EB%AA%85%EB%A0%B9%EC%96%B4%ED%82%A4,%20%EB%B3%80%ED%99%98%ED%82%A4.txt" added="2023-04-26T16:45:38Z" modified="2023-04-26T17:40:52Z" visited="2023-04-26T16:45:39Z">
+  <bookmark href="file:///home/pi/Desktop/Nord-red_inf.txt" added="2023-11-02T19:34:00Z" modified="2023-11-02T19:52:29Z" visited="2023-11-02T19:34:00Z">
     <desc>문자세트: UTF-8</desc>
     <info>
       <metadata owner="http://freedesktop.org">
@@ -78,23 +68,12 @@
           <bookmark:group>Mousepad</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-04-26T17:40:52Z" count="3"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:52:29Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/pi/Downloads/Node-RED%20_%20192.168.219.103.html" added="2023-04-26T16:50:17Z" modified="2023-05-03T13:30:01Z" visited="2023-04-26T16:50:18Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/html"/>
-        <bookmark:applications>
-          <bookmark:application name="chromium-browser-v7" exec="&apos;chromium-browser-v7 %u&apos;" modified="2023-05-03T13:30:01Z" count="25"/>
-          <bookmark:application name="xarchiver" exec="&apos;xarchiver %u&apos;" modified="2023-05-02T03:38:42Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/pi/Desktop/Nord-red_data%20type.txt" added="2023-04-26T17:40:49Z" modified="2023-04-27T16:20:43Z" visited="2023-04-26T17:40:49Z">
+  <bookmark href="file:///home/pi/Desktop/Nord-red_data%20type.txt" added="2023-11-02T19:34:24Z" modified="2023-11-02T19:52:22Z" visited="2023-11-02T19:34:25Z">
     <desc>문자세트: UTF-8</desc>
     <info>
       <metadata owner="http://freedesktop.org">
@@ -103,27 +82,199 @@
           <bookmark:group>Mousepad</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-04-27T16:20:43Z" count="2"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:52:22Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/pi/Desktop/smarfarm/Nord-red_data%20type.txt" added="2023-05-02T03:37:14Z" modified="2023-05-02T03:37:14Z" visited="2023-05-02T03:37:14Z">
+  <bookmark href="file:///home/pi/Desktop/nomal%20python%20package%20folder%20road.txt" added="2023-11-02T19:34:28Z" modified="2023-11-02T19:52:12Z" visited="2023-11-02T19:34:28Z">
+    <desc>문자세트: UTF-8</desc>
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="xarchiver" exec="&apos;xarchiver %u&apos;" modified="2023-05-02T03:37:14Z" count="1"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:52:12Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/pi/Downloads/control2-main%20(1).zip" added="2023-05-02T03:39:48Z" modified="2023-05-02T03:39:48Z" visited="2023-05-02T03:39:48Z">
+  <bookmark href="file:///home/pi/Desktop/node-red%20ip" added="2023-11-02T19:52:17Z" modified="2023-11-02T19:52:17Z" visited="2023-11-02T19:52:17Z">
+    <desc>문자세트: UTF-8</desc>
     <info>
       <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/zip"/>
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="xarchiver" exec="&apos;xarchiver %u&apos;" modified="2023-05-02T03:39:48Z" count="1"/>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:52:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/%EB%AA%A8%EC%8A%A4%ED%82%A4%ED%86%A0%20%EC%8B%A4%ED%96%89%20%ED%9B%84%20%EB%85%B8%EB%93%9C%EB%A0%88%EB%93%9C%20%EC%8B%A4%ED%96%89" added="2023-11-02T19:52:35Z" modified="2023-11-02T19:52:35Z" visited="2023-11-02T19:52:35Z">
+    <desc>문자세트: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:52:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/%EB%AA%A8%EC%8A%A4%ED%82%A4%ED%8A%B8%20%EC%99%B8%EB%B6%80%EB%A1%9C%EC%BB%AC%20%EC%84%A4%EC%A0%95%EC%88%9C%EC%84%9C" added="2023-11-02T19:52:38Z" modified="2023-11-02T19:52:38Z" visited="2023-11-02T19:52:39Z">
+    <desc>문자세트: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:52:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/program%20version%20check.txt" added="2023-11-02T19:52:51Z" modified="2023-11-02T19:52:51Z" visited="2023-11-02T19:52:52Z">
+    <desc>문자세트: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:52:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/nano%20rp2040%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%EC%98%A4%EB%A5%98%20%ED%95%B4%EA%B2%B0%EB%B2%95" added="2023-11-02T19:53:05Z" modified="2023-11-02T19:53:05Z" visited="2023-11-02T19:53:06Z">
+    <desc>문자세트: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:53:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/%EB%A6%AC%EB%88%85%EC%8A%A4%20%ED%8C%8C%EC%9D%BC%20%EC%82%AD%EC%A0%9C%EC%99%80%20%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%20%EC%82%AD%EC%A0%9C%20rm" added="2023-11-02T19:53:11Z" modified="2023-11-02T19:53:11Z" visited="2023-11-02T19:53:12Z">
+    <desc>문자세트: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:53:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/GPU,%20CPU%20%EC%98%A8%EB%8F%84%20%ED%99%95%EC%9D%B8" added="2023-11-02T19:53:16Z" modified="2023-11-02T19:53:16Z" visited="2023-11-02T19:53:16Z">
+    <desc>문자세트: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:53:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4%20%EC%A0%84%EC%9B%90%EB%81%84%EA%B8%B0%20%EB%AA%85%EB%A0%B9%EC%96%B4" added="2023-11-02T19:53:28Z" modified="2023-11-02T19:53:28Z" visited="2023-11-02T19:53:28Z">
+    <desc>문자세트: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:53:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4%20%EB%82%B4%EB%B6%80ip" added="2023-11-02T19:53:31Z" modified="2023-11-02T19:53:31Z" visited="2023-11-02T19:53:31Z">
+    <desc>문자세트: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:53:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/PC%EC%99%80%20%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4%20VNC%EC%97%B0%EB%8F%99%EB%AC%B8%EC%A0%9C" added="2023-11-02T19:53:36Z" modified="2023-11-02T19:53:36Z" visited="2023-11-02T19:53:37Z">
+    <desc>문자세트: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-02T19:53:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/mjpg%20%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C" added="2023-11-05T17:33:37Z" modified="2023-11-06T07:53:41Z" visited="2023-11-05T17:33:37Z">
+    <desc>문자세트: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-06T07:53:41Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Desktop/gpio%20%EC%98%A4%EB%A5%98%ED%95%B4%EA%B2%B0%EB%B2%95.txt" added="2023-11-05T17:54:58Z" modified="2023-11-29T08:39:03Z" visited="2023-11-05T17:54:58Z">
+    <desc>문자세트: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2023-11-29T08:39:03Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pi/Downloads/flows.json" added="2023-11-07T15:08:39Z" modified="2023-11-08T04:29:58Z" visited="2023-11-07T15:08:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium-browser-v7" exec="&apos;chromium-browser-v7 %u&apos;" modified="2023-11-08T04:29:58Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>

@@ -1,0 +1,19 @@
+mosquitto 2.0v 이상부터 로컬설정 따로 해줘야 됨.
+터미널창 연 후
+
+1. sudo /etc/init.d/mosquitto stop
+
+2. sudo nano /etc/mosquitto/mosquitto.conf
+
+3. 모스키토 메모창에서
+	
+	listener 1880 0.0.0.0
+	allow_anonymous true
+
+	ctrl+o 후 엔터 (저장) -> ctrl+x (메모창 나가기)
+
+	다시 터미널창으로 돌아옴
+
+4. sudo /etc/init.d/mosquitto start
+
+5. sudo reboot

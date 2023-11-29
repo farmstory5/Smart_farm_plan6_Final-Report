@@ -1,0 +1,18 @@
+Visual Studio Code (1.82.2, undefined, desktop)
+Jupyter Extension Version: 2023.8.1002501831.
+Python Extension Version: 2023.16.0.
+Platform: linux (arm).
+No workspace folder opened.
+02:28:56.747 [info] ZMQ loaded via fallback mechanism.
+02:28:56.875 [info] 사용자가 실험 그룹 'NewJupyterSession'에 속함
+02:29:01.032 [info] Start refreshing Kernel <username>cker (1698946141032)
+02:29:01.379 [info] Using Pylance
+02:29:02.008 [info] End refreshing Kernel <username>cker (1698946141032)
+02:29:03.316 [info] Start refreshing Kernel <username>cker (1698946143316)
+02:29:14.379 [info] End refreshing Kernel <username>cker (1698946143316)
+02:29:14.663 [warn] Failed to get activated env vars for /bin/python3 in 10388ms
+02:29:14.758 [info] Process Execution: /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+02:29:15.108 [info] Process Execution: /bin/python3 -m <username>p list
+02:40:03.613 [info] Disposing HostJupyterExecution
+02:40:03.613 [info] Shutting down notebooks for 4d18f9d6-5ac0-413b-b593-c04d74618325
+02:40:03.615 [info] Disposing HostJupyterExecution

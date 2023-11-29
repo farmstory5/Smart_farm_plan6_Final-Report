@@ -1,0 +1,31 @@
+2023-11-03 03:16:39.716 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ko
+2023-11-03 03:16:39.785 [info] Getting Manifest... ms-toolsai.jupyter
+2023-11-03 03:16:40.478 [info] Installing extension: ms-toolsai.jupyter
+2023-11-03 03:16:41.170 [info] Installing extension: ms-ceintl.vscode-language-pack-ko
+2023-11-03 03:17:02.534 [info] Extension signature is verified: ms-ceintl.vscode-language-pack-ko
+2023-11-03 03:17:02.866 [info] Extension signature is verified: ms-toolsai.jupyter
+2023-11-03 03:17:05.170 [info] Extracted extension to file:///home/pi/.vscode/extensions/ms-ceintl.vscode-language-pack-ko-1.84.2023110109: ms-ceintl.vscode-language-pack-ko
+2023-11-03 03:17:05.300 [info] Renamed to /home/pi/.vscode/extensions/ms-ceintl.vscode-language-pack-ko-1.84.2023110109
+2023-11-03 03:17:05.326 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-ko
+2023-11-03 03:17:05.631 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ko
+2023-11-03 03:17:05.838 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/pi/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/pi/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async X.tb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)
+2023-11-03 03:17:06.418 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-ko-1.82.2023091309
+2023-11-03 03:17:07.280 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ko
+2023-11-03 03:17:10.310 [info] Extracted extension to file:///home/pi/.vscode/extensions/ms-toolsai.jupyter-2023.10.1003070148-linux-armhf: ms-toolsai.jupyter
+2023-11-03 03:17:10.385 [info] Renamed to /home/pi/.vscode/extensions/ms-toolsai.jupyter-2023.10.1003070148-linux-armhf
+2023-11-03 03:17:10.409 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-11-03 03:17:10.521 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-11-03 03:17:10.569 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/pi/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/pi/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async X.tb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)
+2023-11-03 03:17:10.655 [info] Marked extension as uninstalled ms-toolsai.jupyter-2023.8.1002501831

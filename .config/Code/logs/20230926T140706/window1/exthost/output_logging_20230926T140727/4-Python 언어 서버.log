@@ -1,0 +1,29 @@
+[Info  - 오후 2:08:06] (2288) Pylance language server 2023.5.30 (pyright e1b6074b) starting
+[Info  - 오후 2:08:06] (2288) Server root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist
+[Info  - 오후 2:08:06] (2288) Starting service instance "python camera"
+[Info  - 오후 2:08:07] (2288) Setting pythonPath for service "python camera": "/bin/python3"
+[Warn  - 오후 2:08:07] (2288) stubPath /home/pi/Desktop/python camera/typings is not a valid directory.
+[Info  - 오후 2:08:07] (2288) Assuming Python version 3.7
+[Info  - 오후 2:08:09] (2288) Found 1 source file
+[Info  - 오후 2:08:12] (2288) Background analysis(1) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist
+[Info  - 오후 2:08:12] (2288) Background analysis(1) started
+[Info  - 오후 2:08:15] (2288) Indexer background runner(2) root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist (index)
+[Info  - 오후 2:08:15] (2288) Indexing(2) started
+[Info  - 오후 2:08:38] (2288) [BG(1)] Long operation: parsing: /usr/lib/python3/dist-packages/picamera/camera.py (3180ms)
+[Info  - 오후 2:08:46] (2288) [IDX(2)] Long operation: scan packages /home/pi/Desktop/python camera (31412ms)
+[Info  - 오후 2:08:46] (2288) scanned(2) 116 files over 1 exec env
+[Info  - 오후 2:08:55] (2288) [IDX(2)] Long operation: parsing: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.5.30/dist/typeshed-fallback/stdlib/builtins.pyi (3395ms)
+[Info  - 오후 2:08:57] (2288) [IDX(2)] Long operation: indexing: /usr/lib/python3.7/xml/__init__.py (6967ms)
+[Info  - 오후 2:09:00] (2288) [IDX(2)] Long operation: parsing: /usr/lib/python3/dist-packages/apt/package.py (2183ms)
+[Info  - 오후 2:09:01] (2288) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/apt/__init__.py (3753ms)
+[Info  - 오후 2:09:11] (2288) [BG(1)] Long operation: checking: /home/pi/Desktop/python camera/python_camera.py (54753ms)
+[Info  - 오후 2:09:11] (2288) [BG(1)] Long operation: analyzing: /home/pi/Desktop/python camera/python_camera.py (57982ms)
+[Info  - 오후 2:09:11] (2288) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/jinja2/__init__.py (3396ms)
+[Info  - 오후 2:09:17] (2288) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/numpy/core/numeric.py (2683ms)
+[Info  - 오후 2:09:18] (2288) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/numpy/core/__init__.py (4225ms)
+[Info  - 오후 2:09:20] (2288) [IDX(2)] Long operation: binding: /usr/lib/python3/dist-packages/numpy/__init__.py (6508ms)
+[Info  - 오후 2:09:20] (2288) [IDX(2)] Long operation: indexing: /usr/lib/python3/dist-packages/numpy/__init__.py (8099ms)
+[Info  - 오후 2:09:22] (2288) [IDX(2)] Long operation: index execution environment /home/pi/Desktop/python camera (32201ms)
+[Info  - 오후 2:09:22] (2288) [IDX(2)] Long operation: index packages /home/pi/Desktop/python camera (32790ms)
+[Info  - 오후 2:09:22] (2288) indexed(2) 40 files over 1 exec env
+[Info  - 오후 2:09:22] (2288) Indexing finished(2).

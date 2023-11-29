@@ -1,0 +1,7 @@
+sudo ufw allow 1880	포트 1880 접근 허용
+sudo ufw deny 1880	포트 1880 접근 차단
+sudo ufw delete		기존 룰 삭제
+ex) sudo ufw delete allow 22/tcp --> 기존 허용한 22번 포트 access룰 정책 삭제
+sudo ufw status verbose	현재 방화벽 셋팅되어 있는 룰 (포트목록)
+
+https://m.blog.naver.com/simjk98/221983223546

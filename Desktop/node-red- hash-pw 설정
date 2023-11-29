@@ -1,0 +1,15 @@
+https://iotmaker.kr/iotbook-auth-raspi-node-red/
+https://m.blog.naver.com/seodaewoo/221220204466
+
+sudo node-red-admin hash-pw
+원하는 비밀번호 입력
+해시암호로 암호화된 해시값출력
+이후 경로 /home/pi/.node-red/settings.js
+로 들어가서 설정된 해시암호를 해당 해시값으로 변경
+
+
+2023.08.23
+ID: smartfarm5
+
+pw: 1234
+$2b$08$zjsX0BOdalXPmi5DINj9t.cS99Rigjou24DZnuFnX./ikqGVvHD/6

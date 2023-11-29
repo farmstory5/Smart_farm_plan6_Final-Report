@@ -1,0 +1,13 @@
+2023-11-03 03:16:57.039 [info] [Info  - 오전 3:16:56] (1535) Pylance language server 2023.10.50 (pyright cfe56bfb) starting
+2023-11-03 03:16:57.042 [info] [Info  - 오전 3:16:57] (1535) Server root directory: /home/pi/.vscode/extensions/ms-python.vscode-pylance-2023.10.50/dist
+2023-11-03 03:16:57.277 [info] [Info  - 오전 3:16:57] (1535) Starting service instance "<default>"
+2023-11-03 03:16:57.573 [info] [Info  - 오전 3:16:57] (1535) Setting pythonPath for service "<default>": "/bin/python3"
+2023-11-03 03:16:57.583 [info] [Info  - 오전 3:16:57] (1535) Setting environmentName for service "<default>": "3.7.3 (글로벌)"
+2023-11-03 03:16:57.817 [info] [Info  - 오전 3:16:57] (1535) Assuming Python version 3.7
+2023-11-03 03:16:58.412 [info] [Info  - 오전 3:16:58] (1535) No source files found.
+2023-11-03 03:16:59.564 [info] [Info  - 오전 3:16:59] (1535) Setting pythonPath for service "<default>": "/bin/python3"
+2023-11-03 03:16:59.637 [info] [Info  - 오전 3:16:59] (1535) Setting environmentName for service "<default>": "3.7.3 (글로벌)"
+2023-11-03 03:16:59.850 [info] [Info  - 오전 3:16:59] (1535) Assuming Python version 3.7
+2023-11-03 03:17:00.415 [info] [Info  - 오전 3:17:00] (1535) No source files found.
+2023-11-03 03:17:14.881 [info] [Info  - 오전 3:17:14] (1535) [BG(1)] Long operation: checking: /home/pi/Desktop/python camera/python_camera.py (10283ms)
+2023-11-03 03:17:14.883 [info] [Info  - 오전 3:17:14] (1535) [BG(1)] Long operation: analyzing: /home/pi/Desktop/python camera/python_camera.py (12025ms)

@@ -1,0 +1,78 @@
+출처: https://jow1025.tistory.com/295
+
+터미널에서 다운로드과정
+
+sudo apt-get update
+sudo apt-get upgrade
+
+스트리밍 패키지를 깃허브에서 클론 해 와야하기 때문에 저장할 폴더를 만들어주고 이동한 뒤 패키지를 클론합니다.
+mkdir ./mjpg
+cd mjpg/
+git clone https://github.com/jacksonliam/mjpg-streamer.git 
+
+다운이 완료 됐으면 받은 폴더의 mjpg-streamer/mjpg-streamer-experimental/로 이동합니다.
+cd mjpg-streamer/
+cd mjpg-streamer-experimental/
+
+ 
+
+아래 명령어를 입력하여 컴파일 및 설치를 해줍니다.
+sudo apt-get install cmake
+
+ 
+
+이제 mjpg-streamer에 필요한 패키지를 설치하는데, 이부분은 다른분들의 참고를 했는데 될 때도 있고 안될 때도 있는 것 같습니다. 나중에 확인해도 문제가 없었기 때문에 일단 명령어를 입력해봅니다.
+sudo apt-get install python-imaging (저는 이 패키지 설치에서 에러났지만 결과에 영향이 없었습니다.)
+sudo apt-get install libjpeg-dev
+
+이제 컴파일 해줍니다.
+make CMAKE_BUILD_TYPE=Debug
+
+완료되었습니다. 컴파일이 정상 완료되었으니 이제 mjpg-streamer를 설치합니다.
+sudo make install
+
+패키지 설치는 모두 끝났고 이제 홈 디렉토리로 돌아와 쉘 편집기를 열어줍니다.
+
+cd ~
+sudo nano mjpg.sh
+적혀있는 코드를 아래와 같이 수정합니다. 포트는 사용하지않는 8091를 사용했습니다.
+export STREAMER_PATH=$HOME/mjpg/mjpg-streamer/mjpg-streamer-experimental
+export LD_LIBRARY_PATH=$STREAMER_PATH
+$STREAMER_PATH/mjpg_streamer -i "input_raspicam.so -fps 10 -vf" -o "output_http.so -p 8080 -w $STREAMER_PATH/www"
+
+fps 는 디폴트로 5가 설정되어있는데 너무 끊기기 때문에 10정도로 맞춰줬고(전 나중에 15로 바꿔줬어요) -vf옵션으로 상하 반전으로 맞췄습니다.
+fps를 높이고 -x,-y 가로세로 폭을 줄여주니깐 화질이 비교적 매끄럽게 나오더라구요.
+명령어 옵션은 아래 그림을 참고해주세여
+
+이제 아래 명령어로 스트리밍을 실행해봅니다. 
+sh mjpg.sh
+명령어를 입력하면 아래와 같은 화면이 뜨면서 스트리밍 서버가 실행중임을 알 수 있습니다.
+
+이제 웹에서 ip주소:8080(아까 지정한 포트넘버)를 입력해보겠습니다. 아래화면이 떠야 정상입니다.
+192.168.45.59:8080/?action=stream
+
+스트리밍을 중단하고 싶으면 아까 스트리밍을 실행시켰던 cmd창에 ctrl+Z를 입력하면 됩니다.
+바로 스트리밍을 동작 시키면 프로세스 간 충돌이 일어날 수 있어서 에러가 납니다.
+터미널에 ps입력 -> 실행중인 프로세스 목록
+프로세스에서 mjpg_streamer, sh 프로세서 종료시키기
+
+ex)
+ps 입력 후 결과값
+'
+'
+1648 pts/0	00:00:00 sh
+1649 pts/0	00:56:46 mjpg_streamer
+
+이 뜨면
+kill -9 1649
+kill -9 1648
+입력 후 다시 ps입력하고 프로세스 목록 확인
+
+결과값
+[1]+ 죽었음		sh mjpg.sh
+이 뜨면
+정상적으로 sh프로세스와 mjpg_streamer 프로세스가 같이 종료되었습니다.
+
+다시 실행하려면
+sh mjpg.sh 입력하고
+다시 종료하려면 위와 같은 과정 거치면 됨.
