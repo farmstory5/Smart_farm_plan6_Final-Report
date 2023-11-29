@@ -1,0 +1,146 @@
+[
+    {
+        "id": "9b282e16e9c85784",
+        "type": "comment",
+        "z": "b7cedfbddc8003b3",
+        "name": "raspi4_CPU_온도체크",
+        "info": "",
+        "x": 120,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "d266aad54a04c502",
+        "type": "inject",
+        "z": "b7cedfbddc8003b3",
+        "name": "CPU.tem",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 110,
+        "y": 880,
+        "wires": [
+            [
+                "4f5d687e286e83ec"
+            ]
+        ]
+    },
+    {
+        "id": "5f6a5b501a098b31",
+        "type": "ui_gauge",
+        "z": "b7cedfbddc8003b3",
+        "name": "CPU",
+        "group": "a8e20669da1bbd3b",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "CPU",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "50",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 830,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "4f5d687e286e83ec",
+        "type": "file in",
+        "z": "b7cedfbddc8003b3",
+        "name": "",
+        "filename": "/sys/class/thermal/thermal_zone0/temp",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 370,
+        "y": 880,
+        "wires": [
+            [
+                "6b4040c8377c167e"
+            ]
+        ]
+    },
+    {
+        "id": "6b4040c8377c167e",
+        "type": "function",
+        "z": "b7cedfbddc8003b3",
+        "name": "function 6",
+        "func": "var CPU = msg.payload;\nlet a = parseFloat(CPU);\nlet b = a/1000;\nlet c = b.toFixed(1);\nmsg.payload =c;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 880,
+        "wires": [
+            [
+                "5f6a5b501a098b31",
+                "1422317cb89af77d"
+            ]
+        ]
+    },
+    {
+        "id": "1422317cb89af77d",
+        "type": "debug",
+        "z": "b7cedfbddc8003b3",
+        "name": "CPU",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "a8e20669da1bbd3b",
+        "type": "ui_group",
+        "name": "라즈베리파이 4B 현황",
+        "tab": "b9a154fd549f6487",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b9a154fd549f6487",
+        "type": "ui_tab",
+        "name": "측정값 센서부 프로토타입",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
